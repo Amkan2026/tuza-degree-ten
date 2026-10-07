@@ -1,7 +1,6 @@
 # Tuza’s conjecture for graphs of maximum degree ten
 
-Code and certificates for the finite checks in the degree ten proof. The paper is kept separately.
-
+Code and certificates for the finite checks in the degree ten proof. 
 ## Code
 
 | Part of the proof | Sources |
