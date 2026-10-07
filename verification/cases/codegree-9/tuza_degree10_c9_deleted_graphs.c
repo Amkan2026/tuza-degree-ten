@@ -1,0 +1,3 @@
+#include <stdio.h>
+#include <string.h>
+int main(int argc,char **argv){if(argc!=3)return 2;FILE*in=fopen(argv[1],"r"),*out=fopen(argv[2],"w");if(!in||!out)return 3;char s[128];int count=0;while(fgets(s,128,in)){int A[9][9]={{0}},pos=0;for(int j=1;j<9;j++)for(int i=0;i<j;i++,pos++)A[i][j]=A[j][i]=(((unsigned char)s[1+pos/6]-63)>>(5-pos%6))&1;for(int omit=0;omit<9;omit++){fputc('G',out);int acc=0,nbits=0;for(int j=1;j<8;j++)for(int i=0;i<j;i++){int x=i+(i>=omit),y=j+(j>=omit);acc=2*acc+A[x][y];nbits++;if(nbits==6){fputc(acc+63,out);acc=nbits=0;}}if(nbits)fputc((acc<<(6-nbits))+63,out);fputc('\n',out);}count++;}fclose(in);fclose(out);printf("generated %d parent graphs and %d deleted subgraphs\n",count,9*count);return count==274668?0:4;}

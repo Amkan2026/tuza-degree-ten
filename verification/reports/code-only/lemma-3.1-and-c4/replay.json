@@ -1,0 +1,62 @@
+{
+  "archive_sha256": "1c91ac287d56c46065c432fbc6a98835cfe50240b229ade07adc830f04429a5a",
+  "cases": [
+    "subcubic",
+    "c4"
+  ],
+  "steps": [
+    {
+      "script": "tuza_degree10_subcubic_link_basis_check.py",
+      "result": "PASS",
+      "directory": "01_tuza_degree10_subcubic_link_basis_check",
+      "outputs": [
+        {
+          "path": "work/tuza_degree10_subcubic_link_basis_verified.json",
+          "sha256": "fbfa9612c8d708fa165d496e1b29ff6cee277542d5afa45497c08f4c9cd9421f"
+        },
+        {
+          "path": "work/__pycache__/tuza_book3_condensed_root_check.cpython-312.pyc",
+          "sha256": "1435901402882dbc105eef7280e926235b11e1ae3d6bbf893641f32617376be6"
+        }
+      ]
+    },
+    {
+      "script": "tuza_degree10_c4_old_transfer_check.py",
+      "result": "PASS",
+      "directory": "02_tuza_degree10_c4_old_transfer_check",
+      "outputs": [
+        {
+          "path": "work/__pycache__/tuza_degree10_c4_density_independent_verify.cpython-312.pyc",
+          "sha256": "a9b0af8ceedd27e7c66f79e4d148a96ba22133fe3c4ac1d41c94f12228462d5e"
+        }
+      ]
+    },
+    {
+      "script": "tuza_degree10_c4_final_independent.py",
+      "result": "PASS",
+      "directory": "03_tuza_degree10_c4_final_independent",
+      "outputs": [
+        {
+          "path": "work/tuza_degree10_c4_lex_independent_verified.json",
+          "sha256": "42c773e5846f4b54686dab77fcb8e5779053932cb665d23e8451af57a8b3ce83"
+        },
+        {
+          "path": "work/__pycache__/tuza_degree10_c4_density_independent_verify.cpython-312.pyc",
+          "sha256": "f053fad9ea5d9cf8a370ed86755752c47c7a872db84903205a043752f36477d4"
+        }
+      ]
+    },
+    {
+      "script": "tuza_degree10_c4_side_independent_check.py",
+      "result": "PASS",
+      "directory": "04_tuza_degree10_c4_side_independent_check",
+      "outputs": [
+        {
+          "path": "work/tuza_degree10_c4_side_independent_verified.json",
+          "sha256": "7b54839beb6c288906f947c9130141f3b201159be4d5d91581ad05dc085e3f64"
+        }
+      ]
+    }
+  ],
+  "result": "PASS"
+}

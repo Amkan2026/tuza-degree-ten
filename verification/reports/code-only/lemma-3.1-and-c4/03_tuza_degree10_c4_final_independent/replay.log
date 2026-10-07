@@ -1,0 +1,54 @@
+/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_restore_inputs.py
+PASS: required older and compressed inputs restored with their recorded byte hashes
+/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c4_final_independent.py
+DOMAIN 9 9 12 complete True admitted 350049 covered False
+DOMAIN 7 9 3 complete True admitted 389 covered True
+DOMAIN 7 9 7 complete True admitted 1309 covered True
+DOMAIN 7 9 12 complete True admitted 1924 covered True
+DOMAIN 7 9 13 complete True admitted 3310 covered True
+DOMAIN 7 9 30 complete True admitted 2048 covered True
+DOMAIN 8 9 7 complete True admitted 187 covered True
+DOMAIN 8 9 13 complete True admitted 1242 covered True
+DOMAIN 8 9 30 complete True admitted 2560 covered True
+DOMAIN 8 9 31 complete True admitted 57 covered True
+DOMAIN 9 9 0 complete True admitted 645 covered True
+DOMAIN 9 9 1 complete True admitted 6017 covered True
+DOMAIN 9 9 3 complete True admitted 75183 covered True
+DOMAIN 9 9 7 complete True admitted 17316 covered True
+DOMAIN 9 9 11 complete True admitted 1874 covered True
+DOMAIN 9 9 13 complete True admitted 84399 covered True
+DOMAIN 9 9 15 complete True admitted 774 covered True
+DOMAIN 9 9 30 complete True admitted 32896 covered True
+DOMAIN 9 9 31 complete True admitted 190 covered True
+DOMAIN 7 10 3 complete True admitted 87 covered True
+DOMAIN 7 10 7 complete True admitted 658 covered True
+DOMAIN 7 10 12 complete True admitted 796 covered True
+DOMAIN 7 10 13 complete True admitted 852 covered True
+DOMAIN 7 10 30 complete True admitted 1944 covered True
+DOMAIN 8 10 7 complete True admitted 94 covered True
+DOMAIN 8 10 13 complete True admitted 381 covered True
+DOMAIN 8 10 30 complete True admitted 2430 covered True
+DOMAIN 8 10 31 complete True admitted 105 covered True
+DOMAIN 9 10 0 complete True admitted 90 covered True
+DOMAIN 9 10 1 complete True admitted 560 covered True
+DOMAIN 9 10 3 complete True admitted 45400 covered True
+DOMAIN 9 10 7 complete True admitted 16884 covered True
+DOMAIN 9 10 11 complete True admitted 481 covered True
+DOMAIN 9 10 12 complete True admitted 245296 covered True
+DOMAIN 9 10 13 complete True admitted 46265 covered True
+DOMAIN 9 10 15 complete True admitted 962 covered True
+DOMAIN 9 10 30 complete True admitted 62208 covered True
+DOMAIN 9 10 31 complete True admitted 665 covered True
+DOMAIN 10 10 0 complete True admitted 6 covered True
+DOMAIN 10 10 1 complete True admitted 28 covered True
+DOMAIN 10 10 3 complete True admitted 10898 covered True
+DOMAIN 10 10 7 complete True admitted 4465 covered True
+DOMAIN 10 10 11 complete True admitted 64 covered True
+DOMAIN 10 10 12 complete True admitted 47715 covered True
+DOMAIN 10 10 13 complete True admitted 6872 covered True
+DOMAIN 10 10 15 complete True admitted 297 covered True
+DOMAIN 10 10 30 complete True admitted 29646 covered True
+DOMAIN 10 10 31 complete True admitted 630 covered True
+{'verified': True, 'raw_side_counts': {7: 48, 8: 58, 9: 6836, 10: 3431}, 'density_side_exclusions': 6779, 'initial_density_private_caps': {3: 7, 7: 7, 12: 7, 13: 7, 30: 8, 31: 9, 0: 4, 1: 5, 11: 7, 15: 8}, 'literal_private_bound_witnesses': 3594, 'empty_core_side_types': {'(2, (0, 1, 1, 2))': 24, '(2, (1, 1, 1, 1))': 6, '(3, (1, 1, 2, 2))': 3, '(4, (2, 2, 2, 2))': 3}, 'C4_literal_pivots': 12, 'literal_intervals': 1357, 'seconds': 8.530813707970083, 'scope': 'All ordinary intervals and domains audited. Declared human residuals require the separate final replay.', 'source_file': 'work/tuza_degree10_c4_lex_intervals.json'}
+{"result": "PASS", "order_ten_nonWKE_types_checked": 262, "order_ten_no_cross_types": 6, "order_ten_no_cross_embeddings": 8, "all_no_cross_types_have_denser_codegree_four_pivot": true, "density_witnesses": [{"g6": "I?B@`iMKo", "u": 5, "v": 8, "t": 0, "A": [1, 7], "B": [4, 6], "pivots": [[9, 4]]}, {"g6": "I?BDePLq_", "u": 0, "v": 6, "t": 9, "A": [5, 7], "B": [2, 3], "pivots": [[8, 3]]}, {"g6": "I?BDePLq_", "u": 6, "v": 9, "t": 0, "A": [2, 3], "B": [1, 4], "pivots": [[8, 3]]}, {"g6": "I?B@vBch_", "u": 2, "v": 6, "t": 9, "A": [7, 8], "B": [3, 4], "pivots": [[5, 3]]}, {"g6": "I?B@vFcx?", "u": 2, "v": 6, "t": 7, "A": [8, 9], "B": [3, 4], "pivots": [[5, 4]]}, {"g6": "I?B@vFcx?", "u": 6, "v": 7, "t": 2, "A": [3, 4], "B": [0, 1], "pivots": [[5, 4]]}, {"g6": "I?b@aVK`o", "u": 6, "v": 7, "t": 9, "A": [2, 3], "B": [1, 4], "pivots": [[0, 3], [5, 3], [8, 3]]}, {"g6": "I?aJCZQBo", "u": 6, "v": 8, "t": 1, "A": [2, 9], "B": [0, 3], "pivots": [[0, 3], [4, 5], [5, 5], [7, 5], [9, 3]]}], "hard_pair_automorphisms": 128, "hard_pair_cross_orbit_size": 16, "one_cross_packing_size": 9, "one_cross_cover_size": 18, "covers_all_optional_private_cross_edges": true, "scope": "Global maximum codegree four, maximum degree ten, selected common core density two. The original order-at-most-nine human WKE lemma and these six denser-pivot exclusions force the private cross edge."}
+{"result": "PASS", "source_file": "work/tuza_degree10_c4_lex_intervals.json", "source_sha256": "12f84d521883e8fce0e39250a00bcb0ab8e857bbe5188d729f005d4bd0d9c296", "all_48_domains_match_initial_catalog": true, "domains": [[7, 9, 3], [7, 9, 7], [7, 9, 12], [7, 9, 13], [7, 9, 30], [7, 10, 3], [7, 10, 7], [7, 10, 12], [7, 10, 13], [7, 10, 30], [8, 9, 7], [8, 9, 13], [8, 9, 30], [8, 9, 31], [8, 10, 7], [8, 10, 13], [8, 10, 30], [8, 10, 31], [9, 9, 0], [9, 9, 1], [9, 9, 3], [9, 9, 7], [9, 9, 11], [9, 9, 12], [9, 9, 13], [9, 9, 15], [9, 9, 30], [9, 9, 31], [9, 10, 0], [9, 10, 1], [9, 10, 3], [9, 10, 7], [9, 10, 11], [9, 10, 12], [9, 10, 13], [9, 10, 15], [9, 10, 30], [9, 10, 31], [10, 10, 0], [10, 10, 1], [10, 10, 3], [10, 10, 7], [10, 10, 11], [10, 10, 12], [10, 10, 13], [10, 10, 15], [10, 10, 30], [10, 10, 31]], "admitted_models": 1109148, "ordinary_literal_intervals": 1357, "human_forced_cross_cases": 1, "uncovered_after_human_case": 0, "raw_complete_side_counts": {"7": 48, "8": 58, "9": 6836, "10": 3431}, "density_side_exclusions": 6779, "literal_private_bound_witnesses": 3594, "negative_controls_rejected": ["empty cover", "duplicate packed triangle", "wrong initial partner cap"], "scope": "Every maximum-codegree-four selected-edge domain with an endpoint of degree nine or ten, under maximum degree ten. The global proof supplies endpoint degrees at most eight separately, and uses the ambient degree independent order-five component lemma and the human thin-six lemma to establish minimum degree seven and connected links."}

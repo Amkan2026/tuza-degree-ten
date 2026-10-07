@@ -1,0 +1,1459 @@
+{
+  "format": 1,
+  "scope": "Active mathematical verification, regeneration and certificate-search sources. Original publication sources and unused editorial artifacts are preserved privately.",
+  "sources": [
+    {
+      "original_path": "work/tuza_degree9_link_wke.c",
+      "original_archive": "outputs/tuza_degree9_verification.zip",
+      "original_sha256": "c9881fef5f9b9f021531935afcf626b5984fe748a020f6bc80dd8a02b4ccede0",
+      "active_path": "verification/inherited/tuza_degree9_link_wke.c",
+      "active_sha256": "c9881fef5f9b9f021531935afcf626b5984fe748a020f6bc80dd8a02b4ccede0",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "C lexical token and newline equality with string and character literals preserved",
+        "passed": true,
+        "compiler_syntax_check": true
+      }
+    },
+    {
+      "original_path": "work/degree10_subcubic_table_check.py",
+      "original_sha256": "a2b649dc022c46b939aa441de7e9d0a2e2d85c9308ee58133213fb52c794096a",
+      "active_path": "verification/lemma-3.1/degree10_subcubic_table_check.py",
+      "active_sha256": "e37d7cdb98f64cd2811b353e4c761d3e605fa9e5e0dbf6c9b92bb96d328862a5",
+      "comments_removed": 1,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_book3_condensed_root_check.py",
+      "original_sha256": "69d34a99fd41535d62b9bb8f8b212c191bca33e991bfaaffb29524ba69046102",
+      "active_path": "verification/lemma-3.1/tuza_book3_condensed_root_check.py",
+      "active_sha256": "e811ddf8ebd1c2a0fdc4a14271ab157a0e5fbd80c2924cc9d01da6ce1e955964",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_c6_compressed_contact_check.py",
+      "original_sha256": "eca58da989b1db03332f62aaef9ec20426968027fd0c412d6c51cf6167b3231a",
+      "active_path": "verification/cases/codegree-6/tuza_c6_compressed_contact_check.py",
+      "active_sha256": "a5502ffd6782ad92f11fd828d12c68a43f904e48d7ad1b674845513afe9d949e",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_c6_mixed_reuse_check.py",
+      "original_sha256": "24bb44f54c27939297e2f6a26305cfa81257b1e479445bb266ea62e1ed8ba506",
+      "active_path": "verification/cases/codegree-6/tuza_c6_mixed_reuse_check.py",
+      "active_sha256": "faac0ddc3472fe74980805494ad1c803e24f499f6a29771d4b12a97230f28d4c",
+      "comments_removed": 3,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c4_core_variable_check.py",
+      "original_sha256": "597011f37ca5f6c3ca595c580c81a82b244ff81e126a99ff9511a13c03f00aa4",
+      "active_path": "verification/cases/codegree-4/tuza_degree10_c4_core_variable_check.py",
+      "active_sha256": "6dfb8904801bebec4cd30144c91e9e46201bafab364057edb6e46b23efc7f63d",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c4_density_independent_verify.py",
+      "original_sha256": "135ec31ddaa70662c97b73d2971fa8e4d00164dafcc64864eee64718fc18647b",
+      "active_path": "verification/cases/codegree-4/tuza_degree10_c4_density_independent_verify.py",
+      "active_sha256": "93d25b20a758a4310427c65d43fa1cb110557483fa286339e5768f0463b8fedf",
+      "comments_removed": 11,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c4_final_independent.py",
+      "original_sha256": "334b62bf2465cfe6e05da90754b6488c4e0b2e88407622c3bf36cd8fcf7a19e3",
+      "active_path": "verification/cases/codegree-4/tuza_degree10_c4_final_independent.py",
+      "active_sha256": "ef3b345f63d6b61eb68aed9b35f50663943bef79a32d2ac801b91c9f88bcdc0b",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c4_h12_human_check.py",
+      "original_sha256": "1da577bfdf6a44075fe94d78363b77e6db3b2082e4f501d3d564ed1ee176fdca",
+      "active_path": "verification/cases/codegree-4/tuza_degree10_c4_h12_human_check.py",
+      "active_sha256": "b2e1a794019f51da0b958106842f357da960067253b63396eeafeef3541da911",
+      "comments_removed": 5,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c4_old_transfer_check.py",
+      "original_sha256": "97e4b28b00519f60e3a5d2a9339bcd57875ecb1713aa739b0e61c645a97e0246",
+      "active_path": "verification/cases/codegree-4/tuza_degree10_c4_old_transfer_check.py",
+      "active_sha256": "e32f27c89d1e6c5c48b25e87a0d955f82726b21e5620688718325ae54276e59d",
+      "comments_removed": 3,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c4_selection_independent_check.py",
+      "original_sha256": "7c6362f173fc09ea418efd4847925a910308afa9e14a88e47734e57c53968551",
+      "active_path": "verification/cases/codegree-4/tuza_degree10_c4_selection_independent_check.py",
+      "active_sha256": "dfd165032234e2d1da997172d2cd17861b70134bb22fafa89e76f9fa733171be",
+      "comments_removed": 7,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c4_side_independent_check.py",
+      "original_sha256": "a87540805a382c174013257d7f663255362159ea1be231e036678556f9954d36",
+      "active_path": "verification/cases/codegree-4/tuza_degree10_c4_side_independent_check.py",
+      "active_sha256": "0c84fed19bbacd1a52c272f81bdb20aa3581181eee9704474f6fd76bb64d8730",
+      "comments_removed": 3,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c5_h0_human_templates.py",
+      "original_sha256": "0cf9c64389098a6054bb473f48299346839dde06cb0d4049c22337c101050611",
+      "active_path": "verification/cases/codegree-5/tuza_degree10_c5_h0_human_templates.py",
+      "active_sha256": "0cf9c64389098a6054bb473f48299346839dde06cb0d4049c22337c101050611",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c5_h0_nontriangle_human.py",
+      "original_sha256": "63b8909b1e0285258be51e0f7205e4c899ff270f1e5c2d0455f04458a2e2b368",
+      "active_path": "verification/cases/codegree-5/tuza_degree10_c5_h0_nontriangle_human.py",
+      "active_sha256": "63b8909b1e0285258be51e0f7205e4c899ff270f1e5c2d0455f04458a2e2b368",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c5_independent_check.py",
+      "original_sha256": "24f1e6e3e441bc0af15c019f608c2c6c07872d54aaf1cd38f978494b240fad60",
+      "active_path": "verification/cases/codegree-5/tuza_degree10_c5_independent_check.py",
+      "active_sha256": "8c3730914221d617c7b4389ad8d6812310cc4faa3cd94c5e345699519cdab5f0",
+      "comments_removed": 1,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c5_packed_independent_check.py",
+      "original_sha256": "0df60f7b8080b5e6456f1e918c8353ba053d60d6059b61fe2855912e5c285943",
+      "active_path": "verification/cases/codegree-5/tuza_degree10_c5_packed_independent_check.py",
+      "active_sha256": "afe7435b3e75e1e570e242294cc75dc276340493c39c4e7e1248af92080b9a50",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c5_private_cap_direct.cpp",
+      "original_sha256": "8041aea7d3f279acf34d171cff1df92990868e676f3a5a6984c30cce3a970b0e",
+      "active_path": "verification/cases/codegree-5/tuza_degree10_c5_private_cap_direct.cpp",
+      "active_sha256": "8041aea7d3f279acf34d171cff1df92990868e676f3a5a6984c30cce3a970b0e",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "C lexical token and newline equality with string and character literals preserved",
+        "passed": true,
+        "compiler_syntax_check": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c5_saturated_edge_independent.py",
+      "original_sha256": "8d1dcb4cb70198d7e334e39f8f1ddb25af5ff9ff66c38881426c2807daf9c09c",
+      "active_path": "verification/cases/codegree-5/tuza_degree10_c5_saturated_edge_independent.py",
+      "active_sha256": "862b004f71de83226d9dca94c12f1e4c0790de1a18fc9ae39fc9ef78731b9edf",
+      "comments_removed": 1,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c5_source_independent.cpp",
+      "original_sha256": "d7ba6a7d3b2ccc1762bc4cf9d615680ce88fb199128ba200d42b05fb5c80e727",
+      "active_path": "verification/cases/codegree-5/tuza_degree10_c5_source_independent.cpp",
+      "active_sha256": "42ae16f4e4c576294fd48ff9f0aef866efa8b3b4555df914ba875c6309a9a96d",
+      "comments_removed": 2,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "C lexical token and newline equality with string and character literals preserved",
+        "passed": true,
+        "compiler_syntax_check": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c5_star_independent.py",
+      "original_sha256": "7bdb7d31722564311347897cb49b23c357d37cb2483b549a1372c2688087c61d",
+      "active_path": "verification/cases/codegree-5/tuza_degree10_c5_star_independent.py",
+      "active_sha256": "cd89d84445768a5797f537a59e08588a00fbbef123965b9fd9ca9d1d67948554",
+      "comments_removed": 7,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_K24_full_leaf_human_check.py",
+      "original_sha256": "585e7c8534ba46f63c8de72060f2622fefdb880be24d41f86f9db388731b918e",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_K24_full_leaf_human_check.py",
+      "active_sha256": "585e7c8534ba46f63c8de72060f2622fefdb880be24d41f86f9db388731b918e",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_K24_human_completion_check.py",
+      "original_sha256": "47975742f4086996c8d257abde209c904c43026ef33cd2d00730a5b48958ff1d",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_K24_human_completion_check.py",
+      "active_sha256": "3e6f92144540a314f3f013ab8f50ad7a4688fa8eec5bdd190db92da33ac938de",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_K24_human_partition_check.py",
+      "original_sha256": "148efa7655f28d629f8330b3394b1b88124854fb31232f3817c9cfdda9582962",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_K24_human_partition_check.py",
+      "active_sha256": "148efa7655f28d629f8330b3394b1b88124854fb31232f3817c9cfdda9582962",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_K24_one_private_edge_human_check.py",
+      "original_sha256": "3ad259923847795670179a6b7c75fedef70ab614e7e4175b9e90da2c51a4afce",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_K24_one_private_edge_human_check.py",
+      "active_sha256": "3ad259923847795670179a6b7c75fedef70ab614e7e4175b9e90da2c51a4afce",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_K24_private_edges_human_check.py",
+      "original_sha256": "ee6d759af16e8dc719f3e8c38fe804d12edb7784722c76b875249ae62e4c04d9",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_K24_private_edges_human_check.py",
+      "active_sha256": "ee6d759af16e8dc719f3e8c38fe804d12edb7784722c76b875249ae62e4c04d9",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_K24_root_check.py",
+      "original_sha256": "9591a2e974d9b501cea133e304697e057b4cd5024385e7730424ad5cf900b038",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_K24_root_check.py",
+      "active_sha256": "a37d17c8706857f473a7364942cd4f15b403bc730b42b0cac5466971a48cee29",
+      "comments_removed": 3,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_K24_two_leaf_human_check.py",
+      "original_sha256": "60e767319a2f6675952d4eb78df0b5425ac7f56b6e6452bd8fd7537af1bf16d9",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_K24_two_leaf_human_check.py",
+      "active_sha256": "60e767319a2f6675952d4eb78df0b5425ac7f56b6e6452bd8fd7537af1bf16d9",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_cached_patterns.py",
+      "original_sha256": "1bd2c4601ed7045c571aa4d2897c56cbbd5710950f2460b4af8373915b66c9af",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_cached_patterns.py",
+      "active_sha256": "09582f1da120989a110471f7c75c0231a6d4eb303055cf8a02e9f91cce0191a2",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_common_orbit_audit.py",
+      "original_sha256": "82ddbc639925938250aa9b59340c1fdd1d1a940acb11ac1a218c6fd8dae34775",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_common_orbit_audit.py",
+      "active_sha256": "8ca462b1adb16b0f320fb0eb97132dd4a77c52b68a25e8a91fa43dd750403942",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_complete_coverage_check.py",
+      "original_sha256": "33e79cdbaa85bc8f683c615faa7ca5cb87a40f88d5a5818dd62ddb2bb110873d",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_complete_coverage_check.py",
+      "active_sha256": "91bc2b220554e665d6f6f9ca62e3ab908462e59fd57effa990b1a6edba284afb",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_complete_fast_check.py",
+      "original_sha256": "9293d6b8c2ab638ca8deb92628c1f760100eaab480fced75d91dc7625a0acc24",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_complete_fast_check.py",
+      "active_sha256": "47170bb3004c924046258ad84c5a513b32f9c2be5760d646449f0f2923fdd5bd",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_coverage_prefix_check.py",
+      "original_sha256": "2d894a4801e60dc6644278167705aeba9314e70c88b63d1716e75d6463360091",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_coverage_prefix_check.py",
+      "active_sha256": "6b5497743e23a498fb408a9d4e1593810015637e9c1e748b81c7d8215b707edb",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_dense_lane_check.py",
+      "original_sha256": "c2c68b0993c400c95040e63f1201e0301904361ac99bf10a0365bd219c1c2df0",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_dense_lane_check.py",
+      "active_sha256": "4d886435501107fb1cb314b0ae9a632e3f5ff85c7f88c57905b12ed2373c5923",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_dense_uncovered.py",
+      "original_sha256": "e0299799be96c2a121ab767328dfa71edce635534c3550be1c139920e6632a3b",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_dense_uncovered.py",
+      "active_sha256": "9f5dd07546e55d101a3157e5499fd03721516672ba2c1363ee2d8e582e8005fb",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_density.py",
+      "original_sha256": "f43a5f57d7188c55afaad9eb8bc7ead0e71ed4ca0eb8d65deff5fca6e864aafe",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_density.py",
+      "active_sha256": "4eec3ae9e09cb156325c4e7aaf24b9c4c530514a708394843210eeb3da3e41d7",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_density_check.c",
+      "original_sha256": "4d086c2de5fd1a6c1c79d3433948df6a8b54f233376dd932b811271ca4188d2c",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_density_check.c",
+      "active_sha256": "35e868e1c36ca07a24094d4fc1faac4ea27b2c35b6b64194ef92a57fe7089267",
+      "comments_removed": 1,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "C lexical token and newline equality with string and character literals preserved",
+        "passed": true,
+        "compiler_syntax_check": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_density_check.py",
+      "original_sha256": "57daf2cc3b09b5e3cac4a43e1ae0b4df8ed1cc034ea074c03e4e470f53a08ea8",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_density_check.py",
+      "active_sha256": "57daf2cc3b09b5e3cac4a43e1ae0b4df8ed1cc034ea074c03e4e470f53a08ea8",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_domain.c",
+      "original_sha256": "1f63bf632694539868e3094807aa529c21e1d74ddd73a23e8d688e0fb83246bd",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_domain.c",
+      "active_sha256": "8422c31684ac6aeca0a46c3dae1a12bfc830839601aa2be7b93f53c98abbc060",
+      "comments_removed": 1,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "C lexical token and newline equality with string and character literals preserved",
+        "passed": true,
+        "compiler_syntax_check": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_domain.py",
+      "original_sha256": "fe9737966dd0d1d5cb624a9d9a60373057eab122025bcd18c69276da688f9d11",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_domain.py",
+      "active_sha256": "fe9737966dd0d1d5cb624a9d9a60373057eab122025bcd18c69276da688f9d11",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_domain_independent.c",
+      "original_sha256": "4273cb5df06a7fc3edd15ec39523bf67b4d4fd84b008528fb91e21cc4fbb70e1",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_domain_independent.c",
+      "active_sha256": "8fa5afab4a83f1e8db73c4db7f1351b4d8083b123c70e8dd183283b9945e46ba",
+      "comments_removed": 4,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "C lexical token and newline equality with string and character literals preserved",
+        "passed": true,
+        "compiler_syntax_check": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_domain_independent.py",
+      "original_sha256": "6ec3de9058719f95dc2f5bea04d62fbecc626783d3418feaf8c080e323b06c0a",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_domain_independent.py",
+      "active_sha256": "f4a52ff72eab591265f76f1863af95f8a13be02d77a0626dec1fff07556e72f6",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_export_parallel_middle.py",
+      "original_sha256": "10328cd2916738f52704b13611a97ac766130243485aabc8c141f482dbb90560",
+      "active_path": "verification/search/tuza_degree10_c6_export_parallel_middle.py",
+      "active_sha256": "be2dc88a9e834dd20c1940a11a5b19274e9494d9a24cab8dbace896d2a933980",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_four_private_glue_check.py",
+      "original_sha256": "2cbfb849439ef9fd78dfb16bc457198f18212c72a724ac57fe53d5be5074ac4a",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_four_private_glue_check.py",
+      "active_sha256": "c2be80bd14ee939dee87d0d44671eb64c32e4247f6d8714b103e0accd484467f",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_four_private_human_check.c",
+      "original_sha256": "4dce580376ebaa4a04f2f85c8bd0ae0efa72b2d499cd811f47b87798c241b14f",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_four_private_human_check.c",
+      "active_sha256": "80446801b4942aca1447dbe786ac13ae1abb3f23d8696b9d4afb053f96cbd239",
+      "comments_removed": 4,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "C lexical token and newline equality with string and character literals preserved",
+        "passed": true,
+        "compiler_syntax_check": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_fresh_source_replay.py",
+      "original_sha256": "7829a35b4f115a5f1cfa1554d135595cb6e4b2940edd638b7fe8a9d1ebfe89bd",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_fresh_source_replay.py",
+      "active_sha256": "c0c71dc3fa724238b4b864202c971426f4e8026ebde6b218255e3ca14bd7d6d7",
+      "comments_removed": 1,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_fresh_wke_interval_pack.py",
+      "original_sha256": "9755396cf69c7b5ec021e3a6719de1baf3ccff592e0e17602667855bf4c5c4cd",
+      "active_path": "verification/search/tuza_degree10_c6_fresh_wke_interval_pack.py",
+      "active_sha256": "7b3619954e45220af5838129be6ba63113204aa18f3b9a603cf0d411c08767b2",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_full_rectangles.py",
+      "original_sha256": "ffb4ce64a8c5526efc89b9508df21957229821f648cf6d6df861c780f1cd4697",
+      "active_path": "verification/search/tuza_degree10_c6_full_rectangles.py",
+      "active_sha256": "ffb4ce64a8c5526efc89b9508df21957229821f648cf6d6df861c780f1cd4697",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_human_scope_root_bind.py",
+      "original_sha256": "f8f82a4eccb13212d12be0e988b805cffff0055b570bc48a6f865ad95aa2ddf8",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_human_scope_root_bind.py",
+      "active_sha256": "f57a58365e796611932379f6d03ec2813fe1612d69568d8bf352f35c706dd628",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_literal_prefix_check.py",
+      "original_sha256": "4c9907b1d5d9c3d33acec0d06e7cf245a321bc28d10a6c86f8f51ca2ca348c30",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_literal_prefix_check.py",
+      "active_sha256": "3b4c3e39e8164093368fb7e314ca952b61fabd5585761aa59ff8387a8bea8628",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_merge_parallel.py",
+      "original_sha256": "62c6d6c6399677cc425ed03983a3f7862c4aecf75dfc2571c9bc4d14ffd777f2",
+      "active_path": "verification/search/tuza_degree10_c6_merge_parallel.py",
+      "active_sha256": "19bd4922873adfd971dd9e66e05a7e4ec914487f14a8318663b52bf5fa22fea0",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_monotone_probe.py",
+      "original_sha256": "1ea6e126fdfbbc10568be62bfba0fbe09549372a4e44476e7f9ecc989277ca2f",
+      "active_path": "verification/search/tuza_degree10_c6_monotone_probe.py",
+      "active_sha256": "0e1d9f4b952b9ce2d93906bba1c3e9c71d9b959cd5a352e989238bb2d40eed39",
+      "comments_removed": 1,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_packed_rectangles.py",
+      "original_sha256": "3007def96200db91ee716829601aa03173b5d110b0fb604701d2042ca42e4785",
+      "active_path": "verification/search/tuza_degree10_c6_packed_rectangles.py",
+      "active_sha256": "dd0ea00716c1115ef4079ff028ca3c8fc80569a49cdc5d988607c16d3d61308a",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_pair_wide.py",
+      "original_sha256": "d81305a8be31d958fb8a2d56cb341dd2f20142630391b27ba1077ce8b8c442d9",
+      "active_path": "verification/search/tuza_degree10_c6_pair_wide.py",
+      "active_sha256": "af1584750d0296ba8fa70c9465484684e1f43a0d6bfc394f66d1eab348c100c4",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_parallel_finish.py",
+      "original_sha256": "1694ba4a5e7b5baa45824c3b7ca19d1f33f5c9b9831c5ffcd003212372526f41",
+      "active_path": "verification/search/tuza_degree10_c6_parallel_finish.py",
+      "active_sha256": "89c0a2aa387a60397317094ea25dedb1d9599c87d282ffa5e7abf267f6e140f6",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_parallel_middle.py",
+      "original_sha256": "3e66de30e928ecd4e4ac9424940c2bf1f9fc741bb44b90dab76f20f98e15f686",
+      "active_path": "verification/search/tuza_degree10_c6_parallel_middle.py",
+      "active_sha256": "ed37d77ac5806cb44f906ed716a0bd9ca6aada130b1cd16a069bf46280522ae4",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_parallel_tail.py",
+      "original_sha256": "96107abf8bafd72cc2b7c07ff5f7be17fb4a82cee35b40c81759c052dd7989a1",
+      "active_path": "verification/search/tuza_degree10_c6_parallel_tail.py",
+      "active_sha256": "4f6d18b6ae17d28108dfb87cccd82874379f025030e13912755232bdac7197a3",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_parallel_tail_literal_check.py",
+      "original_sha256": "0a429bf84d48f9116f5561c1a643d07bec3d9fba4aa265a583100c670858ab4e",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_parallel_tail_literal_check.py",
+      "active_sha256": "c3cea7cc08c6ca0ca4f7669e5b1213e5643c9089124745e4d9edfd057d7fc5ba",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_prepare_parallel_middle.py",
+      "original_sha256": "fb093b8a3fd3d501c83e1d6a4169ca0f40c019b92dfb62a219f1e0e620b98dd6",
+      "active_path": "verification/search/tuza_degree10_c6_prepare_parallel_middle.py",
+      "active_sha256": "da01fb79391066ad5f028b170ea9d3f6b82ae296f2a60e234029455d1b3b912a",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_resume_inventory.py",
+      "original_sha256": "5c27c062961488d13545462f99a76458eb5774dd53e46ee69288bc1adf331c6c",
+      "active_path": "verification/search/tuza_degree10_c6_resume_inventory.py",
+      "active_sha256": "572e7d2075402e99b7b70ed9832084e7673c04aa18f000ac88fcac8aa410fd6b",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_solve.py",
+      "original_sha256": "5cebad004cd7cfa318558d7e50b068c7101d4756d71074348eafdd845d0cb821",
+      "active_path": "verification/search/tuza_degree10_c6_solve.py",
+      "active_sha256": "02df91cd0613f81091c22344cd02916d42955dc354733fbe565fe7e2ab8fd4cf",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_source_scope_audit.py",
+      "original_sha256": "837a12c926f8c8355b14358e7463d0b306720896b0b771f1cc26fee3c48a7131",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_source_scope_audit.py",
+      "active_sha256": "2a3f264c17bd2a5c7fe17734dc66502ccd71128debaab39a2738240b1f440f52",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c6_three_hub_human_check.py",
+      "original_sha256": "6a0eaf4c1ba34b187b1cd5f72e2d2e8a45c84626ac985c4b9499706a036457b7",
+      "active_path": "verification/cases/codegree-6/tuza_degree10_c6_three_hub_human_check.py",
+      "active_sha256": "21272b268c6fa9c8589b91f6d29a54f230223c49c5a77df2afe2927610281813",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c7_K34_check.py",
+      "original_sha256": "9c3620a17d41c001518dd97d40595773d35981d5ca05d4ee61abf38e1185e8a5",
+      "active_path": "verification/cases/codegree-7/tuza_degree10_c7_K34_check.py",
+      "active_sha256": "3ede43245408b986720bbdef5c5d3a876c3774e55b3a33abfc62c1fcd2ed8acd",
+      "comments_removed": 1,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c7_check.py",
+      "original_sha256": "ecf1f3012440c5e439ff4e93b228c631ae48eb97aaf80e2df3cfb45cc12598af",
+      "active_path": "verification/cases/codegree-7/tuza_degree10_c7_check.py",
+      "active_sha256": "fa98507facde53f055cbf451d6ad282d72d7bf4389c2039554819731805fd4db",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c7_core_check.py",
+      "original_sha256": "ef758d2144bc703e30f5aa3a6f7bb3a0d756a41c9f77186daacfd8997df90a52",
+      "active_path": "verification/cases/codegree-7/tuza_degree10_c7_core_check.py",
+      "active_sha256": "421d07bce4c1398872176f1af42dd9d1167c568fccea43eb8d608478e13f7e80",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c7_side_check.py",
+      "original_sha256": "2665540026e4490c3e2e3fd7394c106d95d7356f2bb2b5c24a3bc24403193770",
+      "active_path": "verification/cases/codegree-7/tuza_degree10_c7_side_check.py",
+      "active_sha256": "3be76b39cd5d9749437548532c83f47e486401b55f113cb6dd16d637005579eb",
+      "comments_removed": 1,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c8_core_check.py",
+      "original_sha256": "7eaaa68f7c23a05d5d7bb5084861c25e7d4e486b3a69374b457dad99d58ca679",
+      "active_path": "verification/cases/codegree-8/tuza_degree10_c8_core_check.py",
+      "active_sha256": "01458aa21b7210b1e4b235a9f639cdcc1a10838f5f41c55819430462bdb85bf4",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c8_intervals237_check.py",
+      "original_sha256": "6e51dbc4a0d32d68d2c6dc798d3d426b5378c5f63deda01699e7b9938b116b4d",
+      "active_path": "verification/cases/codegree-8/tuza_degree10_c8_intervals237_check.py",
+      "active_sha256": "caf7d543de6c1da001fb3e30c99d9d4dca16ab9674eb75a965cf7976811b99f6",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c8_residual_check.py",
+      "original_sha256": "72303bad1da77914d7b9b18801798f68fb5bf547157e502b725788f447d2e6a1",
+      "active_path": "verification/cases/codegree-8/tuza_degree10_c8_residual_check.py",
+      "active_sha256": "03c3c70bd414826096dcd53f4c7b7374b5aeb011abf7117a8775bdd8c6efad2f",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c9_check.py",
+      "original_sha256": "a4eacc47598f7a5ab50c5d86a4b6c81767af50737c82b99a86658cb28d4c3f44",
+      "active_path": "verification/cases/codegree-9/tuza_degree10_c9_check.py",
+      "active_sha256": "fb53344bf6d34d6acd9122cf67ba158938469ac661a8e3974fa0bc6bf557a6f5",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c9_deleted_graphs.c",
+      "original_sha256": "9b34b855435d334c03db73907dff49228e55435e73abd5fe2b6a2652b7991fac",
+      "active_path": "verification/cases/codegree-9/tuza_degree10_c9_deleted_graphs.c",
+      "active_sha256": "9b34b855435d334c03db73907dff49228e55435e73abd5fe2b6a2652b7991fac",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "C lexical token and newline equality with string and character literals preserved",
+        "passed": true,
+        "compiler_syntax_check": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c9_dense_human_check.py",
+      "original_sha256": "0b03269bcbaefcd107007a4caf25240553ca493d885d16114b50b0ed72ab89a0",
+      "active_path": "verification/cases/codegree-9/tuza_degree10_c9_dense_human_check.py",
+      "active_sha256": "03cf2f24948be78ef8d5bba2e5fb3645179edc23e1f95eca1214f1155bf346cb",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_c9_full_children_check.py",
+      "original_sha256": "e148ec269b2bece83c5ef8cba1e25854213145848b2bcd79de67db5d67eb719c",
+      "active_path": "verification/cases/codegree-9/tuza_degree10_c9_full_children_check.py",
+      "active_sha256": "af09b2bcdf2c2eeffb4132722c2cfcda3f2d1b8a8b6254892a89c1a56cf13b18",
+      "comments_removed": 3,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_global_completion_peer_bind.py",
+      "original_sha256": "ec0a8cac1154f017e3386bcd0d603afa974caa6dd3c032f48f0e63aa84e123fe",
+      "active_path": "verification/shared/tuza_degree10_global_completion_peer_bind.py",
+      "active_sha256": "854d7ec55a2b34adc0c3034325d75433bd5124fa1dc377f33b039ae86b46be5c",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_global_final_peer_check.py",
+      "original_sha256": "c6e00938f09e6a6366216cdcff7907b39d8aa0b54e3a12505331fa7be9ff1785",
+      "active_path": "verification/shared/tuza_degree10_global_final_peer_check.py",
+      "active_sha256": "960ece2f79e9a5bc60277ae629202ba71d74ea5dd1ccbbd2e15d91fb5373fbd8",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_global_root_check.py",
+      "original_sha256": "e47cb8bf4ada9df389ab749103dec009dad0fb2f2b5263a2b9320a3a9aa1eedd",
+      "active_path": "verification/shared/tuza_degree10_global_root_check.py",
+      "active_sha256": "24db4c52400d40b589ed497792ef45592fc801a477f838d900dec787158c4d46",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_high_sparse_check.py",
+      "original_sha256": "22eb8b66173ca45e85a97e0e46deacbd0aaab704358c719be60b10e0d8ecd0ab",
+      "active_path": "verification/shared/tuza_degree10_high_sparse_check.py",
+      "active_sha256": "3b8d1702f17168d09c0cd52981f4e7320af00db7c71b186a5d245e8981278921",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_restore_inputs.py",
+      "original_sha256": "6a32af62436d600a8e87f9d11e329b706f2e30eb30322ec6fdb3d277e770a55f",
+      "active_path": "verification/shared/tuza_degree10_restore_inputs.py",
+      "active_sha256": "32c63cf5b8dd109d159437bc97dc0244e2b012afc816ad87b28e96d4cc3d1fb1",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree10_subcubic_link_basis_check.py",
+      "original_sha256": "d21f99b49a8dbe3499f2c096d753a051119b96d31cfc96e48e67f7e419b69357",
+      "active_path": "verification/lemma-3.1/tuza_degree10_subcubic_link_basis_check.py",
+      "active_sha256": "3ef791d8a2be3519e231a41e65b6cd8f6b5931c46b8b9bea58bd33b757830d50",
+      "comments_removed": 2,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree8_codegree6_check.py",
+      "original_sha256": "7c765647da5263635c029809d381fa947b44083ade5f09dae635a3702b655663",
+      "active_path": "verification/inherited/tuza_degree8_codegree6_check.py",
+      "active_sha256": "9b094e03768fb1ec481262bbe19642612b912a034eacc01fe0944de3d41b7eb5",
+      "comments_removed": 1,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree8_mixed_codegree6_check.py",
+      "original_sha256": "74b83dbf43726a76d47e675c3c1b23f430db239c7bf5ad130b7884d724f0dcf9",
+      "active_path": "verification/inherited/tuza_degree8_mixed_codegree6_check.py",
+      "active_sha256": "8eaefd206219c13d17eebad7616cebd9af9cecf48c5be99587c2489dcbdd467f",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree9_c5_independent_check.py",
+      "original_sha256": "18776369d9849d5b45c76097353429b6efad6f7b953a0b7d1da804128be82c39",
+      "active_path": "verification/inherited/tuza_degree9_c5_independent_check.py",
+      "active_sha256": "a59ba483d85c72de2ab7335353a1bc2462b65eb72e166a5e956d0ffc100c9263",
+      "comments_removed": 1,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree9_c5_old_interval_independent_check.py",
+      "original_sha256": "6cb582a4a4d4cd403d46cc58d26ab8c7f338f4c6eed55ef078ff6117eb4dda21",
+      "active_path": "verification/inherited/tuza_degree9_c5_old_interval_independent_check.py",
+      "active_sha256": "bf1cca2ef1cad785f34365f9cb31daa399e4fef759fe3b6242580d7a95b1d114",
+      "comments_removed": 1,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree9_c5_side_direct.cpp",
+      "original_sha256": "9ecc26527bb5cb07b427dea2363e72ca430d5816b9eae9b0009bd82e35fee269",
+      "active_path": "verification/inherited/tuza_degree9_c5_side_direct.cpp",
+      "active_sha256": "69ae85363df6d55a195a5f2ba747690e06f867d350dc418e5cb1d45e5022e250",
+      "comments_removed": 1,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "C lexical token and newline equality with string and character literals preserved",
+        "passed": true,
+        "compiler_syntax_check": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree9_c6_check.py",
+      "original_sha256": "9ae7ada2bf763189c86a85c31ccb4483d7fb5a83d76f3bf15955ff1f8d98e13f",
+      "active_path": "verification/inherited/tuza_degree9_c6_check.py",
+      "active_sha256": "d4ce442d4eb86b34d0ab28d87ea17e9da0d36b5a2ac2463d04644bbbcf127ea0",
+      "comments_removed": 3,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree9_c7_check.py",
+      "original_sha256": "941f368ca5deb2c388dc4c997afff8840bef3f764546f28c6b73762447d65eb3",
+      "active_path": "verification/inherited/tuza_degree9_c7_check.py",
+      "active_sha256": "fb390eb8f907de3616f61f6cba09495d88414615f786c05aedc5368f4e58be96",
+      "comments_removed": 1,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree9_c7_no_side_check.py",
+      "original_sha256": "01bc6b3f7edbe64b1d34b3bbd2991a8a41a082d4453edca613cfb61004e84f06",
+      "active_path": "verification/inherited/tuza_degree9_c7_no_side_check.py",
+      "active_sha256": "6fe5a4e1d67a08b829135ab18306269cc98a98013553b9f7124b5061b1612a9b",
+      "comments_removed": 0,
+      "docstrings_removed": 1,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree9_common8_pair_check.py",
+      "original_sha256": "df2f891967098a1a77cf04e0c97ab6aa19eeccd07bd02591a8e06e08ff9998b9",
+      "active_path": "verification/inherited/tuza_degree9_common8_pair_check.py",
+      "active_sha256": "df2f891967098a1a77cf04e0c97ab6aa19eeccd07bd02591a8e06e08ff9998b9",
+      "comments_removed": 0,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    },
+    {
+      "original_path": "work/tuza_degree9_high_probe.py",
+      "original_sha256": "42db3cd0ccff9732bd4a3d0da53ed07fd11cb6401fbeb4520b4e321b4b59675e",
+      "active_path": "verification/inherited/tuza_degree9_high_probe.py",
+      "active_sha256": "2fe7610b8776e8c3810a095813a56a7abddac1877411c5f0bdd09530f6ec55a0",
+      "comments_removed": 1,
+      "docstrings_removed": 0,
+      "equivalence": {
+        "check": "AST equality after removing leading docstrings",
+        "passed": true,
+        "python_compilation": true
+      }
+    }
+  ],
+  "source_count": 89,
+  "python_sources": 80,
+  "c_cpp_sources": 9,
+  "comments_removed": 97,
+  "docstrings_removed": 63,
+  "algorithms_changed": false,
+  "portability_changes": false,
+  "original_hash_binding_preserved_in_archive": true,
+  "active_sources_replace_frozen_sources_for_hash_checks": false,
+  "portability_findings": [
+    {
+      "source": "tuza_book3_condensed_root_check.py",
+      "locations": [
+        {
+          "line": 115,
+          "text": "full_bytes = subprocess.check_output(['/opt/homebrew/bin/geng', '-q', '-c', '-D3', str(n)])"
+        },
+        {
+          "line": 116,
+          "text": "min_bytes = subprocess.check_output(['/opt/homebrew/bin/geng', '-q', '-c', '-d2', '-D3', str(n)])"
+        }
+      ]
+    },
+    {
+      "source": "tuza_c6_compressed_contact_check.py",
+      "locations": [
+        {
+          "line": 130,
+          "text": "fresh = subprocess.run(['/opt/homebrew/bin/geng', '-q', '8'], check=True,"
+        }
+      ]
+    },
+    {
+      "source": "tuza_c6_mixed_reuse_check.py",
+      "locations": [
+        {
+          "line": 132,
+          "text": "fresh = subprocess.run(['/opt/homebrew/bin/geng', '-q', '8'],"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c4_side_independent_check.py",
+      "locations": [
+        {
+          "line": 51,
+          "text": "fresh=subprocess.run(['/opt/homebrew/bin/geng','-q','-c','-D4','10'],capture_output=True,text=True,check=True).stdout.splitlines()"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c6_fresh_source_replay.py",
+      "locations": [
+        {
+          "line": 89,
+          "text": "domain=subprocess.check_output(['/opt/homebrew/bin/geng','-q','6']).decode().splitlines()"
+        },
+        {
+          "line": 107,
+          "text": "subprocess.run(['/usr/bin/clang','-O3','-dynamiclib',str(SNAP/c),'-o',str(SNAP/out)],check=True)"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c6_source_scope_audit.py",
+      "locations": [
+        {
+          "line": 25,
+          "text": "expected=set(subprocess.check_output(['/opt/homebrew/bin/geng','-q','6']).decode().splitlines())"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c7_check.py",
+      "locations": [
+        {
+          "line": 34,
+          "text": "fresh=set(subprocess.check_output(['/opt/homebrew/bin/geng','-q','7'],text=True).splitlines())"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c7_core_check.py",
+      "locations": [
+        {
+          "line": 9,
+          "text": "fresh=set(subprocess.check_output(['/opt/homebrew/bin/geng','-q','7'],text=True).splitlines())"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c7_side_check.py",
+      "locations": [
+        {
+          "line": 12,
+          "text": "fresh=set(subprocess.check_output(['/opt/homebrew/bin/geng','-q','7'],text=True).splitlines())"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c8_core_check.py",
+      "locations": [
+        {
+          "line": 5,
+          "text": "P=Path('work/tuza_degree10_common8_slack2_probe.json');D=json.loads(P.read_text());keys=[r['g6']for r in D['records']];fresh=set(subprocess.check_output(['/opt/homebrew/bin/geng','-q','8'],text=True).splitlines());assert len(keys)==len(set(keys))==12346 and set(keys)==fresh"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c8_intervals237_check.py",
+      "locations": [
+        {
+          "line": 11,
+          "text": "fresh = set(subprocess.check_output(['/opt/homebrew/bin/geng', '-q', '8'], text=True).splitlines())"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c8_residual_check.py",
+      "locations": [
+        {
+          "line": 66,
+          "text": "core=json.loads(P.read_text());res=json.loads(R.read_text());assert res['complete']and not res['failures'];fresh=set(subprocess.check_output(['/opt/homebrew/bin/geng','-q','8'],text=True).splitlines());assert len(fresh)==12346 and {r['g6']for r in core['records']}==fresh"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c9_check.py",
+      "locations": [
+        {
+          "line": 18,
+          "text": "def canon(lines):return subprocess.check_output(['/opt/homebrew/bin/labelg','-q'],input=''.join(s+'\\n'for s in lines),text=True).splitlines()"
+        },
+        {
+          "line": 30,
+          "text": "parents=Path('work/tuza_degree10_c9_all_graph6.txt').read_text().splitlines();fresh=subprocess.check_output(['/opt/homebrew/bin/geng','-q','9'],text=True).splitlines();assert parents==fresh and len(parents)==len(set(parents))==274668"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c9_dense_human_check.py",
+      "locations": [
+        {
+          "line": 31,
+          "text": "for line in subprocess.check_output(['/opt/homebrew/bin/geng','-q','9','0:5'],text=True).splitlines():"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_c9_full_children_check.py",
+      "locations": [
+        {
+          "line": 17,
+          "text": "parents = subprocess.check_output(['/opt/homebrew/bin/geng', '-q', '9'])"
+        },
+        {
+          "line": 46,
+          "text": "process = subprocess.Popen(['/opt/homebrew/bin/labelg', '-q'], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_high_sparse_check.py",
+      "locations": [
+        {
+          "line": 99,
+          "text": "fresh8 = set(subprocess.check_output(['/opt/homebrew/bin/geng', '-q', '8'], text=True).splitlines())"
+        },
+        {
+          "line": 109,
+          "text": "fresh9 = subprocess.check_output(['/opt/homebrew/bin/geng', '-q', '9'], text=True).splitlines()"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree10_subcubic_link_basis_check.py",
+      "locations": [
+        {
+          "line": 90,
+          "text": "F = set(subprocess.check_output(['/opt/homebrew/bin/geng','-q','-c','-D3',str(n)]).decode().splitlines())"
+        },
+        {
+          "line": 91,
+          "text": "M = set(subprocess.check_output(['/opt/homebrew/bin/geng','-q','-c','-d2','-D3',str(n)]).decode().splitlines())"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree8_codegree6_check.py",
+      "locations": [
+        {
+          "line": 116,
+          "text": "start=time.monotonic();fresh=subprocess.run(['/opt/homebrew/bin/geng','-q','8'],check=True,capture_output=True,text=True).stdout"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree8_mixed_codegree6_check.py",
+      "locations": [
+        {
+          "line": 36,
+          "text": "start=time.monotonic();fresh=subprocess.run(['/opt/homebrew/bin/geng','-q','8'],check=True,capture_output=True,text=True).stdout"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree9_c6_check.py",
+      "locations": [
+        {
+          "line": 5,
+          "text": "GENG='/opt/homebrew/bin/geng'"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree9_c7_check.py",
+      "locations": [
+        {
+          "line": 4,
+          "text": "GENG='/opt/homebrew/bin/geng'"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree9_c7_no_side_check.py",
+      "locations": [
+        {
+          "line": 7,
+          "text": "fresh=set(subprocess.check_output(['/opt/homebrew/bin/geng','-q','7'],text=True).splitlines())"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree9_common8_pair_check.py",
+      "locations": [
+        {
+          "line": 3,
+          "text": "SRC=Path('work/tuza_degree9_common8_pair_probe.json'); GENG='/opt/homebrew/bin/geng'"
+        }
+      ]
+    },
+    {
+      "source": "tuza_degree9_high_probe.py",
+      "locations": [
+        {
+          "line": 5,
+          "text": "GENG='/opt/homebrew/bin/geng'"
+        }
+      ]
+    }
+  ],
+  "organization": {
+    "description": "Source-reading copies grouped by Lemma 3.1, selected-edge codegree, shared checks, inherited checks and historical search or generation. Moving files preserves every active source byte. Imports and working paths retain the archived execution layout.",
+    "source_bytes_unchanged": true,
+    "source_count": 89,
+    "directories": {
+      "cases/codegree-4": 7,
+      "cases/codegree-5": 8,
+      "cases/codegree-6": 31,
+      "cases/codegree-7": 4,
+      "cases/codegree-8": 3,
+      "cases/codegree-9": 4,
+      "inherited": 11,
+      "lemma-3.1": 3,
+      "search": 13,
+      "shared": 5
+    },
+    "execution": "verification/run.py extracts and runs the byte-bound original sources in the archived layout."
+  },
+  "excluded_visible_sources": [
+    {
+      "original_path": "work/degree10_human_high_draft_check.py",
+      "original_sha256": "bdb8609d5b8ece6164bc6d8cae8ed6e6dff833cf2881def4693bce47d96ad28e",
+      "removed_published_path": "verification/shared/degree10_human_high_draft_check.py",
+      "removed_published_sha256": "e9a889956d0383326c0fd9b557db9af6ae95775d585bac1ca062e9870e90ee39",
+      "reason": "Historical manuscript bookkeeping. Reads a manuscript source omitted from the code supplement and does not enter a replay command.",
+      "private_original_preserved": true
+    },
+    {
+      "original_path": "work/tuza_degree10_c5_final_scope_gate.py",
+      "original_sha256": "401a0a8c93a1d1f94e3ffd9b40081d51c07dc02a4c98603f2aeb98e1011ef30a",
+      "removed_published_path": "verification/search/tuza_degree10_c5_final_scope_gate.py",
+      "removed_published_sha256": "aac78b9421ded4ef76067432ea6a4b21c7bc0e8cd01561d5ab2df8aca74906b4",
+      "reason": "Historical scope promotion bookkeeping. Reads absolute temporary snapshot paths and does not enter a replay command.",
+      "private_original_preserved": true
+    },
+    {
+      "original_path": "work/tuza_degree10_inherited_archive_check.py",
+      "original_sha256": "37fb99abf9ec2f8ea6afc6417260d808973b04cdc5bb524270099a8b53a66e74",
+      "removed_published_path": "verification/inherited/tuza_degree10_inherited_archive_check.py",
+      "removed_published_sha256": "996975f5595b88179351b8221fa72ec5f83f578c0271a041b0f8c5902c2855e7",
+      "reason": "Historical container binding bookkeeping. Hardcodes a nested archive byte hash changed by code-only packaging and does not enter a fresh computational replay command.",
+      "private_original_preserved": true
+    }
+  ]
+}

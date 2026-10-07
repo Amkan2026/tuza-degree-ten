@@ -1,0 +1,47 @@
+CORE 0 complete_lanes 0 models {} seconds 24.3
+CORE 25 complete_lanes 10 models {'22': 43841} seconds 24.7
+CORE 50 complete_lanes 13 models {'22': 150574} seconds 25.0
+CORE 75 complete_lanes 27 models {'22': 2499846} seconds 25.4
+CORE 100 complete_lanes 43 models {'22': 2867180} seconds 25.5
+CORE 125 complete_lanes 68 models {'22': 480609753, '12': 238432} seconds 34.8
+CORE 150 complete_lanes 96 models {'22': 1400652316, '12': 1013300} seconds 52.8
+CORE 175 complete_lanes 123 models {'22': 3163632710, '12': 2796796} seconds 157.5
+CORE 200 complete_lanes 142 models {'22': 3167551695, '12': 2885742} seconds 158.4
+CORE 225 complete_lanes 167 models {'22': 3175148079, '12': 2885742} seconds 158.7
+CORE 250 complete_lanes 192 models {'22': 4463686818, '12': 2885742} seconds 164.8
+CORE 275 complete_lanes 217 models {'22': 6275915863, '12': 2885742} seconds 175.7
+CORE 300 complete_lanes 242 models {'22': 9473440844, '12': 2885742} seconds 183.6
+CORE 325 complete_lanes 267 models {'22': 12522588782, '12': 2885742} seconds 194.4
+CORE 350 complete_lanes 297 models {'22': 13514652668, '12': 4712120} seconds 207.5
+CORE 375 complete_lanes 328 models {'22': 16979416123, '12': 6538400} seconds 255.7
+CORE 400 complete_lanes 358 models {'22': 19672757241, '12': 11426940} seconds 272.9
+CORE 425 complete_lanes 388 models {'22': 21735716475, '12': 12661804} seconds 301.5
+CORE 450 complete_lanes 413 models {'22': 26367118503, '12': 12661804} seconds 345.5
+CORE 475 complete_lanes 447 models {'22': 31898828875, '12': 24546258} seconds 418.2
+CORE 500 complete_lanes 475 models {'22': 35768956910, '12': 26682705} seconds 547.5
+CORE 525 complete_lanes 511 models {'22': 39937386455, '12': 38909276, '02': 24877} seconds 662.6
+CORE 550 complete_lanes 544 models {'22': 44872869084, '12': 45404552, '02': 24877} seconds 724.0
+CORE 575 complete_lanes 581 models {'22': 49522977647, '12': 57149614, '02': 24877} seconds 810.8
+CORE 600 complete_lanes 620 models {'22': 54009979462, '12': 73439506, '02': 51947} seconds 951.5
+{
+  "result": "PASS",
+  "full_common_core_types": 1044,
+  "residual_core_types": 625,
+  "new_complete_lanes": 662,
+  "labelled_ordered_contact_models": {
+    "22": 54317112733,
+    "12": 76985635,
+    "02": 52129
+  },
+  "literal_certificates": 22740,
+  "certificate_types": {
+    "ordinary_pair": 22024,
+    "matching_augmentation": 713,
+    "common_subset_cut": 3
+  },
+  "negative_controls": 2,
+  "core_sha256": "1f06cb4c7654343289ae3a2cece3e73caa9b4ad5cd58dd04d353daf120023b4c",
+  "domain_sha256": "cc9d6f8ea63ca678d5e17d0fa22742aa250b719e8e7113cacbb7e747c7213c55",
+  "residual_sha256": "1b53b1ae4eb7d17b20d812758f2ffa0e3776fc928f78f44d6ee81147139b19e5",
+  "seconds": 982.0706720352173
+}

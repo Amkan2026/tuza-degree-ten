@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "orders": [
+    7,
+    8,
+    9
+  ],
+  "side_counts": [
+    48,
+    58,
+    6836
+  ],
+  "regenerated_domain_matches_saved_bytes": true,
+  "source_file": {
+    "tuza_degree9_c4_side_direct.c": {
+      "sha256": "3849b5ad5b48805b8803d8b8bdf7c427f1b15abbafdf6590139c7788f7e73f0b",
+      "bytes": 2817
+    }
+  }
+}

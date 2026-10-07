@@ -1,0 +1,4 @@
+/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_restore_inputs.py
+PASS: required older and compressed inputs restored with their recorded byte hashes
+/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c4_old_transfer_check.py
+{'result': 'PASS', 'reports': [{'degrees': [7, 7], 'admitted_canonical_side_pairs': 207, 'source_orbits_used': 110, 'robustness_exclusions': 0}, {'degrees': [7, 8], 'admitted_canonical_side_pairs': 324, 'source_orbits_used': 110, 'robustness_exclusions': 0}, {'degrees': [8, 8], 'admitted_canonical_side_pairs': 329, 'source_orbits_used': 78, 'robustness_exclusions': 18}], 'ambient_maximum_degree_not_used_in_literal_reducers': True, 'sole_old_larger_removed_set_excluded_by_maximum_codegree_four': True}

@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "full_core_types": 1044,
+  "residual_core_types": 625,
+  "all_legal_single_side_patterns": 13546254,
+  "remaining_single_side_patterns": 4473122,
+  "positive_WKE_intervals": 140073,
+  "positive_cone_witnesses": 520,
+  "negative_controls": 2,
+  "domain_sha256": "cc9d6f8ea63ca678d5e17d0fa22742aa250b719e8e7113cacbb7e747c7213c55",
+  "WKE_sha256": "ed035502f0ab7724fef8719c6e090fae8f67cc56f2eba447c61d8964688e8dad",
+  "seconds": 38.6868839263916
+}

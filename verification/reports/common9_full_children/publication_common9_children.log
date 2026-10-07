@@ -1,0 +1,17 @@
+PARENTS 50000 seconds 1.9
+PARENTS 100000 seconds 3.5
+PARENTS 150000 seconds 5.1
+PARENTS 200000 seconds 6.6
+PARENTS 250000 seconds 8.5
+{
+  "result": "PASS",
+  "fresh_common9_parent_types": 274668,
+  "all_canonical_children": 2472012,
+  "generation": "independent Python graph6 deletion for every parent and every omitted vertex",
+  "parent_sha256": "ce9c5d4d27c8e55de5f0c6348ec781a650382e16bdff26b6c3418fa00a9cfcf9",
+  "complete_child_sha256": "c58075f4c28efe3e8f698c7aa50a3e4a99e55b26fbaf15483ad36d8ed881d394",
+  "complete_child_bytes": 17304084,
+  "negative_controls": 2,
+  "checker_sha256": "e148ec269b2bece83c5ef8cba1e25854213145848b2bcd79de67db5d67eb719c",
+  "seconds": 9.31857705116272
+}

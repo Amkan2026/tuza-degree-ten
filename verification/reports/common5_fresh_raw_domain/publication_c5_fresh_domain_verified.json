@@ -1,0 +1,11 @@
+{
+  "all_connected_maxdegree5_links": 1156842,
+  "nonWKE_links": 30403,
+  "rooted_ports": 143536,
+  "density_selected_ports": 57160,
+  "total_full_sides": 405914,
+  "total_density_sides": 143538,
+  "cpu_seconds": 19.173,
+  "status": "PASS",
+  "full_and_density_catalogue_match": true
+}

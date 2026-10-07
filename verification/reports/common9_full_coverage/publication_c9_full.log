@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "full_common9_types": 274668,
+  "lifted_spare_two_types": 274429,
+  "sparse_human_types": 5,
+  "residual_types": 234,
+  "residual_pair_certificates": 190,
+  "residual_cut_certificates": 0,
+  "residual_dense_human_types": 44,
+  "dense_human_missing_graph_types": 45,
+  "independent_python_deleted_subgraphs_checked": 4626,
+  "negative_controls": 2,
+  "core_sha256": "d0d37606040292541c990a7a76281d87f71ed9c259abf98e7689ae86e11520d7",
+  "residual_sha256": "6a0b97acf1efd349cd830553d1544a4ad22aefa788fda184ae319bd65fecbc68",
+  "human_sha256": "295a4af340f9f86882a99ed87927e4cca66b8add76c2435ec5b30ac693c30c86",
+  "seconds": 2.8643131256103516
+}

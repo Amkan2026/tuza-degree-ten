@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "method": "Decode each graph6 string directly, relabel every H by all 720 permutations, require pairwise disjoint orbits and equality with all 2^15 edge masks",
+  "common_graph_types": 156,
+  "all_labelled_six_vertex_graphs": 32768,
+  "all_graph6_H_labels_consistent": true,
+  "all_orbits_pairwise_disjoint": true,
+  "full_common_graph_domain": true,
+  "density_domain_sha256": "803fc4e48fb519d082ec5bab6a39f9159e83e18696b6f873c4c83aaeeed9accc",
+  "source_sha256": "82ddbc639925938250aa9b59340c1fdd1d1a940acb11ac1a218c6fd8dae34775"
+}
+report_sha256 b3793b130c4d3999b19b9b3b742ce12cce29e8740e13dba6ff23307a1bc1bdf6

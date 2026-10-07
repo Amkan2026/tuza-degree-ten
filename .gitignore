@@ -1,0 +1,7 @@
+.replay/
+__pycache__/
+*.pyc
+*.dylib
+*.so
+*.o
+.DS_Store

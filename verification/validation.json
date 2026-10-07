@@ -1,0 +1,1898 @@
+{
+  "status": "PASS_COMPLETED_PUBLICATION_COMPUTATIONAL_AUDIT",
+  "scope": "Internal computational supplement audit. Fresh finite-domain and certificate replays are distinguished from checks of saved report bindings. Human mathematical lemmas remain proof premises.",
+  "external_referee_review": false,
+  "python": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "packages": {
+    "numpy": "2.3.5",
+    "ortools": "9.15.6755"
+  },
+  "nauty": "2.9.3",
+  "assertions_enabled": true,
+  "fresh_replays": [
+    {
+      "name": "subcubic_and_Petersen",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_subcubic_link_basis_check.py > publication_subcubic.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_subcubic_link_basis_verified.json",
+      "report_sha256": "ba7f95b1baffaa296d7c0e711d2be56a614866ae5646c2ed5fcb8cf1cda21460",
+      "report_bytes": 1945,
+      "duration_seconds": 0.8899989128112793,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "result": "PASS",
+        "complete_min2_domain_types": 702,
+        "whole_connected_types": 2561,
+        "proper_colorings_converted_to_literal_WKE": 660,
+        "direct_WKE_witnesses": 40,
+        "only_remaining_types": [
+          "P",
+          "R"
+        ],
+        "human_leaf_induction_required": true,
+        "human_diamond_tip_argument_required": true,
+        "payload_sha256": "9c04fdd140837e965ea86507bc49952b0107fb0f83e8e16424e2ac65d5f15fdc",
+        "raw_payload_sha256": "06b4af1944bb9ed817079603f00806f7e16283e4327565e67292cbc3bca1aee4",
+        "proof_sha256": "ee954ce37fe92bf14344e5bf169ef3e68c352c981c6f639fa2945f7c33e4cfcc",
+        "seconds": 0.8899989128112793,
+        "Petersen_packing_size": 7,
+        "Petersen_cover_size": 14,
+        "Petersen_common_identifications": 6
+      },
+      "source_files": {
+        "tuza_book3_condensed_root_check.py": {
+          "sha256": "69d34a99fd41535d62b9bb8f8b212c191bca33e991bfaaffb29524ba69046102",
+          "bytes": 6925
+        },
+        "tuza_degree10_subcubic_link_basis_check.py": {
+          "sha256": "d21f99b49a8dbe3499f2c096d753a051119b96d31cfc96e48e67f7e419b69357",
+          "bytes": 6150
+        }
+      },
+      "log_file": "publication_subcubic.log",
+      "log_sha256": "241bd46d4d6e1a796f6101ec080376c6cd33bd57cc0c46fb7a89c2895e86f505",
+      "published_report": "verification/reports/subcubic_and_Petersen/tuza_degree10_subcubic_link_basis_verified.json",
+      "published_log": "verification/reports/subcubic_and_Petersen/publication_subcubic.log"
+    },
+    {
+      "name": "common9_full_children",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c9_full_children_check.py > publication_common9_children.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c9_full_children_verified.json",
+      "report_sha256": "56879e7f6eef5baf038fcc8d61cb5d88fdde647d6e296fd6c50568d431b6f2d7",
+      "report_bytes": 558,
+      "duration_seconds": 9.31857705116272,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "result": "PASS",
+        "fresh_common9_parent_types": 274668,
+        "all_canonical_children": 2472012,
+        "generation": "independent Python graph6 deletion for every parent and every omitted vertex",
+        "parent_sha256": "ce9c5d4d27c8e55de5f0c6348ec781a650382e16bdff26b6c3418fa00a9cfcf9",
+        "complete_child_sha256": "c58075f4c28efe3e8f698c7aa50a3e4a99e55b26fbaf15483ad36d8ed881d394",
+        "complete_child_bytes": 17304084,
+        "negative_controls": 2,
+        "checker_sha256": "e148ec269b2bece83c5ef8cba1e25854213145848b2bcd79de67db5d67eb719c",
+        "seconds": 9.31857705116272
+      },
+      "source_files": {
+        "tuza_degree10_c9_full_children_check.py": {
+          "sha256": "e148ec269b2bece83c5ef8cba1e25854213145848b2bcd79de67db5d67eb719c",
+          "bytes": 3936
+        }
+      },
+      "log_file": "publication_common9_children.log",
+      "log_sha256": "8bd960454e85149247688504869b3ec392b0a9cde66cd561bcaeb4d7f8893d46",
+      "published_report": "verification/reports/common9_full_children/tuza_degree10_c9_full_children_verified.json",
+      "published_log": "verification/reports/common9_full_children/publication_common9_children.log"
+    },
+    {
+      "name": "common4_full_new_coverage",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c4_final_independent.py > publication_c4.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c4_final_verified.json",
+      "report_sha256": "45b7058dcf0cf05b4a19001a6666bd4e2a771f75198d0d44406f0aa63e7f4b1f",
+      "report_bytes": 2958,
+      "duration_seconds": null,
+      "duration_kind": "not recorded by checker",
+      "metrics": {
+        "result": "PASS",
+        "source_file": "work/tuza_degree10_c4_lex_intervals.json",
+        "all_48_domains_match_initial_catalog": true,
+        "admitted_models": 1109148,
+        "ordinary_literal_intervals": 1357,
+        "human_forced_cross_cases": 1,
+        "uncovered_after_human_case": 0,
+        "raw_complete_side_counts": {
+          "7": 48,
+          "8": 58,
+          "9": 6836,
+          "10": 3431
+        },
+        "density_side_exclusions": 6779,
+        "literal_private_bound_witnesses": 3594,
+        "negative_controls_rejected": [
+          "empty cover",
+          "duplicate packed triangle",
+          "wrong initial partner cap"
+        ],
+        "scope": "Every maximum-codegree-four selected-edge domain with an endpoint of degree nine or ten, under maximum degree ten. The global proof supplies endpoint degrees at most eight separately, and uses the ambient degree independent order-five component lemma and the human thin-six lemma to establish minimum degree seven and connected links."
+      },
+      "source_files": {
+        "tuza_degree10_c4_h12_human_check.py": {
+          "sha256": "1da577bfdf6a44075fe94d78363b77e6db3b2082e4f501d3d564ed1ee176fdca",
+          "bytes": 5858
+        },
+        "tuza_degree10_c4_final_independent.py": {
+          "sha256": "334b62bf2465cfe6e05da90754b6488c4e0b2e88407622c3bf36cd8fcf7a19e3",
+          "bytes": 3460
+        },
+        "tuza_degree10_c4_density_independent_verify.py": {
+          "sha256": "135ec31ddaa70662c97b73d2971fa8e4d00164dafcc64864eee64718fc18647b",
+          "bytes": 14664
+        }
+      },
+      "log_file": "publication_c4.log",
+      "log_sha256": "b0d7677b40bdf5b695aec652ba97f49cc1f0d374d1ee10bd68195c8b354652f2",
+      "published_report": "verification/reports/common4_full_new_coverage/tuza_degree10_c4_final_verified.json",
+      "published_log": "verification/reports/common4_full_new_coverage/publication_c4.log"
+    },
+    {
+      "name": "common4_order10_sides",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c4_side_independent_check.py > publication_c4_sides.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c4_side_independent_verified.json",
+      "report_sha256": "c43ec0563f3346c913b21bba85fc10c0f6a3cf0db077646e49050056907ed2f1",
+      "report_bytes": 481,
+      "duration_seconds": 7.702186667011119,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "result": "PASS",
+        "fresh_graph_types": 89402,
+        "literal_WKE_witnesses": 89140,
+        "nonWKE_types": 262,
+        "degree_four_roots": 1794,
+        "rooted_side_counts": {
+          "0": 745,
+          "1": 741,
+          "3": 517,
+          "7": 106,
+          "11": 97,
+          "12": 740,
+          "13": 169,
+          "15": 28,
+          "30": 253,
+          "31": 35
+        },
+        "rooted_sides": 3431,
+        "negative_controls": 2,
+        "seconds": 7.702186667011119
+      },
+      "source_files": {
+        "tuza_degree10_c4_side_independent_check.py": {
+          "sha256": "a87540805a382c174013257d7f663255362159ea1be231e036678556f9954d36",
+          "bytes": 4543
+        }
+      },
+      "log_file": "publication_c4_sides.log",
+      "log_sha256": "bd46f1ebc81d2f84c87d57b97914eace5d0b754b4e4f66415583ed6913e9d495",
+      "published_report": "verification/reports/common4_order10_sides/tuza_degree10_c4_side_independent_verified.json",
+      "published_log": "verification/reports/common4_order10_sides/publication_c4_sides.log"
+    },
+    {
+      "name": "common4_inherited_transfer",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c4_old_transfer_check.py > publication_c4_inherited.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c4_old_transfer_verified.json",
+      "report_sha256": "a3672506c300164057beca7e96502b9c75249660d947763e08cd3bc7f9658127",
+      "report_bytes": 694,
+      "duration_seconds": null,
+      "duration_kind": "not recorded by checker",
+      "metrics": {
+        "result": "PASS",
+        "ambient_maximum_degree_not_used_in_literal_reducers": true,
+        "sole_old_larger_removed_set_excluded_by_maximum_codegree_four": true
+      },
+      "source_files": {
+        "tuza_degree10_c4_old_transfer_check.py": {
+          "sha256": "97e4b28b00519f60e3a5d2a9339bcd57875ecb1713aa739b0e61c645a97e0246",
+          "bytes": 3376
+        },
+        "tuza_degree10_c4_density_independent_verify.py": {
+          "sha256": "135ec31ddaa70662c97b73d2971fa8e4d00164dafcc64864eee64718fc18647b",
+          "bytes": 14664
+        }
+      },
+      "log_file": "publication_c4_inherited.log",
+      "log_sha256": "308f54c896a379851bddc3fa7594a79875dc830d96704af7069141a84a3abc5e",
+      "published_report": "verification/reports/common4_inherited_transfer/tuza_degree10_c4_old_transfer_verified.json",
+      "published_log": "verification/reports/common4_inherited_transfer/publication_c4_inherited.log",
+      "input_generation_command": "python3 verification/derive_c4_input.py EXTRACTED_SNAPSHOT_DIRECTORY",
+      "input_generation_source_sha256": "f68d5633d7f385519a14cb8980575abc98bc1c97b16ca6df52489731e4849fa6",
+      "derived_input_source_sha256": "350ba8ab4d7585a76967eb75f39663a793d6a5fff41c39e91eaec4c6afcf5b80",
+      "derived_input_sha256": "a828fc7e90fbc3d0b86f6a0c1d1635db8ab3d536eec10715c7c9c55515ce81c3",
+      "compact_derived_witnesses": 110,
+      "published_derived_input": "verification/inputs/c4-seven-seven.json",
+      "published_input_provenance": "verification/inputs/c4-seven-seven-provenance.json"
+    },
+    {
+      "name": "common5_7_10",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c5_independent_check.py work/tuza_degree10_c5_seven_ten_complete.json work/publication_c5_seven_ten.json > publication_c5_7_10.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/publication_c5_seven_ten.json",
+      "report_sha256": "03fc842b06171ca7b88a28664945cb23aac71cf559e9d046a184386a574e7060",
+      "report_bytes": 2764,
+      "duration_seconds": 1.1511323330341838,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "complete_lane": true,
+        "verified_complete_cores": 15,
+        "admitted_pairs_verified": 819981,
+        "intervals_verified": 55,
+        "negative_controls_rejected": [
+          "duplicate triangle",
+          "empty cover",
+          "missing required mask"
+        ],
+        "elapsed_seconds": 1.1511323330341838,
+        "result": "PASS"
+      },
+      "source_files": {
+        "tuza_degree10_c5_independent_check.py": {
+          "sha256": "24f1e6e3e441bc0af15c019f608c2c6c07872d54aaf1cd38f978494b240fad60",
+          "bytes": 5819
+        }
+      },
+      "log_file": "publication_c5_7_10.log",
+      "log_sha256": "98212a05e244759f78e2a8e9cc9cf3502f5c5361a3c9eedc435e5ce2f364adc5",
+      "published_report": "verification/reports/common5_7_10/publication_c5_seven_ten.json",
+      "published_log": "verification/reports/common5_7_10/publication_c5_7_10.log"
+    },
+    {
+      "name": "common5_8_10",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c5_independent_check.py work/tuza_degree10_c5_eight_ten_complete.json work/publication_c5_eight_ten.json > publication_c5_8_10.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/publication_c5_eight_ten.json",
+      "report_sha256": "5f8ea380b7b98f7b69b21956c64487457a8793a09cf34d6e4318d54a636d49b1",
+      "report_bytes": 3244,
+      "duration_seconds": 2.8881827499717474,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "complete_lane": true,
+        "verified_complete_cores": 18,
+        "admitted_pairs_verified": 2160219,
+        "intervals_verified": 161,
+        "negative_controls_rejected": [
+          "duplicate triangle",
+          "empty cover",
+          "missing required mask"
+        ],
+        "elapsed_seconds": 2.8881827499717474,
+        "result": "PASS"
+      },
+      "source_files": {
+        "tuza_degree10_c5_independent_check.py": {
+          "sha256": "24f1e6e3e441bc0af15c019f608c2c6c07872d54aaf1cd38f978494b240fad60",
+          "bytes": 5819
+        }
+      },
+      "log_file": "publication_c5_8_10.log",
+      "log_sha256": "1c18dfbe2ef1c65e6a4d7d3b38183ef8c7424da0a8c817c7893b8dbb1c6de057",
+      "published_report": "verification/reports/common5_8_10/publication_c5_eight_ten.json",
+      "published_log": "verification/reports/common5_8_10/publication_c5_8_10.log"
+    },
+    {
+      "name": "common5_9_10",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c5_packed_independent_check.py work/tuza_degree10_c5_nine_ten_compressed.json work/publication_c5_nine_ten.json > publication_c5_9_10.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/publication_c5_nine_ten.json",
+      "report_sha256": "552a036b8661761a9c5edf5aa8d50672de6bc51f5df7d539e9ce31b814f6598f",
+      "report_bytes": 5737,
+      "duration_seconds": 23.656869833008386,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "status": "PASS",
+        "scope": "complete ordinary rows only; referenced graph extensions require their separate manifests",
+        "source": "work/tuza_degree10_c5_nine_ten_compressed.json",
+        "complete_graph_lane_with_referenced_extensions": true,
+        "ordinary_rows": 31,
+        "canonical_side_pairs": 566910063,
+        "intervals": 1020,
+        "partial": [
+          {
+            "degrees": [
+              9,
+              10
+            ],
+            "core": 0,
+            "complete_graph_domain": true,
+            "graph_extension": "work/tuza_degree10_c5_h0_graph_verification_manifest.json"
+          }
+        ],
+        "negative_controls": [
+          "duplicate triangle",
+          "empty cover",
+          "wrong required mask"
+        ],
+        "seconds": 23.656869833008386
+      },
+      "source_files": {
+        "tuza_degree10_c5_packed_independent_check.py": {
+          "sha256": "0df60f7b8080b5e6456f1e918c8353ba053d60d6059b61fe2855912e5c285943",
+          "bytes": 4311
+        },
+        "tuza_degree10_c5_independent_check.py": {
+          "sha256": "24f1e6e3e441bc0af15c019f608c2c6c07872d54aaf1cd38f978494b240fad60",
+          "bytes": 5819
+        }
+      },
+      "log_file": "publication_c5_9_10.log",
+      "log_sha256": "73e9d6c301a2b9ee5eac4986eb23ef77fd6fc7a0d14a153d7beb9a1aaacf27f7",
+      "published_report": "verification/reports/common5_9_10/publication_c5_nine_ten.json",
+      "published_log": "verification/reports/common5_9_10/publication_c5_9_10.log"
+    },
+    {
+      "name": "common5_10_10",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c5_packed_independent_check.py work/tuza_degree10_c5_ten_ten_compressed.json work/publication_c5_ten_ten.json > publication_c5_10_10.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/publication_c5_ten_ten.json",
+      "report_sha256": "fb94f857548317fe3f3965b754f0a523f11cd5c00cc7af483faddc7190dee502",
+      "report_bytes": 5809,
+      "duration_seconds": 80.67341808299534,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "status": "PASS",
+        "scope": "complete ordinary rows only; referenced graph extensions require their separate manifests",
+        "source": "work/tuza_degree10_c5_ten_ten_compressed.json",
+        "complete_graph_lane_with_referenced_extensions": true,
+        "ordinary_rows": 30,
+        "canonical_side_pairs": 942981866,
+        "intervals": 1079,
+        "partial": [
+          {
+            "degrees": [
+              10,
+              10
+            ],
+            "core": 0,
+            "complete_graph_domain": true,
+            "graph_extension": "work/tuza_degree10_c5_h0_graph_verification_manifest.json"
+          },
+          {
+            "degrees": [
+              10,
+              10
+            ],
+            "core": 3,
+            "complete_graph_domain": true,
+            "graph_extension": "work/tuza_degree10_c5_h3_edge_independent.json"
+          }
+        ],
+        "negative_controls": [
+          "duplicate triangle",
+          "empty cover",
+          "wrong required mask"
+        ],
+        "seconds": 80.67341808299534
+      },
+      "source_files": {
+        "tuza_degree10_c5_packed_independent_check.py": {
+          "sha256": "0df60f7b8080b5e6456f1e918c8353ba053d60d6059b61fe2855912e5c285943",
+          "bytes": 4311
+        },
+        "tuza_degree10_c5_independent_check.py": {
+          "sha256": "24f1e6e3e441bc0af15c019f608c2c6c07872d54aaf1cd38f978494b240fad60",
+          "bytes": 5819
+        }
+      },
+      "log_file": "publication_c5_10_10.log",
+      "log_sha256": "1da66e6c2acde01d7cd5cc2c9fc61e3aaafbd0da0ecc399eaea9b8582ea98715",
+      "published_report": "verification/reports/common5_10_10/publication_c5_ten_ten.json",
+      "published_log": "verification/reports/common5_10_10/publication_c5_10_10.log"
+    },
+    {
+      "name": "common5_empty_core_triangle_stage",
+      "kind": "fresh_recomputation",
+      "status": "PASS_EXPECTED_INTERMEDIATE_160",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c5_h0_human_templates.py > publication_c5_h0_triangles.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c5_h0_human_templates.json",
+      "report_sha256": "111f4b5a0b6b202ac72dcd1bdf7d0c242c26c71a98814889b1335a73652b727c",
+      "report_bytes": 30752,
+      "duration_seconds": null,
+      "duration_kind": "not recorded by checker",
+      "metrics": {
+        "status": "PARTIAL",
+        "selected_common_density": 0
+      },
+      "source_files": {
+        "tuza_degree10_c5_h0_human_templates.py": {
+          "sha256": "0cf9c64389098a6054bb473f48299346839dde06cb0d4049c22337c101050611",
+          "bytes": 3919
+        },
+        "tuza_degree10_c5_independent_check.py": {
+          "sha256": "24f1e6e3e441bc0af15c019f608c2c6c07872d54aaf1cd38f978494b240fad60",
+          "bytes": 5819
+        }
+      },
+      "log_file": "publication_c5_h0_triangles.log",
+      "log_sha256": "a7e2272d56214d83456649d686ac7ad9b23815749e5690aef1d96f88d522c8b6",
+      "published_report": "verification/reports/common5_empty_core_triangle_stage/tuza_degree10_c5_h0_human_templates.json",
+      "published_log": "verification/reports/common5_empty_core_triangle_stage/publication_c5_h0_triangles.log"
+    },
+    {
+      "name": "common5_empty_core_remaining",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c5_h0_nontriangle_human.py > publication_c5_h0_remaining.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c5_h0_nontriangle_human.json",
+      "report_sha256": "a33486080c50299df845bdc6b4e549c474c5c75234e64c2ac1c131b3326200f6",
+      "report_bytes": 8027,
+      "duration_seconds": null,
+      "duration_kind": "not recorded by checker",
+      "metrics": {
+        "status": "PASS",
+        "degrees": [
+          10,
+          10
+        ],
+        "core": 0,
+        "incoming_residual": 160,
+        "graph_cases_unclosed": 0,
+        "complete_graph_domain": true,
+        "complete_pair_domain": false
+      },
+      "source_files": {
+        "tuza_degree10_c5_h0_nontriangle_human.py": {
+          "sha256": "63b8909b1e0285258be51e0f7205e4c899ff270f1e5c2d0455f04458a2e2b368",
+          "bytes": 3558
+        },
+        "tuza_degree10_c5_independent_check.py": {
+          "sha256": "24f1e6e3e441bc0af15c019f608c2c6c07872d54aaf1cd38f978494b240fad60",
+          "bytes": 5819
+        }
+      },
+      "log_file": "publication_c5_h0_remaining.log",
+      "log_sha256": "c10e736f2ba0ef938c15fdf165e58f78776d88d0da36f035297fa11301648237",
+      "published_report": "verification/reports/common5_empty_core_remaining/tuza_degree10_c5_h0_nontriangle_human.json",
+      "published_log": "verification/reports/common5_empty_core_remaining/publication_c5_h0_remaining.log"
+    },
+    {
+      "name": "common5_saturated_edge",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c5_saturated_edge_independent.py work/tuza_degree10_c5_h3_edge_intervals.json work/publication_c5_h3.json > publication_c5_h3.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/publication_c5_h3.json",
+      "report_sha256": "d773878d8d3e96cfd6ece59ede994312f5c6eb0fa503763233719b6f0a569ebc",
+      "report_bytes": 577,
+      "duration_seconds": null,
+      "duration_kind": "not recorded by checker",
+      "metrics": {
+        "status": "PASS",
+        "complete_graph_domain": true,
+        "complete_pair_domain": false,
+        "graph_cases_unclosed": 0,
+        "corruption_controls_rejected": 3,
+        "cores": [
+          {
+            "degrees": [
+              10,
+              10
+            ],
+            "core": 3,
+            "admitted_pairs": 461139,
+            "pair_intervals": 14,
+            "initial_pair_residual": 6,
+            "edge_intervals": 3,
+            "graph_cases_unclosed": 0,
+            "status": "PASS"
+          }
+        ],
+        "source": "work/tuza_degree10_c5_h3_edge_intervals.json"
+      },
+      "source_files": {
+        "tuza_degree10_c5_saturated_edge_independent.py": {
+          "sha256": "8d1dcb4cb70198d7e334e39f8f1ddb25af5ff9ff66c38881426c2807daf9c09c",
+          "bytes": 4063
+        },
+        "tuza_degree10_c5_independent_check.py": {
+          "sha256": "24f1e6e3e441bc0af15c019f608c2c6c07872d54aaf1cd38f978494b240fad60",
+          "bytes": 5819
+        }
+      },
+      "log_file": "publication_c5_h3.log",
+      "log_sha256": "2a44644cc27887873950d385a0f71222fed118908dcdd987c97b41ff67b804b6",
+      "published_report": "verification/reports/common5_saturated_edge/publication_c5_h3.json",
+      "published_log": "verification/reports/common5_saturated_edge/publication_c5_h3.log"
+    },
+    {
+      "name": "common5_star_graph_extension",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c5_star_independent.py > publication_c5_star.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c5_star_independent.json",
+      "report_sha256": "8031ae9ce1bfdd8208569c14cd4241d40ca0fade33c6b28df1f2ee523ff3e029",
+      "report_bytes": 2167,
+      "duration_seconds": 24.099653959274292,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "status": "PASS",
+        "complete_selected_star_graph_domain": true,
+        "complete_pair_domain": false,
+        "ambient_degree_bound": 10,
+        "density_selected_star_sides": {
+          "9": 1030,
+          "10": 3204
+        },
+        "initial_partner_private_caps": {
+          "15": 6,
+          "23": 5,
+          "29": 5,
+          "54": 6,
+          "58": 6,
+          "184": 5
+        },
+        "pair_intervals_verified": 53,
+        "fan_intervals_verified": 8,
+        "tail_intervals_verified": 3,
+        "graph_reports": [
+          {
+            "degrees": [
+              9,
+              9,
+              9
+            ],
+            "tail_after_all_graph_filters": 0,
+            "tail_covered": 0,
+            "unclosed": 0
+          },
+          {
+            "degrees": [
+              9,
+              9,
+              10
+            ],
+            "tail_after_all_graph_filters": 0,
+            "tail_covered": 0,
+            "unclosed": 0
+          },
+          {
+            "degrees": [
+              9,
+              10,
+              10
+            ],
+            "tail_after_all_graph_filters": 414,
+            "tail_covered": 414,
+            "unclosed": 0
+          },
+          {
+            "degrees": [
+              10,
+              10,
+              10
+            ],
+            "tail_after_all_graph_filters": 267,
+            "tail_covered": 267,
+            "unclosed": 0
+          }
+        ],
+        "total_tail": 681,
+        "graph_cases_unclosed": 0,
+        "negative_controls_rejected": [
+          "duplicate tail triangle",
+          "empty tail cover",
+          "missing lower packing edge"
+        ],
+        "elapsed_seconds": 24.099653959274292
+      },
+      "source_files": {
+        "tuza_degree10_c5_star_independent.py": {
+          "sha256": "7bdb7d31722564311347897cb49b23c357d37cb2483b549a1372c2688087c61d",
+          "bytes": 10641
+        },
+        "tuza_degree10_c5_independent_check.py": {
+          "sha256": "24f1e6e3e441bc0af15c019f608c2c6c07872d54aaf1cd38f978494b240fad60",
+          "bytes": 5819
+        }
+      },
+      "log_file": "publication_c5_star.log",
+      "log_sha256": "b7ee98a506dd025835f5e803865b08d9dc09560f5385843a918a3cbaee5c703b",
+      "published_report": "verification/reports/common5_star_graph_extension/tuza_degree10_c5_star_independent.json",
+      "published_log": "verification/reports/common5_star_graph_extension/publication_c5_star.log"
+    },
+    {
+      "name": "common6_fresh_source_and_domains",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c6_fresh_source_replay.py > publication_c6_fresh_source.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c6_fresh_source_verified.json",
+      "report_sha256": "88681872c79456a486cb7b19652cad3e6c1201fa82f7368988d228a59977ef23",
+      "report_bytes": 452503,
+      "duration_seconds": 52.10888695716858,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "result": "PASS_FRESH_COMPLETE_RAW_AND_DENSITY_REPLAY",
+        "complete_side_domains": 624,
+        "common_graph_types": 156,
+        "all_boolean_patterns": 328443804,
+        "legal_connected_patterns": 130069230,
+        "retained_candidate_patterns": 20457691,
+        "excluded_positive_WKE_patterns": 109611539,
+        "fresh_literal_WKE_intervals": 175058,
+        "all_literal_interval_digests_reproduced": true,
+        "selected_canonical_patterns": 1803814,
+        "excluded_raw_by_density": 10284150,
+        "source_compiled_in_isolated_snapshot": true,
+        "seconds": 52.10888695716858,
+        "record_count": 624
+      },
+      "source_files": {
+        "tuza_degree10_c6_density_check.c": {
+          "sha256": "4d086c2de5fd1a6c1c79d3433948df6a8b54f233376dd932b811271ca4188d2c",
+          "bytes": 2303
+        },
+        "tuza_degree10_c6_domain_independent.c": {
+          "sha256": "4273cb5df06a7fc3edd15ec39523bf67b4d4fd84b008528fb91e21cc4fbb70e1",
+          "bytes": 5434
+        },
+        "tuza_degree10_c6_fresh_source_replay.py": {
+          "sha256": "7829a35b4f115a5f1cfa1554d135595cb6e4b2940edd638b7fe8a9d1ebfe89bd",
+          "bytes": 9454
+        }
+      },
+      "log_file": "publication_c6_fresh_source.log",
+      "log_sha256": "48255f8f2ee72d3dd5233ace96c6f2f10f26d392b077d216f1e24da2ccb9b956",
+      "published_report": "verification/reports/common6_fresh_source_and_domains/tuza_degree10_c6_fresh_source_verified.json",
+      "published_log": "verification/reports/common6_fresh_source_and_domains/publication_c6_fresh_source.log"
+    },
+    {
+      "name": "common6_common_orbits",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c6_common_orbit_audit.py > publication_c6_orbit.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c6_common_orbit_verified.json",
+      "report_sha256": "b3793b130c4d3999b19b9b3b742ce12cce29e8740e13dba6ff23307a1bc1bdf6",
+      "report_bytes": 19112,
+      "duration_seconds": null,
+      "duration_kind": "not recorded by checker",
+      "metrics": {
+        "status": "PASS",
+        "method": "Decode each graph6 string directly, relabel every H by all 720 permutations, require pairwise disjoint orbits and equality with all 2^15 edge masks",
+        "common_graph_types": 156,
+        "all_labelled_six_vertex_graphs": 32768,
+        "all_graph6_H_labels_consistent": true,
+        "all_orbits_pairwise_disjoint": true,
+        "full_common_graph_domain": true,
+        "density_domain_sha256": "803fc4e48fb519d082ec5bab6a39f9159e83e18696b6f873c4c83aaeeed9accc",
+        "record_count": 156
+      },
+      "source_files": {
+        "tuza_degree10_c6_common_orbit_audit.py": {
+          "sha256": "82ddbc639925938250aa9b59340c1fdd1d1a940acb11ac1a218c6fd8dae34775",
+          "bytes": 2439
+        }
+      },
+      "log_file": "publication_c6_orbit.log",
+      "log_sha256": "cb64942bb7b7a8a6d995e10fd34d7b11746fd0cf5cdeb048ead1d4aeb798b6f6",
+      "published_report": "verification/reports/common6_common_orbits/tuza_degree10_c6_common_orbit_verified.json",
+      "published_log": "verification/reports/common6_common_orbits/publication_c6_orbit.log"
+    },
+    {
+      "name": "common6_exact_relation_tests",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c6_dense_uncovered.py > publication_c6_relations.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c6_dense_uncovered_verified.json",
+      "report_sha256": "47f81a728f12d471dca854c81bcf3b493be5f39768866a890c92ef4fe2305256",
+      "report_bytes": 339,
+      "duration_seconds": 6.433280944824219,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "result": "PASS",
+        "literal_relation_checks": 2800,
+        "dimensions_checked": 56,
+        "empty_and_64_bit_boundaries": true,
+        "fallback_source_sha256": "2d894a4801e60dc6644278167705aeba9314e70c88b63d1716e75d6463360091",
+        "seconds": 6.433280944824219
+      },
+      "source_files": {
+        "tuza_degree10_c6_dense_uncovered.py": {
+          "sha256": "e0299799be96c2a121ab767328dfa71edce635534c3550be1c139920e6632a3b",
+          "bytes": 4647
+        },
+        "tuza_degree10_c6_coverage_prefix_check.py": {
+          "sha256": "2d894a4801e60dc6644278167705aeba9314e70c88b63d1716e75d6463360091",
+          "bytes": 10694
+        },
+        "tuza_degree10_c6_literal_prefix_check.py": {
+          "sha256": "4c9907b1d5d9c3d33acec0d06e7cf245a321bc28d10a6c86f8f51ca2ca348c30",
+          "bytes": 6338
+        }
+      },
+      "log_file": "publication_c6_relations.log",
+      "log_sha256": "324ffb3f8be7266260a82a5122515037877ae4ee6fd8f3be67ce68590c7707b5",
+      "published_report": "verification/reports/common6_exact_relation_tests/tuza_degree10_c6_dense_uncovered_verified.json",
+      "published_log": "verification/reports/common6_exact_relation_tests/publication_c6_relations.log"
+    },
+    {
+      "name": "common6_full_coverage",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c6_complete_fast_check.py --source tuza_degree10_c6_merged_certificates.json --report publication_c6_replay.json > publication_c6_replay.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-replay",
+      "report_file": "work/publication_c6_replay.json",
+      "report_sha256": "3545c138f5aeb5948b767299c1495094552a27bc7d2c965082dae00e8fa427bf",
+      "report_bytes": 107465,
+      "duration_seconds": 656.8657882213593,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "result": "PASS",
+        "scope": "all 780 complete endpoint lanes, with named human arguments bound separately",
+        "complete_domain": true,
+        "closed_lanes_replayed": 780,
+        "candidate_pairs": 51030970708,
+        "ordinary_pair_certificates": 10150,
+        "subset_cut_certificates": 28,
+        "core_spare_certificates": 115,
+        "historical_unknown_diagnostics": 2,
+        "unresolved_diagnostics": 0,
+        "domain_sha256": "803fc4e48fb519d082ec5bab6a39f9159e83e18696b6f873c4c83aaeeed9accc",
+        "core_sha256": "f24a431c428815008019376ba9f684c5316738ab77c0a0a7206920593c22b907",
+        "density_verification_sha256": "ba027ada6dad2fc106595d5c59cc4cb2a1aab9fcdaf01726ef156fb2df2aa5c3",
+        "checker_sha256": "33e79cdbaa85bc8f683c615faa7ca5cb87a40f88d5a5818dd62ddb2bb110873d",
+        "raw_domain_verification_sha256": "48434eb29de94cbae37bedd43307e4de5fa5a1e02c3b9ce42bb370561d577793",
+        "common_orbit_verification_sha256": "b3793b130c4d3999b19b9b3b742ce12cce29e8740e13dba6ff23307a1bc1bdf6",
+        "seconds": 656.8657882213593,
+        "rectangle_representation": "direct bit matrix below5billion pairs, original compressed relation otherwise",
+        "certificate_source_file": "tuza_degree10_c6_merged_certificates.json",
+        "optimized_wrapper_source_sha256": "9293d6b8c2ab638ca8deb92628c1f760100eaab480fced75d91dc7625a0acc24",
+        "optimized_relation_source_sha256": "e0299799be96c2a121ab767328dfa71edce635534c3550be1c139920e6632a3b",
+        "literal_relation_verification_sha256": "8902e545fde9d064a9d087b6498a64a753dd79278ff822c9ffd6b91bdb5e5a21",
+        "fresh_side_source_verification_sha256": "6b0b657cb6ac2c26eaa550814b45d9b1b34c011f07aef1a7f353a0fb938c6baf",
+        "fresh_side_domains_replayed": 624,
+        "fresh_boolean_patterns_replayed": 328443804,
+        "fresh_literal_WKE_intervals_replayed": 175058,
+        "record_count": 780,
+        "human_arguments_bound": 3
+      },
+      "source_files": {
+        "tuza_degree10_c6_complete_fast_check.py": {
+          "sha256": "9293d6b8c2ab638ca8deb92628c1f760100eaab480fced75d91dc7625a0acc24",
+          "bytes": 3576
+        },
+        "tuza_degree10_c6_dense_uncovered.py": {
+          "sha256": "e0299799be96c2a121ab767328dfa71edce635534c3550be1c139920e6632a3b",
+          "bytes": 4647
+        },
+        "tuza_degree10_c6_coverage_prefix_check.py": {
+          "sha256": "2d894a4801e60dc6644278167705aeba9314e70c88b63d1716e75d6463360091",
+          "bytes": 10694
+        },
+        "tuza_degree10_c6_literal_prefix_check.py": {
+          "sha256": "4c9907b1d5d9c3d33acec0d06e7cf245a321bc28d10a6c86f8f51ca2ca348c30",
+          "bytes": 6338
+        },
+        "tuza_degree10_c6_complete_coverage_check.py": {
+          "sha256": "33e79cdbaa85bc8f683c615faa7ca5cb87a40f88d5a5818dd62ddb2bb110873d",
+          "bytes": 12629
+        }
+      },
+      "log_file": "publication_c6_replay.log",
+      "log_sha256": "f9e0eaafd3406e3a3bc3cfc9fb51e5c5fb60528e8a25032afbec570ea637df2c",
+      "published_report": "verification/reports/common6_full_coverage/publication_c6_replay.json",
+      "published_log": "verification/reports/common6_full_coverage/publication_c6_replay.log"
+    },
+    {
+      "name": "common6_K24_two_private_edges",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c6_K24_private_edges_human_check.py > publication_k24_private.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c6_K24_private_edges_human_verified.json",
+      "report_sha256": "08c3b8c162a9c76081333a7a50ae717f80e27b79d2c4a6963b4b037ea9a9dff8",
+      "report_bytes": 1095,
+      "duration_seconds": 2.4596450328826904,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "status": "PASS",
+        "human_matching_tables": 8,
+        "constructive_reductions": 775,
+        "known_codegree_seven_exclusions": 25,
+        "original_side_pairs_under_center_swap": 100,
+        "outside_spokes_at_ambient_degree_ten_bound": true,
+        "all_outside_to_unremoved_and_outside_to_outside_edges_allowed": true,
+        "negative_controls": {
+          "empty_cover": true,
+          "duplicate_triangle": true,
+          "missing_outer_rim": true,
+          "missing_outside_spoke": true
+        },
+        "case_counts": {
+          "opposite_base": 125,
+          "opposite_ac": 150,
+          "opposite_two_cross_equal": 13,
+          "opposite_bd_equal": 39,
+          "opposite_full_equal": 13,
+          "opposite_two_cross_distinct": 12,
+          "opposite_ad_distinct": 24,
+          "opposite_bc_distinct": 12,
+          "opposite_full_distinct": 12,
+          "same_base": 125,
+          "same_ad": 150,
+          "same_bc": 75,
+          "same_two_cross_equal": 13,
+          "same_two_cross_distinct": 12
+        },
+        "proof_sha256": "86acf570c7cd34c9f0f3489e9877ca8321c21d5e362cd59817a896837830edf6",
+        "seconds": 2.4596450328826904
+      },
+      "source_files": {
+        "tuza_degree10_c6_K24_private_edges_human_check.py": {
+          "sha256": "ee6d759af16e8dc719f3e8c38fe804d12edb7784722c76b875249ae62e4c04d9",
+          "bytes": 5795
+        }
+      },
+      "log_file": "publication_k24_private.log",
+      "log_sha256": "1eb9eda857decd5046bfb25616b6d2383b14d5cb2da2ed6900dba60efab86ed2",
+      "published_report": "verification/reports/common6_K24_two_private_edges/tuza_degree10_c6_K24_private_edges_human_verified.json",
+      "published_log": "verification/reports/common6_K24_two_private_edges/publication_k24_private.log"
+    },
+    {
+      "name": "common6_K24_one_private_edge",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c6_K24_one_private_edge_human_check.py > publication_k24_one_private.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c6_K24_one_private_edge_human_verified.json",
+      "report_sha256": "f2b5ca98631b3038cdcbf475f1370e2de9a0d6a172f967276577f92b6351ec67",
+      "report_bytes": 722,
+      "duration_seconds": 0.8426549434661865,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "status": "PASS",
+        "private_profiles": 3,
+        "absence_choices": 5,
+        "cross_choices": 16,
+        "constructive_patterns": 240,
+        "original_ordered_side_pairs": 60,
+        "degree_four_vertices_induce_forest": true,
+        "proper_four_colors_found_directly": true,
+        "maximum_degree_ten_outside_allowance_all_used": true,
+        "unknown_outside_edges_all_allowed": true,
+        "negative_controls": {
+          "empty_cover": true,
+          "duplicate_triangle": true,
+          "missing_packed_outer_rim": true,
+          "missing_outside_spoke": true
+        },
+        "proof_sha256": "6ff07c7f1b4c479a6dabb1f7f5c0ed049eb0fb116a4a255a227b114538647fb2",
+        "seconds": 0.8426549434661865
+      },
+      "source_files": {
+        "tuza_degree10_c6_K24_one_private_edge_human_check.py": {
+          "sha256": "3ad259923847795670179a6b7c75fedef70ab614e7e4175b9e90da2c51a4afce",
+          "bytes": 4870
+        }
+      },
+      "log_file": "publication_k24_one_private.log",
+      "log_sha256": "fedcab49f91347ddd5211e1891731e15ff35a02622f4dd1ac32bf6fe7de7d65a",
+      "published_report": "verification/reports/common6_K24_one_private_edge/tuza_degree10_c6_K24_one_private_edge_human_verified.json",
+      "published_log": "verification/reports/common6_K24_one_private_edge/publication_k24_one_private.log"
+    },
+    {
+      "name": "common6_K24_full_leaf",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c6_K24_full_leaf_human_check.py > publication_k24_full_leaf.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c6_K24_full_leaf_human_verified.json",
+      "report_sha256": "6a8d0bc422bde3bd0c75d9ee8aa7876f9cedfe4f937b3094e048f39cc9af77d7",
+      "report_bytes": 698,
+      "duration_seconds": 0.32385706901550293,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "status": "PASS",
+        "ordered_private_profiles": 9,
+        "cross_patterns": 16,
+        "constructive_reductions": 144,
+        "maximum_degree_four_remainder": true,
+        "degree_four_vertices_induce_forest": true,
+        "proper_four_colors_found_directly": true,
+        "outside_leaf_spokes_at_degree_ten_bound": 8,
+        "all_unknown_outside_edges_allowed": true,
+        "negative_controls": {
+          "empty_cover": true,
+          "duplicate_triangle": true,
+          "missing_outer_rim": true,
+          "missing_outside_spoke": true
+        },
+        "proof_sha256": "ba7bceef633e04e8fc6f7cd126de0107b260941b0482b5fe478e713dfb72ef09",
+        "seconds": 0.32385706901550293
+      },
+      "source_files": {
+        "tuza_degree10_c6_K24_full_leaf_human_check.py": {
+          "sha256": "585e7c8534ba46f63c8de72060f2622fefdb880be24d41f86f9db388731b918e",
+          "bytes": 4236
+        }
+      },
+      "log_file": "publication_k24_full_leaf.log",
+      "log_sha256": "2d5ca9b9d25310f61a5e3aef3ecad6e308493a4bec6bba6452b666eb8e1e0401",
+      "published_report": "verification/reports/common6_K24_full_leaf/tuza_degree10_c6_K24_full_leaf_human_verified.json",
+      "published_log": "verification/reports/common6_K24_full_leaf/publication_k24_full_leaf.log"
+    },
+    {
+      "name": "common6_K24_two_leaf",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c6_K24_two_leaf_human_check.py > publication_k24_two_leaf.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c6_K24_two_leaf_human_verified.json",
+      "report_sha256": "c3438922a58e109b2c78a1f0a3610f288b6bd97c20acf64fb24f643e99cb3a04",
+      "report_bytes": 635,
+      "duration_seconds": 0.04649019241333008,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "status": "PASS",
+        "private_edge_patterns": 64,
+        "same_packing_and_cover_for_all_patterns": true,
+        "packing_size": 10,
+        "local_cover_size": 16,
+        "outside_spokes_at_degree_ten_bound": 4,
+        "all_outside_to_unremoved_and_outside_to_outside_edges_allowed": true,
+        "negative_controls": {
+          "empty_cover": true,
+          "duplicate_triangle": true,
+          "missing_packed_outer_rim": true,
+          "missing_outside_spoke": true
+        },
+        "proof_sha256": "3a54ecd4a2be4b37593c7fa82b801e718856f3e63be39332de7de969aa5f6297",
+        "seconds": 0.04649019241333008
+      },
+      "source_files": {
+        "tuza_degree10_c6_K24_two_leaf_human_check.py": {
+          "sha256": "60e767319a2f6675952d4eb78df0b5425ac7f56b6e6452bd8fd7537af1bf16d9",
+          "bytes": 2655
+        }
+      },
+      "log_file": "publication_k24_two_leaf.log",
+      "log_sha256": "03cbb1828398d54ef2ce5d6d95dc9c50730f816299784d658b67a4362c8a0242",
+      "published_report": "verification/reports/common6_K24_two_leaf/tuza_degree10_c6_K24_two_leaf_human_verified.json",
+      "published_log": "verification/reports/common6_K24_two_leaf/publication_k24_two_leaf.log"
+    },
+    {
+      "name": "common7_core",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c7_core_check.py > publication_c7_core.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c7_core_verified.json",
+      "report_sha256": "4b82146751720544a02450501e82bcf2dd8f828da76cd88729c61a21749f3cb1",
+      "report_bytes": 230,
+      "duration_seconds": null,
+      "duration_kind": "not recorded by checker",
+      "metrics": {
+        "result": "PASS",
+        "full_core_types": 1044,
+        "spare_counts": {
+          "4": 419,
+          "3": 897,
+          "2": 1027
+        },
+        "negative_controls": 1,
+        "payload_sha256": "1f06cb4c7654343289ae3a2cece3e73caa9b4ad5cd58dd04d353daf120023b4c"
+      },
+      "source_files": {
+        "tuza_degree10_c7_core_check.py": {
+          "sha256": "ef758d2144bc703e30f5aa3a6f7bb3a0d756a41c9f77186daacfd8997df90a52",
+          "bytes": 1909
+        }
+      },
+      "log_file": "publication_c7_core.log",
+      "log_sha256": "92d615daa170ab507d3c2c75b34a5fd0d23947b3e032212f9064eb9dff529b18",
+      "published_report": "verification/reports/common7_core/tuza_degree10_c7_core_verified.json",
+      "published_log": "verification/reports/common7_core/publication_c7_core.log"
+    },
+    {
+      "name": "common7_sides",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c7_side_check.py > publication_c7_side.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c7_side_verified.json",
+      "report_sha256": "456b5699f2e490372f4776a193b130eaae33501264d5f232d28022a2d3b0895b",
+      "report_bytes": 468,
+      "duration_seconds": 38.6868839263916,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "result": "PASS",
+        "full_core_types": 1044,
+        "residual_core_types": 625,
+        "all_legal_single_side_patterns": 13546254,
+        "remaining_single_side_patterns": 4473122,
+        "positive_WKE_intervals": 140073,
+        "positive_cone_witnesses": 520,
+        "negative_controls": 2,
+        "domain_sha256": "cc9d6f8ea63ca678d5e17d0fa22742aa250b719e8e7113cacbb7e747c7213c55",
+        "WKE_sha256": "ed035502f0ab7724fef8719c6e090fae8f67cc56f2eba447c61d8964688e8dad",
+        "seconds": 38.6868839263916
+      },
+      "source_files": {
+        "tuza_degree10_c7_side_check.py": {
+          "sha256": "2665540026e4490c3e2e3fd7394c106d95d7356f2bb2b5c24a3bc24403193770",
+          "bytes": 5657
+        }
+      },
+      "log_file": "publication_c7_side.log",
+      "log_sha256": "10742a719d0e7f63320bb24c47579930e2e5bb046211dd12c502340376ed5b66",
+      "published_report": "verification/reports/common7_sides/tuza_degree10_c7_side_verified.json",
+      "published_log": "verification/reports/common7_sides/publication_c7_side.log"
+    },
+    {
+      "name": "common7_full_coverage",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c7_check.py work/tuza_degree10_c7_compressed_certificates.json > publication_c7_full.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c7_compressed_verified.json",
+      "report_sha256": "1390f4d3743b0ac47edd8d5dded245623755f42b9e29cf88eb2ebe6c085842fb",
+      "report_bytes": 689,
+      "duration_seconds": 982.0706720352173,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "result": "PASS",
+        "full_common_core_types": 1044,
+        "residual_core_types": 625,
+        "new_complete_lanes": 662,
+        "labelled_ordered_contact_models": {
+          "22": 54317112733,
+          "12": 76985635,
+          "02": 52129
+        },
+        "literal_certificates": 22740,
+        "certificate_types": {
+          "ordinary_pair": 22024,
+          "matching_augmentation": 713,
+          "common_subset_cut": 3
+        },
+        "negative_controls": 2,
+        "core_sha256": "1f06cb4c7654343289ae3a2cece3e73caa9b4ad5cd58dd04d353daf120023b4c",
+        "domain_sha256": "cc9d6f8ea63ca678d5e17d0fa22742aa250b719e8e7113cacbb7e747c7213c55",
+        "residual_sha256": "1b53b1ae4eb7d17b20d812758f2ffa0e3776fc928f78f44d6ee81147139b19e5",
+        "seconds": 982.0706720352173
+      },
+      "source_files": {
+        "tuza_degree10_c7_check.py": {
+          "sha256": "ecf1f3012440c5e439ff4e93b228c631ae48eb97aaf80e2df3cfb45cc12598af",
+          "bytes": 10760
+        }
+      },
+      "log_file": "publication_c7_full.log",
+      "log_sha256": "dc7cbec86b519afc1a87554e82c33052307d6d0f15ee6eecea8d6e840f48d40f",
+      "published_report": "verification/reports/common7_full_coverage/tuza_degree10_c7_compressed_verified.json",
+      "published_log": "verification/reports/common7_full_coverage/publication_c7_full.log"
+    },
+    {
+      "name": "common8_core",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c8_core_check.py > publication_c8_core.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c8_core_check.json",
+      "report_sha256": "8967fbb2db5648e5033960ebd0b82b74b4fb3666d51fd500d5ccd27379aadf52",
+      "report_bytes": 243,
+      "duration_seconds": null,
+      "duration_kind": "not recorded by checker",
+      "metrics": {
+        "full_core_types": 12346,
+        "unconditional_spare_two_certificates": 12116,
+        "residual_core_types": 230,
+        "negative_controls": 1,
+        "payload_sha256": "d0d37606040292541c990a7a76281d87f71ed9c259abf98e7689ae86e11520d7",
+        "result": "PASS"
+      },
+      "source_files": {
+        "tuza_degree10_c8_core_check.py": {
+          "sha256": "7eaaa68f7c23a05d5d7bb5084861c25e7d4e486b3a69374b457dad99d58ca679",
+          "bytes": 1917
+        }
+      },
+      "log_file": "publication_c8_core.log",
+      "log_sha256": "75e563dad88e26ec569cc6e480ed972e4a097522f75ebbb44327109b5e655d6b",
+      "published_report": "verification/reports/common8_core/tuza_degree10_c8_core_check.json",
+      "published_log": "verification/reports/common8_core/publication_c8_core.log"
+    },
+    {
+      "name": "common8_full_coverage",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c8_residual_check.py > publication_c8_full.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c8_verified.json",
+      "report_sha256": "b9d016aa4eff6480eb1b255e83e9156503c24e894271079954ca25eeae78657a",
+      "report_bytes": 527,
+      "duration_seconds": 635.065712928772,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "result": "PASS",
+        "core_types": 12346,
+        "unconditional_spare_two": 12116,
+        "residual_core_types": 230,
+        "interval_certificates": 11579,
+        "residual_labelled_unordered_pairs": 2877937,
+        "residual_labelled_mixed_models": 30356,
+        "excluded_no_side_cores": 39,
+        "certificate_cores": 191,
+        "negative_controls": 2,
+        "core_sha256": "d0d37606040292541c990a7a76281d87f71ed9c259abf98e7689ae86e11520d7",
+        "residual_sha256": "08d32216454945b8c2d1afac3b0421b92f00e9cca19dda6339d1cb81dd5ba59e",
+        "seconds": 635.065712928772
+      },
+      "source_files": {
+        "tuza_degree10_c8_residual_check.py": {
+          "sha256": "72303bad1da77914d7b9b18801798f68fb5bf547157e502b725788f447d2e6a1",
+          "bytes": 6033
+        }
+      },
+      "log_file": "publication_c8_full.log",
+      "log_sha256": "a3efef748ca9d32049bbab54344fcbba656ecb91055c3ef52bd8d81bfa57c829",
+      "published_report": "verification/reports/common8_full_coverage/tuza_degree10_c8_verified.json",
+      "published_log": "verification/reports/common8_full_coverage/publication_c8_full.log"
+    },
+    {
+      "name": "common9_dense_constructions",
+      "kind": "fresh_recomputation",
+      "status": "PASS_COMPLETE_CONSTRUCTIONS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c9_dense_human_check.py > publication_c9_dense.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c9_dense_human_certificates.json",
+      "report_sha256": "295a4af340f9f86882a99ed87927e4cca66b8add76c2435ec5b30ac693c30c86",
+      "report_bytes": 108763,
+      "duration_seconds": null,
+      "duration_kind": "not recorded by checker",
+      "metrics": {
+        "core_counts_by_missing_edges": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 5,
+          "4": 11,
+          "5": 25
+        },
+        "complete": true,
+        "record_count": 45
+      },
+      "source_files": {
+        "tuza_degree10_c9_dense_human_check.py": {
+          "sha256": "0b03269bcbaefcd107007a4caf25240553ca493d885d16114b50b0ed72ab89a0",
+          "bytes": 3095
+        }
+      },
+      "log_file": "publication_c9_dense.log",
+      "log_sha256": "414ead92b54f00fd96b960839b3a7d52e60e5a3c2e3fa51bd63ccbfae2c18cba",
+      "published_report": "verification/reports/common9_dense_constructions/tuza_degree10_c9_dense_human_certificates.json",
+      "published_log": "verification/reports/common9_dense_constructions/publication_c9_dense.log"
+    },
+    {
+      "name": "common9_full_coverage",
+      "kind": "fresh_recomputation",
+      "status": "PASS",
+      "command": "/Users/balamurugankandasamy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/tuza_degree10_c9_check.py > publication_c9_full.log 2>&1",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "report_file": "work/tuza_degree10_c9_verified.json",
+      "report_sha256": "f8fb91a55546b228bb262b6ecd233c8a2a13f8aec4d9022d3b28f37cf04a1a3c",
+      "report_bytes": 665,
+      "duration_seconds": 2.8643131256103516,
+      "duration_kind": "checker-reported elapsed time",
+      "metrics": {
+        "result": "PASS",
+        "full_common9_types": 274668,
+        "lifted_spare_two_types": 274429,
+        "sparse_human_types": 5,
+        "residual_types": 234,
+        "residual_pair_certificates": 190,
+        "residual_cut_certificates": 0,
+        "residual_dense_human_types": 44,
+        "dense_human_missing_graph_types": 45,
+        "independent_python_deleted_subgraphs_checked": 4626,
+        "negative_controls": 2,
+        "core_sha256": "d0d37606040292541c990a7a76281d87f71ed9c259abf98e7689ae86e11520d7",
+        "residual_sha256": "6a0b97acf1efd349cd830553d1544a4ad22aefa788fda184ae319bd65fecbc68",
+        "human_sha256": "295a4af340f9f86882a99ed87927e4cca66b8add76c2435ec5b30ac693c30c86",
+        "seconds": 2.8643131256103516
+      },
+      "source_files": {
+        "tuza_degree10_c9_check.py": {
+          "sha256": "a4eacc47598f7a5ab50c5d86a4b6c81767af50737c82b99a86658cb28d4c3f44",
+          "bytes": 5795
+        }
+      },
+      "log_file": "publication_c9_full.log",
+      "log_sha256": "0948d6902d0e824c81b1dc5b368b74217338de68f6ac0bf207f1ceaec1f63cbd",
+      "published_report": "verification/reports/common9_full_coverage/tuza_degree10_c9_verified.json",
+      "published_log": "verification/reports/common9_full_coverage/publication_c9_full.log"
+    },
+    {
+      "name": "common4_small_raw_domains",
+      "kind": "fresh_source_compilation_and_recomputation",
+      "status": "PASS",
+      "command": "/usr/bin/clang -O3 work/tuza_degree9_c4_side_direct.c -o c4_direct; ./c4_direct 7; ./c4_direct 8; ./c4_direct 9",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "source_files": {
+        "tuza_degree9_c4_side_direct.c": {
+          "sha256": "3849b5ad5b48805b8803d8b8bdf7c427f1b15abbafdf6590139c7788f7e73f0b",
+          "bytes": 2817
+        }
+      },
+      "commands": [
+        "/usr/bin/clang -O3 work/tuza_degree9_c4_side_direct.c -o /tmp/tuza-publication-quick/c4_direct",
+        "/tmp/tuza-publication-quick/c4_direct 7 > publication_c4_side7.txt 2>publication_c4_side7.log",
+        "/tmp/tuza-publication-quick/c4_direct 8 > publication_c4_side8.txt 2>publication_c4_side8.log",
+        "/tmp/tuza-publication-quick/c4_direct 9 > publication_c4_side9.txt 2>publication_c4_side9.log",
+        "cmp publication_c4_side7.txt work/tuza_degree9_c4_side_direct7_audit.txt",
+        "cmp publication_c4_side8.txt work/tuza_degree9_c4_side_direct8_audit.txt",
+        "cmp publication_c4_side9.txt work/tuza_degree9_c4_side_direct9.txt"
+      ],
+      "duration_seconds": null,
+      "duration_kind": "not recorded by checker",
+      "metrics": {
+        "orders": [
+          7,
+          8,
+          9
+        ],
+        "side_counts": [
+          48,
+          58,
+          6836
+        ],
+        "exact_saved_domain_bytes_reproduced": true
+      },
+      "published_comparison": "verification/reports/common4_small_raw_domains/exact_domain_comparisons.json"
+    },
+    {
+      "name": "common5_fresh_raw_domain",
+      "kind": "fresh_source_compilation_and_recomputation",
+      "status": "PASS",
+      "command": "/usr/bin/clang++ -O3 -std=c++17 work/tuza_degree10_c5_source_independent.cpp -o c5_source_check; /opt/homebrew/bin/geng -q -c -D5 10 | ./c5_source_check",
+      "working_directory": "/tmp/tuza-publication-quick",
+      "source_files": {
+        "tuza_degree10_c5_source_independent.cpp": {
+          "sha256": "d7ba6a7d3b2ccc1762bc4cf9d615680ce88fb199128ba200d42b05fb5c80e727",
+          "bytes": 5406
+        }
+      },
+      "commands": [
+        "/usr/bin/clang++ -O3 -std=c++17 work/tuza_degree10_c5_source_independent.cpp -o /tmp/tuza-publication-quick/c5_source_check",
+        "set -o pipefail",
+        "/opt/homebrew/bin/geng -q -c -D5 10 | /tmp/tuza-publication-quick/c5_source_check > publication_c5_fresh_domain.json 2>publication_c5_fresh_domain.log",
+        "Compare full_sides and density_sides from the regenerated JSON to the two archived order10 catalogue core_sides dictionaries."
+      ],
+      "report_file": "publication_c5_fresh_domain_verified.json",
+      "report_sha256": "348297f7f94807bb1cad31291bf6f19281216244a4638d4ac936892c536bd00b",
+      "duration_seconds": 19.173,
+      "duration_kind": "CPU time",
+      "metrics": {
+        "all_connected_maxdegree5_links": 1156842,
+        "nonWKE_links": 30403,
+        "rooted_ports": 143536,
+        "density_selected_ports": 57160,
+        "total_full_sides": 405914,
+        "total_density_sides": 143538,
+        "cpu_seconds": 19.173,
+        "status": "PASS",
+        "full_and_density_catalogue_match": true
+      },
+      "published_report": "verification/reports/common5_fresh_raw_domain/publication_c5_fresh_domain_verified.json",
+      "published_log": "verification/reports/common5_fresh_raw_domain/publication_c5_fresh_domain.log",
+      "generated_catalogue_not_duplicated": true,
+      "log_sha256": "7716b62dc351bd3eb889870c76ef90a42b856fab718af1c50e156b6372aacc5f"
+    }
+  ],
+  "saved_integrity_checks": [
+    {
+      "name": "restore_and_global_scope",
+      "kind": "saved_report_integrity_and_scope",
+      "status": "PASS",
+      "commands": [
+        "python3 work/tuza_degree10_restore_inputs.py",
+        "python3 work/tuza_degree10_global_root_check.py"
+      ],
+      "report_sha256": "78960155da3a4dbe98b1403dd898c9323ff91aa517b1a83f9bf35253ac031e79",
+      "required_endpoint_lanes": 40,
+      "completed_endpoint_lanes": 40,
+      "common6_lanes": 780,
+      "published_report": "verification/reports/saved_integrity/global-root-verified.json",
+      "archive_basis": "original_snapshot"
+    },
+    {
+      "name": "archives_and_manifests",
+      "kind": "saved_archive_integrity",
+      "status": "PASS",
+      "companion_manifest_members": 14,
+      "verification_manifest_members": 434,
+      "zip_corruption": null,
+      "hash_or_size_mismatches": 0,
+      "archive_basis": "original_snapshot"
+    },
+    {
+      "name": "inherited_archive_members",
+      "kind": "saved_archive_member_integrity",
+      "status": "PASS",
+      "command": "python3 work/tuza_degree10_inherited_archive_check.py",
+      "literal_source_members_bound": 19,
+      "published_report": "verification/reports/saved_integrity/inherited-archive-bindings.json",
+      "archive_basis": "original_snapshot"
+    }
+  ],
+  "sensitive_material_scan": {
+    "status": "PASS",
+    "scope": "All staged text files and recursively nested archive text before publication",
+    "counts": {
+      "text_files": 2075,
+      "archives": 8
+    },
+    "matches": [],
+    "values_not_recorded": true,
+    "incremental_scan": {
+      "status": "PASS",
+      "scope": "Fresh reports, logs, input derivative and deterministic generator added after initial staged scan",
+      "files_scanned": 65,
+      "matches": [],
+      "values_not_recorded": true
+    },
+    "companion_archive_scan": {
+      "status": "PASS",
+      "text_files_scanned": 3485,
+      "archives_scanned": 17,
+      "credential_pattern_matches": [],
+      "values_not_recorded": true,
+      "research_paths_and_author_information_in_scope": true
+    }
+  },
+  "packaging_findings": [
+    {
+      "issue": "Three C4 direct-side inputs absent from initial restore",
+      "resolution": "Restored exact degree9 archive members for orders7,8,9 and independently regenerated their bytes."
+    },
+    {
+      "issue": "Historical C5 final_scope_gate uses absolute temporary snapshot paths",
+      "resolution": "Do not expose the historical promotion script as a replay entry point. Published runner must resolve immutable logical members."
+    },
+    {
+      "issue": "Historical C4 old transfer input omitted from archives",
+      "resolution": "Reconstructed110 explicit witnesses from the byte-bound shared-diagram mappings and verified every literal packing and cover. The two other inputs come from the nested degree8 archive.",
+      "derived_input_sha256": "a828fc7e90fbc3d0b86f6a0c1d1635db8ab3d536eec10715c7c9c55515ce81c3"
+    },
+    {
+      "issue": "Checker assertions can be disabled by Python -O",
+      "resolution": "Publication runner rejects optimized Python."
+    }
+  ],
+  "remaining_computational_failures_identified": [],
+  "duration_note": "Durations use checker-reported elapsed time or CPU time. Null means the checker did not record a duration. Concurrent runs increased elapsed times.",
+  "original_snapshot_sha256": "e5cae614a36b30819248f19436167fa1de97feccbaaa5e9562568628b21debbb",
+  "published_snapshot_sha256": "1c91ac287d56c46065c432fbc6a98835cfe50240b229ade07adc830f04429a5a",
+  "fresh_replay_archive_basis": "Original snapshot. Retained computational leaf members remain byte-identical in the code-only snapshot. Nested ZIP container hashes and the physical manifest changed as recorded in archive-provenance.json.",
+  "public_archive_replays": {
+    "status": "PASS_DEFAULT_AND_C4_ON_PUBLIC_ARCHIVE",
+    "note": "Default and C4 checks will run against the sanitized archive. The long replays need no repetition because all computational member bytes remain unchanged.",
+    "default": {
+      "status": "PASS_COMPLETE_MAXIMUM_DEGREE_TEN_SCOPE_AND_BINDINGS",
+      "command": "python3 verification/run.py",
+      "archive_sha256": "d19310494ec9ed32385faa0132aa88e3032ee5dc563cfd541a65dfee1275142e",
+      "published_report": "verification/reports/public-default/tuza_degree10_global_root_verified.json",
+      "report_sha256": "25b5ad701eb495fc8dfec25ee8ba13961ac754c0bc2d84fed7d176eba31ea69d",
+      "checker_seconds": 0.5758399963378906,
+      "endpoint_lanes": 40,
+      "common6_lanes": 780,
+      "published_log": "verification/reports/public-default/replay.log",
+      "log_sha256": "25f47c9a3e45b3508abd7fdf68572fb74f51e7ad2acef70cf0917322e8ff587c"
+    },
+    "c4": {
+      "status": "PASS_WITH_INHERITED_TRANSFER_RESTORED",
+      "command": "python3 verification/run.py --case c4",
+      "archive_sha256": "d19310494ec9ed32385faa0132aa88e3032ee5dc563cfd541a65dfee1275142e",
+      "steps": [
+        {
+          "name": "tuza_degree10_c4_old_transfer_check",
+          "status": "PASS",
+          "archive_sha256": "d19310494ec9ed32385faa0132aa88e3032ee5dc563cfd541a65dfee1275142e",
+          "source": "work/tuza_degree10_c4_old_transfer_check.py",
+          "source_sha256": "97e4b28b00519f60e3a5d2a9339bcd57875ecb1713aa739b0e61c645a97e0246",
+          "published_files": [
+            {
+              "path": "verification/reports/public-c4/01_tuza_degree10_c4_old_transfer_check/replay.log",
+              "sha256": "2fa98cea553f6bd711ee28c8236cd4ee08638c090141ab8a1a405a3d8ed85612",
+              "size_bytes": 879
+            },
+            {
+              "path": "verification/reports/public-c4/01_tuza_degree10_c4_old_transfer_check/c4_restoration.json",
+              "sha256": "3e1b7ff8a0abea847c84f468b39861e56fa1e18dd3772b93a8605259d430655c",
+              "size_bytes": 290
+            },
+            {
+              "path": "verification/reports/public-c4/01_tuza_degree10_c4_old_transfer_check/stdout-results.json",
+              "sha256": "f14584bf4597610c7f75e43f435a07fb8f25011a1158f78146f5d13f01620898",
+              "size_bytes": 924
+            }
+          ],
+          "published_log": "verification/reports/public-c4/01_tuza_degree10_c4_old_transfer_check/replay.log",
+          "published_stdout_report": "verification/reports/public-c4/01_tuza_degree10_c4_old_transfer_check/stdout-results.json",
+          "result": {
+            "result": "PASS",
+            "reports": [
+              {
+                "degrees": [
+                  7,
+                  7
+                ],
+                "admitted_canonical_side_pairs": 207,
+                "source_orbits_used": 110,
+                "robustness_exclusions": 0
+              },
+              {
+                "degrees": [
+                  7,
+                  8
+                ],
+                "admitted_canonical_side_pairs": 324,
+                "source_orbits_used": 110,
+                "robustness_exclusions": 0
+              },
+              {
+                "degrees": [
+                  8,
+                  8
+                ],
+                "admitted_canonical_side_pairs": 329,
+                "source_orbits_used": 78,
+                "robustness_exclusions": 18
+              }
+            ],
+            "ambient_maximum_degree_not_used_in_literal_reducers": true,
+            "sole_old_larger_removed_set_excluded_by_maximum_codegree_four": true
+          }
+        },
+        {
+          "name": "tuza_degree10_c4_final_independent",
+          "status": "PASS",
+          "archive_sha256": "d19310494ec9ed32385faa0132aa88e3032ee5dc563cfd541a65dfee1275142e",
+          "source": "work/tuza_degree10_c4_final_independent.py",
+          "source_sha256": "334b62bf2465cfe6e05da90754b6488c4e0b2e88407622c3bf36cd8fcf7a19e3",
+          "published_files": [
+            {
+              "path": "verification/reports/public-c4/02_tuza_degree10_c4_final_independent/replay.log",
+              "sha256": "b2fe493bcd7eedaa26e60bb492e691cab492530736d28547567cefb279643dd2",
+              "size_bytes": 6559
+            },
+            {
+              "path": "verification/reports/public-c4/02_tuza_degree10_c4_final_independent/c4_restoration.json",
+              "sha256": "3e1b7ff8a0abea847c84f468b39861e56fa1e18dd3772b93a8605259d430655c",
+              "size_bytes": 290
+            },
+            {
+              "path": "verification/reports/public-c4/02_tuza_degree10_c4_final_independent/tuza_degree10_c4_lex_independent_verified.json",
+              "sha256": "a177262243f480b4c373bef037664b2e3aa88c8e3196df4122f1ddbb29dd85cb",
+              "size_bytes": 18690
+            },
+            {
+              "path": "verification/reports/public-c4/02_tuza_degree10_c4_final_independent/stdout-results.json",
+              "sha256": "4a926f5d9d010a2fbb7e224799f4a1c57daadb562e911a4cdbe61efd9b1c9245",
+              "size_bytes": 8609
+            }
+          ],
+          "published_log": "verification/reports/public-c4/02_tuza_degree10_c4_final_independent/replay.log",
+          "published_stdout_report": "verification/reports/public-c4/02_tuza_degree10_c4_final_independent/stdout-results.json",
+          "result": {
+            "result": "PASS",
+            "source_file": "work/tuza_degree10_c4_lex_intervals.json",
+            "source_sha256": "12f84d521883e8fce0e39250a00bcb0ab8e857bbe5188d729f005d4bd0d9c296",
+            "all_48_domains_match_initial_catalog": true,
+            "domains": [
+              [
+                7,
+                9,
+                3
+              ],
+              [
+                7,
+                9,
+                7
+              ],
+              [
+                7,
+                9,
+                12
+              ],
+              [
+                7,
+                9,
+                13
+              ],
+              [
+                7,
+                9,
+                30
+              ],
+              [
+                7,
+                10,
+                3
+              ],
+              [
+                7,
+                10,
+                7
+              ],
+              [
+                7,
+                10,
+                12
+              ],
+              [
+                7,
+                10,
+                13
+              ],
+              [
+                7,
+                10,
+                30
+              ],
+              [
+                8,
+                9,
+                7
+              ],
+              [
+                8,
+                9,
+                13
+              ],
+              [
+                8,
+                9,
+                30
+              ],
+              [
+                8,
+                9,
+                31
+              ],
+              [
+                8,
+                10,
+                7
+              ],
+              [
+                8,
+                10,
+                13
+              ],
+              [
+                8,
+                10,
+                30
+              ],
+              [
+                8,
+                10,
+                31
+              ],
+              [
+                9,
+                9,
+                0
+              ],
+              [
+                9,
+                9,
+                1
+              ],
+              [
+                9,
+                9,
+                3
+              ],
+              [
+                9,
+                9,
+                7
+              ],
+              [
+                9,
+                9,
+                11
+              ],
+              [
+                9,
+                9,
+                12
+              ],
+              [
+                9,
+                9,
+                13
+              ],
+              [
+                9,
+                9,
+                15
+              ],
+              [
+                9,
+                9,
+                30
+              ],
+              [
+                9,
+                9,
+                31
+              ],
+              [
+                9,
+                10,
+                0
+              ],
+              [
+                9,
+                10,
+                1
+              ],
+              [
+                9,
+                10,
+                3
+              ],
+              [
+                9,
+                10,
+                7
+              ],
+              [
+                9,
+                10,
+                11
+              ],
+              [
+                9,
+                10,
+                12
+              ],
+              [
+                9,
+                10,
+                13
+              ],
+              [
+                9,
+                10,
+                15
+              ],
+              [
+                9,
+                10,
+                30
+              ],
+              [
+                9,
+                10,
+                31
+              ],
+              [
+                10,
+                10,
+                0
+              ],
+              [
+                10,
+                10,
+                1
+              ],
+              [
+                10,
+                10,
+                3
+              ],
+              [
+                10,
+                10,
+                7
+              ],
+              [
+                10,
+                10,
+                11
+              ],
+              [
+                10,
+                10,
+                12
+              ],
+              [
+                10,
+                10,
+                13
+              ],
+              [
+                10,
+                10,
+                15
+              ],
+              [
+                10,
+                10,
+                30
+              ],
+              [
+                10,
+                10,
+                31
+              ]
+            ],
+            "admitted_models": 1109148,
+            "ordinary_literal_intervals": 1357,
+            "human_forced_cross_cases": 1,
+            "uncovered_after_human_case": 0,
+            "raw_complete_side_counts": {
+              "7": 48,
+              "8": 58,
+              "9": 6836,
+              "10": 3431
+            },
+            "density_side_exclusions": 6779,
+            "literal_private_bound_witnesses": 3594,
+            "negative_controls_rejected": [
+              "empty cover",
+              "duplicate packed triangle",
+              "wrong initial partner cap"
+            ],
+            "scope": "Every maximum-codegree-four selected-edge domain with an endpoint of degree nine or ten, under maximum degree ten. The global proof supplies endpoint degrees at most eight separately, and uses the ambient degree independent order-five component lemma and the human thin-six lemma to establish minimum degree seven and connected links."
+          }
+        },
+        {
+          "name": "tuza_degree10_c4_side_independent_check",
+          "status": "PASS",
+          "archive_sha256": "d19310494ec9ed32385faa0132aa88e3032ee5dc563cfd541a65dfee1275142e",
+          "source": "work/tuza_degree10_c4_side_independent_check.py",
+          "source_sha256": "a87540805a382c174013257d7f663255362159ea1be231e036678556f9954d36",
+          "published_files": [
+            {
+              "path": "verification/reports/public-c4/03_tuza_degree10_c4_side_independent_check/replay.log",
+              "sha256": "4f23a2690d03ad8903a86fac73c1dae223784827d50eb597de3d8c97cefb3462",
+              "size_bytes": 792
+            },
+            {
+              "path": "verification/reports/public-c4/03_tuza_degree10_c4_side_independent_check/c4_restoration.json",
+              "sha256": "3e1b7ff8a0abea847c84f468b39861e56fa1e18dd3772b93a8605259d430655c",
+              "size_bytes": 290
+            },
+            {
+              "path": "verification/reports/public-c4/03_tuza_degree10_c4_side_independent_check/tuza_degree10_c4_side_independent_verified.json",
+              "sha256": "3f7a1f56ce10fb960f4d7baf41cc3584d24fb7b3ae8bab130f8612ec54ff712c",
+              "size_bytes": 481
+            },
+            {
+              "path": "verification/reports/public-c4/03_tuza_degree10_c4_side_independent_check/stdout-results.json",
+              "sha256": "b0e3fa4782d70e0e802d69649c5bd764f9aed535f331d55e08c25616175b12b1",
+              "size_bytes": 667
+            }
+          ],
+          "published_log": "verification/reports/public-c4/03_tuza_degree10_c4_side_independent_check/replay.log",
+          "published_stdout_report": "verification/reports/public-c4/03_tuza_degree10_c4_side_independent_check/stdout-results.json",
+          "result": {
+            "result": "PASS",
+            "fresh_graph_types": 89402,
+            "literal_WKE_witnesses": 89140,
+            "nonWKE_types": 262,
+            "degree_four_roots": 1794,
+            "rooted_side_counts": {
+              "0": 745,
+              "1": 741,
+              "3": 517,
+              "7": 106,
+              "11": 97,
+              "12": 740,
+              "13": 169,
+              "15": 28,
+              "30": 253,
+              "31": 35
+            },
+            "rooted_sides": 3431,
+            "negative_controls": 2,
+            "source_sha256": "aaa1cccb5aca6c85e7d54e240a85ea3262a517c885bd026b7753d58091c3299c",
+            "seconds": 7.672764291986823
+          }
+        }
+      ],
+      "checks_covering_all_residuals": "The final step sequence includes the printed final result with zero uncovered models after the human forced-cross case. The intermediate lexicographic report retains its one declared human residual."
+    },
+    "runner_receipt": {
+      "path": "verification/runner-validation.json",
+      "sha256": "d900fbe512e985e4b43a773f3617f0024278cf49f1f876de18fc602c32ba8663"
+    }
+  },
+  "previous_published_snapshot_sha256": "d19310494ec9ed32385faa0132aa88e3032ee5dc563cfd541a65dfee1275142e",
+  "first_public_archive_sanitization": {
+    "status": "PASS_PUBLIC_SANITIZATION_BYTE_AUDIT",
+    "original_archive_sha256": "e5cae614a36b30819248f19436167fa1de97feccbaaa5e9562568628b21debbb",
+    "public_archive_sha256": "d19310494ec9ed32385faa0132aa88e3032ee5dc563cfd541a65dfee1275142e",
+    "original_member_count": 435,
+    "public_member_count": 434,
+    "removed_members": [
+      "work/tuza_next_puleo_primary/sparse-tuza.tex"
+    ],
+    "changed_retained_members": [
+      "SAVE_MANIFEST.json"
+    ],
+    "added_archive_members": [],
+    "unchanged_retained_members": 433,
+    "all_computational_sources_data_reports_unchanged": true,
+    "all_nested_archives_byte_identical": true,
+    "public_manifest_files_validated": 433,
+    "required_replay_inputs_do_not_reference_removed_member": true,
+    "historical_code_references": [
+      "work/tuza_degree10_c5_finalize_manifest.py"
+    ],
+    "historical_references_are_packaging_only": true,
+    "long_fresh_replay_not_repeated": true,
+    "published_report": "verification/reports/public-archive-audit.json",
+    "provenance_file": "verification/archive-provenance.json",
+    "public_manifest_preserves_every_other_original_field": true
+  },
+  "code_only_packaging": {
+    "status": "PASS_RETAINED_COMPUTATIONAL_BYTES",
+    "archive_sha256": "1c91ac287d56c46065c432fbc6a98835cfe50240b229ade07adc830f04429a5a",
+    "removed_unused_manuscript_editorial_members": 117,
+    "retained_computational_member_comparisons": 1282,
+    "retained_computational_sources_inputs_certificates_reports_unchanged": true,
+    "provenance": "verification/archive-provenance.json",
+    "historical_replay_reports_describe_their_stated_archive_basis": true,
+    "fresh_package_checks": [
+      {
+        "name": "saved",
+        "result": "PASS",
+        "cases": [
+          "saved"
+        ],
+        "receipt": "verification/reports/code-only/saved/replay.json",
+        "receipt_sha256": "fddf50cb12afab19a25efd2a592a5d0ce70e60ac11796662bb564ac99607cd83"
+      },
+      {
+        "name": "lemma-3.1-and-c4",
+        "result": "PASS",
+        "cases": [
+          "subcubic",
+          "c4"
+        ],
+        "receipt": "verification/reports/code-only/lemma-3.1-and-c4/replay.json",
+        "receipt_sha256": "13bef5b3c04b520e3336720613eb7d286fb08108ca3bdb442053ad50a49057f5"
+      }
+    ]
+  }
+}

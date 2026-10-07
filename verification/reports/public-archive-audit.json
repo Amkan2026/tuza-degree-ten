@@ -1,0 +1,25 @@
+{
+  "status": "PASS_PUBLIC_SANITIZATION_BYTE_AUDIT",
+  "original_archive_sha256": "e5cae614a36b30819248f19436167fa1de97feccbaaa5e9562568628b21debbb",
+  "public_archive_sha256": "d19310494ec9ed32385faa0132aa88e3032ee5dc563cfd541a65dfee1275142e",
+  "original_member_count": 435,
+  "public_member_count": 434,
+  "removed_members": [
+    "work/tuza_next_puleo_primary/sparse-tuza.tex"
+  ],
+  "changed_retained_members": [
+    "SAVE_MANIFEST.json"
+  ],
+  "added_archive_members": [],
+  "unchanged_retained_members": 433,
+  "all_computational_sources_data_reports_unchanged": true,
+  "all_nested_archives_byte_identical": true,
+  "public_manifest_files_validated": 433,
+  "required_replay_inputs_do_not_reference_removed_member": true,
+  "historical_code_references": [
+    "work/tuza_degree10_c5_finalize_manifest.py"
+  ],
+  "historical_references_are_packaging_only": true,
+  "long_fresh_replay_not_repeated": true,
+  "public_manifest_preserves_every_other_original_field": true
+}

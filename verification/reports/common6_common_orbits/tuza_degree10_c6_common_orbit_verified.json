@@ -1,0 +1,949 @@
+{
+  "status": "PASS",
+  "method": "Decode each graph6 string directly, relabel every H by all 720 permutations, require pairwise disjoint orbits and equality with all 2^15 edge masks",
+  "common_graph_types": 156,
+  "all_labelled_six_vertex_graphs": 32768,
+  "all_graph6_H_labels_consistent": true,
+  "all_orbits_pairwise_disjoint": true,
+  "full_common_graph_domain": true,
+  "density_domain_sha256": "803fc4e48fb519d082ec5bab6a39f9159e83e18696b6f873c4c83aaeeed9accc",
+  "source_sha256": "82ddbc639925938250aa9b59340c1fdd1d1a940acb11ac1a218c6fd8dae34775",
+  "records": [
+    {
+      "g6": "E???",
+      "edges": 0,
+      "labelled_orbit_size": 1,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?A?",
+      "edges": 1,
+      "labelled_orbit_size": 15,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?B?",
+      "edges": 2,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?B_",
+      "edges": 3,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?Bo",
+      "edges": 4,
+      "labelled_orbit_size": 30,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?Bw",
+      "edges": 5,
+      "labelled_orbit_size": 6,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?`?",
+      "edges": 2,
+      "labelled_orbit_size": 45,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?b?",
+      "edges": 3,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?`_",
+      "edges": 3,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?aG",
+      "edges": 3,
+      "labelled_orbit_size": 20,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?b_",
+      "edges": 4,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?`o",
+      "edges": 4,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?bG",
+      "edges": 4,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?bo",
+      "edges": 5,
+      "labelled_orbit_size": 120,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?bg",
+      "edges": 5,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?bw",
+      "edges": 6,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?r?",
+      "edges": 4,
+      "labelled_orbit_size": 45,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?oo",
+      "edges": 4,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?r_",
+      "edges": 5,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?qo",
+      "edges": 5,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?rG",
+      "edges": 5,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?qg",
+      "edges": 5,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?ow",
+      "edges": 5,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?ro",
+      "edges": 6,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?rg",
+      "edges": 6,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?qw",
+      "edges": 6,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?rw",
+      "edges": 7,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?z_",
+      "edges": 6,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?zO",
+      "edges": 6,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?zo",
+      "edges": 7,
+      "labelled_orbit_size": 120,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?zg",
+      "edges": 7,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?zW",
+      "edges": 7,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?zw",
+      "edges": 8,
+      "labelled_orbit_size": 120,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?~o",
+      "edges": 8,
+      "labelled_orbit_size": 15,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E?~w",
+      "edges": 9,
+      "labelled_orbit_size": 15,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECO_",
+      "edges": 3,
+      "labelled_orbit_size": 15,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECR?",
+      "edges": 4,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECQ_",
+      "edges": 4,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECQO",
+      "edges": 4,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECR_",
+      "edges": 5,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECRO",
+      "edges": 5,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECQo",
+      "edges": 5,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECRo",
+      "edges": 6,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECRW",
+      "edges": 6,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECRw",
+      "edges": 7,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECpO",
+      "edges": 5,
+      "labelled_orbit_size": 72,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECr_",
+      "edges": 6,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECrO",
+      "edges": 6,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECpo",
+      "edges": 6,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECrG",
+      "edges": 6,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECqg",
+      "edges": 6,
+      "labelled_orbit_size": 120,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECro",
+      "edges": 7,
+      "labelled_orbit_size": 720,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECrg",
+      "edges": 7,
+      "labelled_orbit_size": 720,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECrW",
+      "edges": 7,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECrw",
+      "edges": 8,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECZ?",
+      "edges": 5,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECX_",
+      "edges": 5,
+      "labelled_orbit_size": 45,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECYO",
+      "edges": 5,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECZ_",
+      "edges": 6,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECZO",
+      "edges": 6,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECZG",
+      "edges": 6,
+      "labelled_orbit_size": 720,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECXg",
+      "edges": 6,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECYW",
+      "edges": 6,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECZo",
+      "edges": 7,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECZg",
+      "edges": 7,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECZW",
+      "edges": 7,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECZw",
+      "edges": 8,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECeW",
+      "edges": 6,
+      "labelled_orbit_size": 15,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECfo",
+      "edges": 7,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECfW",
+      "edges": 7,
+      "labelled_orbit_size": 120,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECfw",
+      "edges": 8,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECxo",
+      "edges": 7,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECzo",
+      "edges": 8,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECzg",
+      "edges": 8,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECzW",
+      "edges": 8,
+      "labelled_orbit_size": 720,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECxw",
+      "edges": 8,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECzw",
+      "edges": 9,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECvo",
+      "edges": 8,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECvW",
+      "edges": 8,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECuw",
+      "edges": 8,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ECvw",
+      "edges": 9,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EC~o",
+      "edges": 9,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EC~w",
+      "edges": 10,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEr_",
+      "edges": 7,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EErO",
+      "edges": 7,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEro",
+      "edges": 8,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EErW",
+      "edges": 8,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EErw",
+      "edges": 9,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEh_",
+      "edges": 6,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEj_",
+      "edges": 7,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEio",
+      "edges": 7,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEho",
+      "edges": 7,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEiW",
+      "edges": 7,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEhW",
+      "edges": 7,
+      "labelled_orbit_size": 720,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEjo",
+      "edges": 8,
+      "labelled_orbit_size": 720,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEjW",
+      "edges": 8,
+      "labelled_orbit_size": 720,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEhw",
+      "edges": 8,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEjw",
+      "edges": 9,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEz_",
+      "edges": 8,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEzO",
+      "edges": 8,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEzo",
+      "edges": 9,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEzg",
+      "edges": 9,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEzw",
+      "edges": 10,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEvo",
+      "edges": 9,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEvW",
+      "edges": 9,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEuw",
+      "edges": 9,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEvw",
+      "edges": 10,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEno",
+      "edges": 9,
+      "labelled_orbit_size": 720,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EElw",
+      "edges": 9,
+      "labelled_orbit_size": 120,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EEnw",
+      "edges": 10,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EE~w",
+      "edges": 11,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EFz_",
+      "edges": 9,
+      "labelled_orbit_size": 10,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EFzo",
+      "edges": 10,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EFzW",
+      "edges": 10,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EFzw",
+      "edges": 11,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EF~w",
+      "edges": 12,
+      "labelled_orbit_size": 20,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQhO",
+      "edges": 6,
+      "labelled_orbit_size": 10,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQj_",
+      "edges": 7,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQjO",
+      "edges": 7,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQig",
+      "edges": 7,
+      "labelled_orbit_size": 15,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQjo",
+      "edges": 8,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQjg",
+      "edges": 8,
+      "labelled_orbit_size": 120,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQjw",
+      "edges": 9,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQzO",
+      "edges": 8,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQzo",
+      "edges": 9,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQzg",
+      "edges": 9,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQzW",
+      "edges": 9,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQyw",
+      "edges": 9,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQzw",
+      "edges": 10,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQ~o",
+      "edges": 10,
+      "labelled_orbit_size": 45,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EQ~w",
+      "edges": 11,
+      "labelled_orbit_size": 45,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EUZ_",
+      "edges": 8,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EUZO",
+      "edges": 8,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EUZo",
+      "edges": 9,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EUZw",
+      "edges": 10,
+      "labelled_orbit_size": 72,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EUxo",
+      "edges": 9,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EUzo",
+      "edges": 10,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EUzW",
+      "edges": 10,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EUzw",
+      "edges": 11,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EU~w",
+      "edges": 12,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ETzo",
+      "edges": 10,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ETzg",
+      "edges": 10,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ETzw",
+      "edges": 11,
+      "labelled_orbit_size": 360,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ETno",
+      "edges": 10,
+      "labelled_orbit_size": 120,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ETmw",
+      "edges": 10,
+      "labelled_orbit_size": 6,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ETnw",
+      "edges": 11,
+      "labelled_orbit_size": 30,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "ET~w",
+      "edges": 12,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "EV~w",
+      "edges": 13,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E]zo",
+      "edges": 11,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E]zg",
+      "edges": 11,
+      "labelled_orbit_size": 60,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E]yw",
+      "edges": 11,
+      "labelled_orbit_size": 90,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E]zw",
+      "edges": 12,
+      "labelled_orbit_size": 180,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E]~o",
+      "edges": 12,
+      "labelled_orbit_size": 15,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E]~w",
+      "edges": 13,
+      "labelled_orbit_size": 45,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E^~w",
+      "edges": 14,
+      "labelled_orbit_size": 15,
+      "graph6_H_consistent": true
+    },
+    {
+      "g6": "E~~w",
+      "edges": 15,
+      "labelled_orbit_size": 1,
+      "graph6_H_consistent": true
+    }
+  ]
+}

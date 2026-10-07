@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "full_common_core_types": 1044,
+  "residual_core_types": 625,
+  "new_complete_lanes": 662,
+  "labelled_ordered_contact_models": {
+    "22": 54317112733,
+    "12": 76985635,
+    "02": 52129
+  },
+  "literal_certificates": 22740,
+  "certificate_types": {
+    "ordinary_pair": 22024,
+    "matching_augmentation": 713,
+    "common_subset_cut": 3
+  },
+  "negative_controls": 2,
+  "core_sha256": "1f06cb4c7654343289ae3a2cece3e73caa9b4ad5cd58dd04d353daf120023b4c",
+  "domain_sha256": "cc9d6f8ea63ca678d5e17d0fa22742aa250b719e8e7113cacbb7e747c7213c55",
+  "residual_sha256": "1b53b1ae4eb7d17b20d812758f2ffa0e3776fc928f78f44d6ee81147139b19e5",
+  "seconds": 982.0706720352173
+}

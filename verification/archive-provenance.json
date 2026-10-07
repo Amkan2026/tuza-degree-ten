@@ -1,0 +1,859 @@
+{
+  "format": 2,
+  "original_archive_sha256": "e5cae614a36b30819248f19436167fa1de97feccbaaa5e9562568628b21debbb",
+  "previous_public_archive_sha256": "d19310494ec9ed32385faa0132aa88e3032ee5dc563cfd541a65dfee1275142e",
+  "public_archive_sha256": "1c91ac287d56c46065c432fbc6a98835cfe50240b229ade07adc830f04429a5a",
+  "original_archive_preserved_outside_repository": true,
+  "public_package_contains_manuscripts": false,
+  "removed_members": [
+    {
+      "archive": "verification.zip",
+      "path": "outputs/cochain_tuza.tex",
+      "bytes": 126481,
+      "sha256": "b50d066015b8233985a027d4a70c0dc36d66dda8b6a2bc13171bfc03c8590549",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "outputs/tuza_degree10_manuscript_verified.json",
+      "bytes": 3165,
+      "sha256": "513e3be134b56f003ea39487023d7f06a42f2a7fa24d70c9d8e6369a1bba3a26",
+      "reason": "Unused manuscript audit, editorial metadata or packaging script"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "outputs/tuza_degree10_resume.txt",
+      "bytes": 5722,
+      "sha256": "5eb3a2543b04cc3ff8594d59cd2a98ec6a6b8dbf94d84c06c2a212590973a774",
+      "reason": "Unused manuscript audit, editorial metadata or packaging script"
+    },
+    {
+      "archive": "verification.zip::outputs/tuza_degree9_verification.zip::outputs/tuza_degree8_verification.zip",
+      "path": "work/tuza_next_degree7_primary/main.tex",
+      "bytes": 69013,
+      "sha256": "f9a4cdab8a0dfd87aa7755d39269e270afa8c5e514f2aeee1d9713cc67f67e6f",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip::outputs/tuza_degree9_verification.zip::outputs/tuza_degree8_verification.zip",
+      "path": "manuscript.tex",
+      "bytes": 98841,
+      "sha256": "6f0c2a8586dc807268d37147906508c5883934dc4dd043b00fbb67a1c6feb19e",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip::outputs/tuza_degree9_verification.zip::outputs/tuza_degree8_verification.zip",
+      "path": "work/tuza_degree8_current_tex_c6_audit.py",
+      "bytes": 2292,
+      "sha256": "c998b9100cd98a8f7d971bcb7aadea57bd2115a28542eb53f878fd1b2156f133",
+      "reason": "Unused manuscript audit, editorial metadata or packaging script"
+    },
+    {
+      "archive": "verification.zip::outputs/tuza_degree9_verification.zip",
+      "path": "work/tuza_degree8_current_tex_c6_audit.py",
+      "bytes": 2292,
+      "sha256": "c998b9100cd98a8f7d971bcb7aadea57bd2115a28542eb53f878fd1b2156f133",
+      "reason": "Unused manuscript audit, editorial metadata or packaging script"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_assemble_manuscript.py",
+      "bytes": 14117,
+      "sha256": "78813417b6458754526ba4debd80370b556b2dddc287702e09aa9675593c0faa",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_c6_catalogue.tex",
+      "bytes": 10192,
+      "sha256": "0362bc2425a3e4f2e2b83c190796c4b962e1d960ddc75bf40909940c02d523ba",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_c6_catalogue_generate.py",
+      "bytes": 4642,
+      "sha256": "811d87a806c609f98212ac45ec455357b8a33e9baba9105e659efc84c60cdaf2",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_c6_catalogue_verified.json",
+      "bytes": 73801,
+      "sha256": "3a3701515875f38f38cf4aa82b6216451bcba731a96855f893c7ba00795e74db",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_c6_star_sections.tex",
+      "bytes": 11438,
+      "sha256": "d03e65527a3ecdd3cc7a2dfa739634b3d646a0d55c8923b8d7924e2af9b573c4",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_common_variable_interval_lemma.tex",
+      "bytes": 1825,
+      "sha256": "193009b303e6b65a8adf29a4373d554e1e35508b2c75aedfafa90f930f805745",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_final_manuscript_scope_review.json",
+      "bytes": 4486,
+      "sha256": "b1991f9b98de7e24dd05db583305ca73205d08274607f7be6aaee5d205591f6a",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_finalize_metadata.py",
+      "bytes": 1590,
+      "sha256": "fe2369dacd300d56d8a50cc36d52b825cf6c70361fdb9a4c0300a92d2bab092d",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_finite_scope_sections.tex",
+      "bytes": 12252,
+      "sha256": "7a81f24d7693832555e055b606368603d4a8c946fb26faa53654f7d1a66e20d0",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_human_high_draft_check.py",
+      "bytes": 4593,
+      "sha256": "bdb8609d5b8ece6164bc6d8cae8ed6e6dff833cf2881def4693bce47d96ad28e",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_human_high_draft_verified.json",
+      "bytes": 1775,
+      "sha256": "3f3c7552973663a0611dcb2c4340b170e8962b0800440e63200eeae2267b3594",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_human_high_sections.tex",
+      "bytes": 16250,
+      "sha256": "ca260e5f8badc91e7b7c794330a4389f82297490aa0541c12829b7aa2a9b3bb6",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_hydrate_saved_inputs.py",
+      "bytes": 1404,
+      "sha256": "54d661dd3349eb64cb81fc1461f72f1f75a6a0e3e7f57b13ca362fd27b2cf839",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_layout_font_metrics.json",
+      "bytes": 67051,
+      "sha256": "010b00bc3605da763648709f6b5862d84caa56a2fb210a0d9aa793a20d0085d6",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_layout_source_review.json",
+      "bytes": 1010,
+      "sha256": "905e159767f17c6c2c370017cce2d0962b0332337ba2240269746fd0b5a07c68",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_low_degree_sections.tex",
+      "bytes": 11815,
+      "sha256": "c3444e026aba51150ab315d76dc0cfeb1593aee3c647ca2ced5aacbd94f5a609",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_low_degree_triangle_review.json",
+      "bytes": 2316,
+      "sha256": "c9f37aeb658ffde7eb54e4408cbfad2cad605cc246c5f82c4b0648945149e49f",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_manuscript_assembled.json",
+      "bytes": 1441,
+      "sha256": "ac161bf3c08ab26bdf1b83b811f0382ae58ce9bcb2d3461920d6aab6c31fbb63",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_manuscript_draft.tex",
+      "bytes": 21935,
+      "sha256": "15835884fb1e1ecc2c486815b679ffb08f4cf560a26b1e0fe5264f4b43f64b78",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_manuscript_integration_notes.txt",
+      "bytes": 4645,
+      "sha256": "bf4b99e314921ebe5a58ae58f85f05c5c5a55390beee7af68de72e1bdac04b4e",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_manuscript_style_review_receipt.json",
+      "bytes": 1233,
+      "sha256": "245078f5f6d823cd277e8a1ce05fc28698759b831c17d867500f63d217fcd2ec",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_refresh_saved_package.py",
+      "bytes": 4919,
+      "sha256": "49438259217c68d97837345017c9ebfbe3a28fa4ff935942b6c248840d9c2997",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_saved_package_check.py",
+      "bytes": 2784,
+      "sha256": "a1cd331e44fe5d7d585e4abe1f20e299f4f671a92d291e53b82f1e8d9dfa27a1",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_selection_tables.tex",
+      "bytes": 2022,
+      "sha256": "563fcdb1ff9af288c7d2a542e4b9fe7b0ecba4b652df7cd1b13dd2f496ccbd93",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_selection_tables_generate.py",
+      "bytes": 3735,
+      "sha256": "23127e7eb5afd8b9983833755bd512fdd75e83582571a20e9209651534717fc6",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_selection_tables_verified.json",
+      "bytes": 1296,
+      "sha256": "53bbcf161994cddfd349bd8ca3fb13e450014b878189fe1da464b2f913d208c8",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_star_witness_tables.tex",
+      "bytes": 3959,
+      "sha256": "1e4d434689431a1e20fbe247d9bacdfb94970c9adbcf1c63d8158752b87ac547",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_star_witness_tables_generate.py",
+      "bytes": 9060,
+      "sha256": "df367149434d5cc180e78718eceedfb48313e3d005467594fbea65122c218777",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/degree10_star_witness_tables_verified.json",
+      "bytes": 8208,
+      "sha256": "ea067188cbccabf51a84d609903a0dcdc0e849a8e4d6247521659066a1f878e4",
+      "reason": "Unused manuscript construction, display or editorial artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/diagrams_audit_source.tex",
+      "bytes": 112585,
+      "sha256": "992d6e6260d87ed22901cde44d39bca72cb9ae9ce5f5d01f9e37d278d1a767ea",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/four_triangle_block_1.tex",
+      "bytes": 1161,
+      "sha256": "5f5120869ac2636f54552566793a5333e49ba193240f547ffb81992088237243",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/four_triangle_block_2.tex",
+      "bytes": 1264,
+      "sha256": "fd94724dc17b43edc5ca22e88f55cbf047b5542b8f3cb0bbd26d6da655f7f09b",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/four_triangle_block_3.tex",
+      "bytes": 1275,
+      "sha256": "92cf03a4fff58878071c2a2a3d9820e3553de7f89cca41527dbba069d94aad66",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/four_triangle_block_4.tex",
+      "bytes": 1264,
+      "sha256": "8e275f5ff36e599d1a8b329baa817e533849b2d7b7c0452cc205aa73249d1dcf",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/four_triangle_block_5.tex",
+      "bytes": 1267,
+      "sha256": "bfe4d0cd72a7ddd46f2310482183ca971ef633928dee75d83737f860b6a9def3",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/four_triangle_blocks.tex",
+      "bytes": 5747,
+      "sha256": "5e612c04a2d373fad95c9eb99e921db1237bf7f5c3ae6df95bf6cff9bd7677d0",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/k11_packing_figure.tex",
+      "bytes": 632,
+      "sha256": "2ce5299c9b5e5c33ce219e7d9a2acdb4d73622e9184443ce84615479d9bc2248",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/k24_opposite_figure.tex",
+      "bytes": 2336,
+      "sha256": "e6dd9f1f0121037e2fa450433ec7613b4f0a49290b40d3be81ab60d2e521fecc",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/k34_packing_figure.tex",
+      "bytes": 1452,
+      "sha256": "80688d90e8cbf685bd771d075d0e0122e6b6b9ec97edb7a4f2c7671ba41cb66a",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/proof_diagram_macros.tex",
+      "bytes": 561,
+      "sha256": "8a2506134ade793e2a895cd4e867e18ecadd49a758b85280710630bf197e2b87",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/revised-text.tex",
+      "bytes": 84272,
+      "sha256": "1e4f3ec722eb114411ec07b6c0cd13ef1c6170d6d4ffd194e6e1808109821eea",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/thin_core_figures.tex",
+      "bytes": 4128,
+      "sha256": "62ca2a9309d95ec07be4b6a3a69c427c1f666ed0ae35f95ae0c2ac49bdf584eb",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_diagram_sources/three_hub_figures.tex",
+      "bytes": 10133,
+      "sha256": "0e36cce0e1af555ee3ee81412815439890c06f08572be2f60c2fd1630ca44182",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_final_diagrams.json",
+      "bytes": 5037,
+      "sha256": "783c409eba65194aa957be849cea1957fa8269e2abc4c7c7cb2c90b5a824ea4a",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_final_rigor.json",
+      "bytes": 4141,
+      "sha256": "566daffc629bd79adcc3daaa1dbdff1827567ed5d91c3ec2df09a0c6abefae2e",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_final_wording.json",
+      "bytes": 2226,
+      "sha256": "0e6c930e7092be03d6e4b11869f0c327b1c867343cec4906b08daa9047a8e674",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_human_edit_wording_amendments.json",
+      "bytes": 15076,
+      "sha256": "c4800f834ff955b063fdcfd957485a987db7289ff1b6f47034a508739abb2566",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_k24_gallery_inputs.json",
+      "bytes": 2188,
+      "sha256": "9ebd8388a50315f8ebf2fcee5af3c06c236edaec619447b09eb56944a184086a",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_make_proof_diagrams.py",
+      "bytes": 16688,
+      "sha256": "038975b86d8e760dd2d2b4b1ea54d5fe86487c4a85c9c5012647689e158379be",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_manuscript.py",
+      "bytes": 32441,
+      "sha256": "bb1ab4b921c1c279b968d08742cd78e8f5229b9b4146b1309c8e13e0afe8352f",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_native_compile.json",
+      "bytes": 335,
+      "sha256": "4380733982b27046086ece9c5634defdbdcb2d03b2b37b0bcb75c1021f2a0ff2",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_prior_manuscript.tex",
+      "bytes": 89697,
+      "sha256": "66c9e5187ae2459d962135a7863f3711c48ce8fc004d26355d81a85b845fdb14",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_prior_manuscript_verified.json",
+      "bytes": 2377,
+      "sha256": "61e9fa0d95e34f4730b2aa59a0d3572c99719d42e943019fe2b9f234a5281843",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_proof_diagrams_verified.json",
+      "bytes": 18387,
+      "sha256": "9afd199422bddcf1dcd31fb6211653b719d82d0e5a1211b7d24ef6262610d25c",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_edit_save.py",
+      "bytes": 7582,
+      "sha256": "0e52862567bd1b93f384fd444dfd753cc0cc72d4e3ca34bb15959f7f4f1f1c9c",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_proof_research/c6_adjacent_missing_edges_independent.tex",
+      "bytes": 3204,
+      "sha256": "64946dcd288c072dbb8b95cf0b72b5e09e1b004ddc56d1e8350e23555aea9e67",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_proof_research/c6_matching_complement_independent.tex",
+      "bytes": 3959,
+      "sha256": "a4c1f1a602fa3e737dba726950069a76951823c5050fd9c687ddee95aa1e4d82",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_proof_research/common_neighborhood_reductions.tex",
+      "bytes": 4424,
+      "sha256": "18cdb16c535ad49f37253b1b0a17bf2fb79ab2809d6ba7bb4f75527926d47174",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_proof_research/degree_six_hall_reduction.tex",
+      "bytes": 3204,
+      "sha256": "64946dcd288c072dbb8b95cf0b72b5e09e1b004ddc56d1e8350e23555aea9e67",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/human_proof_research/subcubic_structural_proof.tex",
+      "bytes": 23441,
+      "sha256": "d1064b754ed661a9188a13e189dfab06281f9c067ad7b35d250978717bb6be86",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/persist_third_structural_research.py",
+      "bytes": 1715,
+      "sha256": "4b46fd9478340a0beb921b178c1e1777e0f05284d10661b772329d9602e4a9b3",
+      "reason": "Unused manuscript audit, editorial metadata or packaging script"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/revision_degree10_figures_geometry_verified.json",
+      "bytes": 350990,
+      "sha256": "18ce87d1f66befc21ef20e9e0fc5518b58ca001b737d491c06255534699e49b7",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/revision_degree10_layout_review.json",
+      "bytes": 5480,
+      "sha256": "234c48738af9a3002165a8b81adb3404c2e45ea3e1b3b491a8b2a74fe46538f0",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/revision_degree10_math_review.json",
+      "bytes": 3891,
+      "sha256": "24dc19e3ab3c985363c9b14cf24996c2a64bdc1aa3d23154124408d3d17dff9d",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/revision_degree10_native_compile.json",
+      "bytes": 388,
+      "sha256": "b24f1b57f78e1a8460cc4072aae89888a1b2d7e02e310daa44c5d45be54a9451",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/revision_degree10_prior_manuscript.tex",
+      "bytes": 98174,
+      "sha256": "44db54bb78bdd6c022249dc68e7d14b76859f5d6b18460df2ab585ba4eb8bec7",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/revision_degree10_prior_manuscript_verified.json",
+      "bytes": 1807,
+      "sha256": "3ee8e4aefbaf0446218c886f7b6e7b4cd70cf3d74ef2b79b3713acfd28dfd957",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/revision_degree10_save.py",
+      "bytes": 8660,
+      "sha256": "bcb53f0bcd33b0cf55ee63a2996280966e747342355f90ba56e28a231f1b8d77",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/revision_degree10_style_review.json",
+      "bytes": 2263,
+      "sha256": "06e92a341fc6c1a5caf60222600cbf5b7e2de547f41dbbeac0a1715927f800f4",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/save_third_research_extension.py",
+      "bytes": 3169,
+      "sha256": "ea702da2d699a8422a729e54e8db20ba5ef02e88b5eeec2c357858d98cd1b64a",
+      "reason": "Unused manuscript audit, editorial metadata or packaging script"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_baseline.tex",
+      "bytes": 112585,
+      "sha256": "992d6e6260d87ed22901cde44d39bca72cb9ae9ce5f5d01f9e37d278d1a767ea",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_diagram_conversion.json",
+      "bytes": 3560,
+      "sha256": "8951912c8b6266ad317d3d96e5eef7cca292c9931a84e3bc84eb707f33a2df9c",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_early_replacements.json",
+      "bytes": 45989,
+      "sha256": "22c0b67b0a383ed776aece822036a8f99db120a25a5e0a32f25a086abda9223e",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_final_amendments.json",
+      "bytes": 3661,
+      "sha256": "5f89cc9eac884d89debc25973c42426305023d546a2b225da9af4b255c0eeb19",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_final_late_review.json",
+      "bytes": 9573,
+      "sha256": "c42fb0ccaad550ed21a8823b186d7aa706ac70460dcc043aad8dca9daa86ee5f",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_final_math_layout_review.json",
+      "bytes": 4925,
+      "sha256": "37c9e38794a5f1198deb4d8db6155f7f00c420a23ec106697d434b94663a7869",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_final_style_review.json",
+      "bytes": 7571,
+      "sha256": "78c21c25c14d3e1c55607306f576106aad84e63a899d8a0efcb4f111d2c75ffe",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_late_replacements.json",
+      "bytes": 63174,
+      "sha256": "a441e1bad00af2b0b7f0e35de39f8b596a88ff92b26068dcf0e9a5e2b5fa4efa",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_literal_math_diagram_preservation.json",
+      "bytes": 931,
+      "sha256": "aa02970d86b05204f87b78bb8abd61299193c21b17ab6c54488d408b15d2c469",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_manuscript.py",
+      "bytes": 13059,
+      "sha256": "d1b40d76d99aaf049e3af96b97e2e8357d0fde5e01a9c19d06bf94e109d73caf",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_math_layout_report.json",
+      "bytes": 8444,
+      "sha256": "851cd11bb8def98a883fe23783008854a096773bd7503d3cb069397bb08440ca",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_native_compile.json",
+      "bytes": 361,
+      "sha256": "ebbfa733f8382f1e35c33f0295b34d520ca28b5553ad4ec9e467f8214e1b7945",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_new_c89_selfcontainment.json",
+      "bytes": 346381,
+      "sha256": "a3eb386d8c0db8a937ec4c4a00c463912f57a489fae413708763fd33f97c03ac",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_new_c89_selfcontainment.tex",
+      "bytes": 4424,
+      "sha256": "18cdb16c535ad49f37253b1b0a17bf2fb79ab2809d6ba7bb4f75527926d47174",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_new_middle_selfcontainment.json",
+      "bytes": 3967,
+      "sha256": "b10bd60b8524bb2c679a63c0f5c98fc41d9846d48787604c6831a3a2eb8274c0",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_new_middle_selfcontainment.tex",
+      "bytes": 3204,
+      "sha256": "64946dcd288c072dbb8b95cf0b72b5e09e1b004ddc56d1e8350e23555aea9e67",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_new_research_saved_files.json",
+      "bytes": 1536,
+      "sha256": "4a096ff413f12a6aba1d6ee868ac5a44f895f14e9966aae810140d84772134a2",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_new_self_containment_status.json",
+      "bytes": 1966,
+      "sha256": "f4cea165eccbec9ced25e541d45cdceeeb0e4621cc52ef7f67ae7611635bf3db",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_new_subcubic_peer_review.json",
+      "bytes": 5113,
+      "sha256": "1cecca5a3002582d10228f447bf8982954fbd7511f166c5cf285d3455e6c6591",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_new_subcubic_second_review.json",
+      "bytes": 4542,
+      "sha256": "538f631d3aff9c7cd18c65ef4115279a43c1b2fc3b01b62f8156b6d1c595b759",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_new_subcubic_selfcontainment-d1064b754ed661a9188a13e189dfab06281f9c067ad7b35d250978717bb6be86.tex",
+      "bytes": 23441,
+      "sha256": "d1064b754ed661a9188a13e189dfab06281f9c067ad7b35d250978717bb6be86",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_new_subcubic_selfcontainment.json",
+      "bytes": 4595,
+      "sha256": "aa1a22e239a670f53e199813d4127cf275d94b572f2611b0017ca4b010b6da0f",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_new_subcubic_selfcontainment.tex",
+      "bytes": 23441,
+      "sha256": "d1064b754ed661a9188a13e189dfab06281f9c067ad7b35d250978717bb6be86",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_prior_manuscript.tex",
+      "bytes": 112585,
+      "sha256": "992d6e6260d87ed22901cde44d39bca72cb9ae9ce5f5d01f9e37d278d1a767ea",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_prior_manuscript_verified.json",
+      "bytes": 2593,
+      "sha256": "0ac3923dbdba6519cf1382c5c9d1158663f177bda321fb4f4a71e1c30ac06dd0",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_edit_save.py",
+      "bytes": 9529,
+      "sha256": "653376a4a41c3ca72f8efed1bdb7894b55007f2b7ba9a3c92bd5edaf0cb422c2",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_revision_history/3575c7dcccd0d35197987ebbc4a3fdf06ed9d58574b9b554bef6ec48c9ee852e/outputs/cochain_tuza.tex",
+      "bytes": 103576,
+      "sha256": "73726e8488d4d3e7b3ab52c0f0fab098b05e6211416914019705758a405ff523",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_revision_history/3575c7dcccd0d35197987ebbc4a3fdf06ed9d58574b9b554bef6ec48c9ee852e/outputs/tuza_degree10_manuscript_verified.json",
+      "bytes": 2877,
+      "sha256": "334e59afb34eca9f502940670b9b0d5a021ed2c885fea4d06430375da230fe6e",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_revision_history/3575c7dcccd0d35197987ebbc4a3fdf06ed9d58574b9b554bef6ec48c9ee852e/outputs/tuza_degree10_resume.txt",
+      "bytes": 5025,
+      "sha256": "4cdc91e0509b4774468de1f0fd98c40ec9372ffb54f881dc49d5e9375c7bae7a",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_revision_history/3575c7dcccd0d35197987ebbc4a3fdf06ed9d58574b9b554bef6ec48c9ee852e/work/third_edit_final_late_review.json",
+      "bytes": 5642,
+      "sha256": "6379b04ada7ff15e1559cc3b07b6dbc4aa5cc2e2c88c0971097693027b990fae",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_revision_history/3575c7dcccd0d35197987ebbc4a3fdf06ed9d58574b9b554bef6ec48c9ee852e/work/third_edit_final_math_layout_review.json",
+      "bytes": 3537,
+      "sha256": "5b2576a5ae37f99894158d9d186bf84fa83e359414ba39391489fc0662635f5b",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_revision_history/3575c7dcccd0d35197987ebbc4a3fdf06ed9d58574b9b554bef6ec48c9ee852e/work/third_edit_final_style_review.json",
+      "bytes": 4672,
+      "sha256": "e815a59d5790c1324ad97b63a33fa4956396b5ae9d708b220f611556216c5b1f",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_revision_history/3575c7dcccd0d35197987ebbc4a3fdf06ed9d58574b9b554bef6ec48c9ee852e/work/third_edit_literal_math_diagram_preservation.json",
+      "bytes": 374,
+      "sha256": "62c1f3f9a819c74e45633d4bd9b8235bc36101cd7d57aa04950b2debe1e26e81",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_revision_history/3575c7dcccd0d35197987ebbc4a3fdf06ed9d58574b9b554bef6ec48c9ee852e/work/third_edit_manuscript.py",
+      "bytes": 10757,
+      "sha256": "03a6c300ca7eb76e252116ccdd0a3ed9181fd6c602a41baa9bcc34655add1b83",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_revision_history/3575c7dcccd0d35197987ebbc4a3fdf06ed9d58574b9b554bef6ec48c9ee852e/work/third_edit_native_compile.json",
+      "bytes": 335,
+      "sha256": "06cf21ec7cebea23e694b3c3ffcba00ef2471e4e76b592aaf6bff7719e0b3dc8",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/third_revision_history/3575c7dcccd0d35197987ebbc4a3fdf06ed9d58574b9b554bef6ec48c9ee852e/work/third_edit_save.py",
+      "bytes": 7682,
+      "sha256": "273ca24a343cc7a9487f40f9aca36336e9507308a51b488c60ce2e0b36f84a7c",
+      "reason": "Unused editorial or manuscript construction artifact"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/tuza_degree10_c5_finalize_manifest.py",
+      "bytes": 13669,
+      "sha256": "eb080dfd88f5d5f5d632fd5158ddac8594f0176516e1b30bbab02ffb9b0a33aa",
+      "reason": "Unused manuscript audit, editorial metadata or packaging script"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/tuza_degree10_save_complete.py",
+      "bytes": 13537,
+      "sha256": "4809190ac9894798f2e29c0c87763751210dcd2a318afdb87f86c3c50ccc63de",
+      "reason": "Unused manuscript audit, editorial metadata or packaging script"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/tuza_degree8_manuscript_backup.tex",
+      "bytes": 98935,
+      "sha256": "81d8069e1ef6ae83845c210b6934cbf07c68da17460d2c2fa8288f7692a8357b",
+      "reason": "Manuscript or TeX proof source"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "work/tuza_next_degree7_primary/main.tex",
+      "bytes": 69013,
+      "sha256": "f9a4cdab8a0dfd87aa7755d39269e270afa8c5e514f2aeee1d9713cc67f67e6f",
+      "reason": "Manuscript or TeX proof source"
+    }
+  ],
+  "changed_nested_containers": [
+    {
+      "archive": "verification.zip::outputs/tuza_degree9_verification.zip",
+      "path": "outputs/tuza_degree8_verification.zip",
+      "original_sha256": "3f0f7b14c34ed296ce7a0e63c9a8dd0a0e23008b165b502853fe86368e9d05bc",
+      "public_sha256": "1041870d5c2604c67b8a0538325ea26d1a42e9a368cf33cf5c7ef4e28bbe8d41",
+      "reason": "Nested manuscript and unused display-audit removal"
+    },
+    {
+      "archive": "verification.zip",
+      "path": "outputs/tuza_degree9_verification.zip",
+      "original_sha256": "45302825e120d3dae355438f9ec4ee536bf1c3ea89b25ec7c0d8030ec540c435",
+      "public_sha256": "67c501c375dbd3d589827ce2399197490fc5a4271cabd32a6489fc8d112bff77",
+      "reason": "Nested manuscript and unused display-audit removal"
+    }
+  ],
+  "changed_physical_manifests": [
+    "verification.zip::SAVE_MANIFEST.json"
+  ],
+  "retained_member_byte_comparisons": 2536,
+  "retained_computational_member_byte_comparisons": 1282,
+  "retained_computational_sources_inputs_certificates_reports_unchanged": true,
+  "historical_verification_reports_preserved": true,
+  "historical_archive_hashes_describe_original_containers": true,
+  "published_top_level_members": 321,
+  "previous_packaging_omission": {
+    "path": "work/tuza_next_puleo_primary/sparse-tuza.tex",
+    "sha256": "ed983d631ce520128a00a4b2145824acd0ac37de8a7e2143b8108f6564132c50",
+    "reason": "Full third-party article source omitted from the public package."
+  }
+}

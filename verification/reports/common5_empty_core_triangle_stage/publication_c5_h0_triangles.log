@@ -1,0 +1,3 @@
+REPORT {"degrees": [9, 10], "admitted_pairs": 1840, "pair_residual": 160, "human_templates": 3, "human_closed_pairs": 160, "graph_cases_unclosed": 0, "complete_graph_domain": true, "complete_pair_domain": false}
+remaining (10, 10) 160
+REPORT {"degrees": [10, 10], "admitted_pairs": 16740, "pair_residual": 545, "human_templates": 6, "human_closed_pairs": 385, "graph_cases_unclosed": 160, "complete_graph_domain": false, "complete_pair_domain": false}

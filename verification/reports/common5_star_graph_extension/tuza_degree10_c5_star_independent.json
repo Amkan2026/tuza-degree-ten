@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "complete_selected_star_graph_domain": true,
+  "complete_pair_domain": false,
+  "ambient_degree_bound": 10,
+  "density_selected_star_sides": {
+    "9": 1030,
+    "10": 3204
+  },
+  "initial_partner_private_caps": {
+    "15": 6,
+    "23": 5,
+    "29": 5,
+    "54": 6,
+    "58": 6,
+    "184": 5
+  },
+  "pair_intervals_verified": 53,
+  "fan_intervals_verified": 8,
+  "tail_intervals_verified": 3,
+  "graph_reports": [
+    {
+      "degrees": [
+        9,
+        9,
+        9
+      ],
+      "tail_after_all_graph_filters": 0,
+      "tail_covered": 0,
+      "unclosed": 0
+    },
+    {
+      "degrees": [
+        9,
+        9,
+        10
+      ],
+      "tail_after_all_graph_filters": 0,
+      "tail_covered": 0,
+      "unclosed": 0
+    },
+    {
+      "degrees": [
+        9,
+        10,
+        10
+      ],
+      "tail_after_all_graph_filters": 414,
+      "tail_covered": 414,
+      "unclosed": 0
+    },
+    {
+      "degrees": [
+        10,
+        10,
+        10
+      ],
+      "tail_after_all_graph_filters": 267,
+      "tail_covered": 267,
+      "unclosed": 0
+    }
+  ],
+  "total_tail": 681,
+  "graph_cases_unclosed": 0,
+  "negative_controls_rejected": [
+    "duplicate tail triangle",
+    "empty tail cover",
+    "missing lower packing edge"
+  ],
+  "source_sha256": {
+    "work/tuza_degree10_c5_star_side_direct.json": "0c5c570a3f03d74620d3c6e882a5445d50368765ad927936a509df43794a4db0",
+    "work/tuza_degree10_c5_density_sides.json": "227224729d8ce5cb6e89c4cfa937821b7e25a6b4e59ce2ae6babc92fc21b5243",
+    "work/tuza_degree10_c5_private_cap_direct.json": "58e7772c891fe2aa3ecf6525dfb331c4e9cc7b249d1ef7a0d8103b9f8e9dc047",
+    "work/tuza_degree9_c5_complete_certificates.json": "d86dc7531938070def88f550404425941166568f86bd3f95ec5e0c059ebb2885",
+    "work/tuza_degree10_c5_star_lift.json": "aa2ea7f519e900d7ae0db069f62316ae0de21c239aab9187cae65cd52d2764b8",
+    "work/tuza_degree10_c5_star_fan_intervals.json": "b4c12d356bd066c1b8fc7178c3db4c68b1a8031399b362dede3795cf042f0930",
+    "work/tuza_degree10_c5_star_tail_reduce.json": "d3e3c47dc7a42820756db8ca43fa764b023177fd4edff42cf363d47e3a70fc30"
+  },
+  "elapsed_seconds": 24.099653959274292
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "human_matching_tables": 8,
+  "constructive_reductions": 775,
+  "known_codegree_seven_exclusions": 25,
+  "original_side_pairs_under_center_swap": 100,
+  "outside_spokes_at_ambient_degree_ten_bound": true,
+  "all_outside_to_unremoved_and_outside_to_outside_edges_allowed": true,
+  "negative_controls": {
+    "empty_cover": true,
+    "duplicate_triangle": true,
+    "missing_outer_rim": true,
+    "missing_outside_spoke": true
+  },
+  "case_counts": {
+    "opposite_base": 125,
+    "opposite_ac": 150,
+    "opposite_two_cross_equal": 13,
+    "opposite_bd_equal": 39,
+    "opposite_full_equal": 13,
+    "opposite_two_cross_distinct": 12,
+    "opposite_ad_distinct": 24,
+    "opposite_bc_distinct": 12,
+    "opposite_full_distinct": 12,
+    "same_base": 125,
+    "same_ad": 150,
+    "same_bc": 75,
+    "same_two_cross_equal": 13,
+    "same_two_cross_distinct": 12
+  },
+  "source_sha256": "ee6d759af16e8dc719f3e8c38fe804d12edb7784722c76b875249ae62e4c04d9",
+  "proof_sha256": "86acf570c7cd34c9f0f3489e9877ca8321c21d5e362cd59817a896837830edf6",
+  "seconds": 2.4596450328826904
+}

@@ -1,0 +1,37 @@
+PASS density-selected star side domains 1030 3204
+PASS pair literals 53
+PASS fan literals 8
+PASS tail literals 3
+PASS graph domain (9, 9, 9) 0
+PASS graph domain (9, 9, 10) 0
+PASS graph domain (9, 10, 10) 414
+PASS graph domain (10, 10, 10) 267
+{
+  "status": "PASS",
+  "complete_selected_star_graph_domain": true,
+  "complete_pair_domain": false,
+  "ambient_degree_bound": 10,
+  "density_selected_star_sides": {
+    "9": 1030,
+    "10": 3204
+  },
+  "initial_partner_private_caps": {
+    "15": 6,
+    "23": 5,
+    "29": 5,
+    "54": 6,
+    "58": 6,
+    "184": 5
+  },
+  "pair_intervals_verified": 53,
+  "fan_intervals_verified": 8,
+  "tail_intervals_verified": 3,
+  "total_tail": 681,
+  "graph_cases_unclosed": 0,
+  "negative_controls_rejected": [
+    "duplicate tail triangle",
+    "empty tail cover",
+    "missing lower packing edge"
+  ],
+  "elapsed_seconds": 24.099653959274292
+}

@@ -1,0 +1,339 @@
+{
+  "status": "PASS",
+  "scope": "complete ordinary rows only; referenced graph extensions require their separate manifests",
+  "source": "work/tuza_degree10_c5_nine_ten_compressed.json",
+  "source_sha256": "a814df28d4cedbc2159870db0d3f60d324c8bf8e817612ac2e703bde0706c1e4",
+  "complete_graph_lane_with_referenced_extensions": true,
+  "ordinary_rows": 31,
+  "canonical_side_pairs": 566910063,
+  "intervals": 1020,
+  "reports": [
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 1,
+      "admitted_pairs": 13,
+      "intervals": 1,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 3,
+      "admitted_pairs": 515520,
+      "intervals": 6,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 7,
+      "admitted_pairs": 1007598,
+      "intervals": 18,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 19,
+      "admitted_pairs": 37742,
+      "intervals": 6,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 20,
+      "admitted_pairs": 177658,
+      "intervals": 2,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 21,
+      "admitted_pairs": 1444150,
+      "intervals": 11,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 23,
+      "admitted_pairs": 136671,
+      "intervals": 4,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 28,
+      "admitted_pairs": 11923141,
+      "intervals": 13,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 29,
+      "admitted_pairs": 9148650,
+      "intervals": 31,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 31,
+      "admitted_pairs": 1086627,
+      "intervals": 6,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 54,
+      "admitted_pairs": 73920774,
+      "intervals": 31,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 55,
+      "admitted_pairs": 494919,
+      "intervals": 16,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 58,
+      "admitted_pairs": 76698495,
+      "intervals": 82,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 59,
+      "admitted_pairs": 10718190,
+      "intervals": 29,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 62,
+      "admitted_pairs": 88919006,
+      "intervals": 152,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 63,
+      "admitted_pairs": 1063296,
+      "intervals": 21,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 126,
+      "admitted_pairs": 26140800,
+      "intervals": 73,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 127,
+      "admitted_pairs": 85352,
+      "intervals": 2,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 183,
+      "admitted_pairs": 58254,
+      "intervals": 12,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 184,
+      "admitted_pairs": 4645002,
+      "intervals": 29,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 185,
+      "admitted_pairs": 25063430,
+      "intervals": 40,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 187,
+      "admitted_pairs": 4013862,
+      "intervals": 109,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 191,
+      "admitted_pairs": 78940,
+      "intervals": 17,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 207,
+      "admitted_pairs": 1557640,
+      "intervals": 14,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 220,
+      "admitted_pairs": 207835690,
+      "intervals": 69,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 221,
+      "admitted_pairs": 18113271,
+      "intervals": 130,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 223,
+      "admitted_pairs": 303108,
+      "intervals": 20,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 254,
+      "admitted_pairs": 1634884,
+      "intervals": 61,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 255,
+      "admitted_pairs": 6117,
+      "intervals": 7,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 495,
+      "admitted_pairs": 80886,
+      "intervals": 5,
+      "status": "PASS"
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 511,
+      "admitted_pairs": 377,
+      "intervals": 3,
+      "status": "PASS"
+    }
+  ],
+  "partial": [
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 0,
+      "complete_graph_domain": true,
+      "graph_extension": "work/tuza_degree10_c5_h0_graph_verification_manifest.json"
+    }
+  ],
+  "negative_controls": [
+    "duplicate triangle",
+    "empty cover",
+    "wrong required mask"
+  ],
+  "seconds": 23.656869833008386
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "ordered_private_profiles": 9,
+  "cross_patterns": 16,
+  "constructive_reductions": 144,
+  "maximum_degree_four_remainder": true,
+  "degree_four_vertices_induce_forest": true,
+  "proper_four_colors_found_directly": true,
+  "outside_leaf_spokes_at_degree_ten_bound": 8,
+  "all_unknown_outside_edges_allowed": true,
+  "negative_controls": {
+    "empty_cover": true,
+    "duplicate_triangle": true,
+    "missing_outer_rim": true,
+    "missing_outside_spoke": true
+  },
+  "source_sha256": "585e7c8534ba46f63c8de72060f2622fefdb880be24d41f86f9db388731b918e",
+  "proof_sha256": "ba7bceef633e04e8fc6f7cd126de0107b260941b0482b5fe478e713dfb72ef09",
+  "seconds": 0.32385706901550293
+}

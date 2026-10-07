@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "core_types": 12346,
+  "unconditional_spare_two": 12116,
+  "residual_core_types": 230,
+  "interval_certificates": 11579,
+  "residual_labelled_unordered_pairs": 2877937,
+  "residual_labelled_mixed_models": 30356,
+  "excluded_no_side_cores": 39,
+  "certificate_cores": 191,
+  "negative_controls": 2,
+  "core_sha256": "d0d37606040292541c990a7a76281d87f71ed9c259abf98e7689ae86e11520d7",
+  "residual_sha256": "08d32216454945b8c2d1afac3b0421b92f00e9cca19dda6339d1cb81dd5ba59e",
+  "seconds": 635.065712928772
+}

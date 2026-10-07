@@ -1,0 +1,196 @@
+{
+  "complete_lane": true,
+  "verified_complete_cores": 18,
+  "reports": [
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 3,
+      "admitted_pairs": 941,
+      "intervals": 2,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 54,
+      "admitted_pairs": 122948,
+      "intervals": 4,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 55,
+      "admitted_pairs": 1299,
+      "intervals": 3,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 58,
+      "admitted_pairs": 85995,
+      "intervals": 6,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 59,
+      "admitted_pairs": 28890,
+      "intervals": 8,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 62,
+      "admitted_pairs": 385242,
+      "intervals": 15,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 63,
+      "admitted_pairs": 17040,
+      "intervals": 4,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 126,
+      "admitted_pairs": 530985,
+      "intervals": 27,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 127,
+      "admitted_pairs": 4540,
+      "intervals": 2,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 183,
+      "admitted_pairs": 438,
+      "intervals": 3,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 185,
+      "admitted_pairs": 17280,
+      "intervals": 2,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 187,
+      "admitted_pairs": 26199,
+      "intervals": 16,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 191,
+      "admitted_pairs": 2629,
+      "intervals": 7,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 220,
+      "admitted_pairs": 769220,
+      "intervals": 12,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 221,
+      "admitted_pairs": 136218,
+      "intervals": 19,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 223,
+      "admitted_pairs": 1508,
+      "intervals": 2,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 254,
+      "admitted_pairs": 28737,
+      "intervals": 23,
+      "result": "PASS"
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 255,
+      "admitted_pairs": 110,
+      "intervals": 6,
+      "result": "PASS"
+    }
+  ],
+  "admitted_pairs_verified": 2160219,
+  "intervals_verified": 161,
+  "negative_controls_rejected": [
+    "duplicate triangle",
+    "empty cover",
+    "missing required mask"
+  ],
+  "source_sha256": "4f5e7edb4166c23d193aedc700a3b1a1e4b797c303d08cc51715ba71c7eca93d",
+  "elapsed_seconds": 2.8881827499717474,
+  "result": "PASS"
+}

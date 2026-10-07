@@ -1,0 +1,8 @@
+{
+  "full_core_types": 12346,
+  "unconditional_spare_two_certificates": 12116,
+  "residual_core_types": 230,
+  "negative_controls": 1,
+  "payload_sha256": "d0d37606040292541c990a7a76281d87f71ed9c259abf98e7689ae86e11520d7",
+  "result": "PASS"
+}

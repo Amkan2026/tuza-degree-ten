@@ -1,0 +1,906 @@
+{
+  "verified": true,
+  "raw_side_counts": {
+    "7": 48,
+    "8": 58,
+    "9": 6836,
+    "10": 3431
+  },
+  "density_side_exclusions": 6779,
+  "initial_density_private_caps": {
+    "3": 7,
+    "7": 7,
+    "12": 7,
+    "13": 7,
+    "30": 8,
+    "31": 9,
+    "0": 4,
+    "1": 5,
+    "11": 7,
+    "15": 8
+  },
+  "literal_private_bound_witnesses": 3594,
+  "empty_core_side_types": {
+    "(2, (0, 1, 1, 2))": 24,
+    "(2, (1, 1, 1, 1))": 6,
+    "(3, (1, 1, 2, 2))": 3,
+    "(4, (2, 2, 2, 2))": 3
+  },
+  "C4_literal_pivots": 12,
+  "literal_intervals": 1357,
+  "reports": [
+    {
+      "degrees": [
+        9,
+        9
+      ],
+      "core": 12,
+      "side_counts": [
+        909,
+        909
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 350049,
+      "private_choice_exclusions_before_symmetry": 1280,
+      "robustness_exclusions": 0,
+      "templates": 47,
+      "covered": false,
+      "first_uncovered": [
+        [
+          12,
+          1979340,
+          1981500
+        ]
+      ]
+    },
+    {
+      "degrees": [
+        7,
+        9
+      ],
+      "core": 3,
+      "side_counts": [
+        1,
+        389
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 389,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 15,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        7,
+        9
+      ],
+      "core": 7,
+      "side_counts": [
+        7,
+        187
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 1309,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 10,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        7,
+        9
+      ],
+      "core": 12,
+      "side_counts": [
+        4,
+        909
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 1924,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 7,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        7,
+        9
+      ],
+      "core": 13,
+      "side_counts": [
+        8,
+        414
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 3310,
+      "private_choice_exclusions_before_symmetry": 2,
+      "robustness_exclusions": 0,
+      "templates": 42,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        7,
+        9
+      ],
+      "core": 30,
+      "side_counts": [
+        8,
+        256
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 2048,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 16,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        8,
+        9
+      ],
+      "core": 7,
+      "side_counts": [
+        1,
+        187
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 187,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 4,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        8,
+        9
+      ],
+      "core": 13,
+      "side_counts": [
+        3,
+        414
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 1242,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 26,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        8,
+        9
+      ],
+      "core": 30,
+      "side_counts": [
+        10,
+        256
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 2560,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 3,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        8,
+        9
+      ],
+      "core": 31,
+      "side_counts": [
+        3,
+        19
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 57,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 2,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        9
+      ],
+      "core": 0,
+      "side_counts": [
+        36,
+        36
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 645,
+      "private_choice_exclusions_before_symmetry": 36,
+      "robustness_exclusions": 0,
+      "templates": 9,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        9
+      ],
+      "core": 1,
+      "side_counts": [
+        111,
+        111
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 6017,
+      "private_choice_exclusions_before_symmetry": 392,
+      "robustness_exclusions": 0,
+      "templates": 19,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        9
+      ],
+      "core": 3,
+      "side_counts": [
+        389,
+        389
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 75183,
+      "private_choice_exclusions_before_symmetry": 1335,
+      "robustness_exclusions": 0,
+      "templates": 102,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        9
+      ],
+      "core": 7,
+      "side_counts": [
+        187,
+        187
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 17316,
+      "private_choice_exclusions_before_symmetry": 520,
+      "robustness_exclusions": 0,
+      "templates": 18,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        9
+      ],
+      "core": 11,
+      "side_counts": [
+        62,
+        62
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 1874,
+      "private_choice_exclusions_before_symmetry": 154,
+      "robustness_exclusions": 0,
+      "templates": 25,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        9
+      ],
+      "core": 13,
+      "side_counts": [
+        414,
+        414
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 84399,
+      "private_choice_exclusions_before_symmetry": 3002,
+      "robustness_exclusions": 0,
+      "templates": 111,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        9
+      ],
+      "core": 15,
+      "side_counts": [
+        39,
+        39
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 774,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 12,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        9
+      ],
+      "core": 30,
+      "side_counts": [
+        256,
+        256
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 32896,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 21,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        9
+      ],
+      "core": 31,
+      "side_counts": [
+        19,
+        19
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 190,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 7,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        7,
+        10
+      ],
+      "core": 3,
+      "side_counts": [
+        1,
+        176
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 87,
+      "private_choice_exclusions_before_symmetry": 89,
+      "robustness_exclusions": 0,
+      "templates": 10,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        7,
+        10
+      ],
+      "core": 7,
+      "side_counts": [
+        7,
+        94
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 658,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 12,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        7,
+        10
+      ],
+      "core": 12,
+      "side_counts": [
+        4,
+        404
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 796,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 7,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        7,
+        10
+      ],
+      "core": 13,
+      "side_counts": [
+        8,
+        127
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 852,
+      "private_choice_exclusions_before_symmetry": 164,
+      "robustness_exclusions": 0,
+      "templates": 24,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        7,
+        10
+      ],
+      "core": 30,
+      "side_counts": [
+        8,
+        243
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 1944,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 15,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 7,
+      "side_counts": [
+        1,
+        94
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 94,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 4,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 13,
+      "side_counts": [
+        3,
+        127
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 381,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 23,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 30,
+      "side_counts": [
+        10,
+        243
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 2430,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 3,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        8,
+        10
+      ],
+      "core": 31,
+      "side_counts": [
+        3,
+        35
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 105,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 2,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 0,
+      "side_counts": [
+        36,
+        3
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 90,
+      "private_choice_exclusions_before_symmetry": 18,
+      "robustness_exclusions": 0,
+      "templates": 4,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 1,
+      "side_counts": [
+        111,
+        7
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 560,
+      "private_choice_exclusions_before_symmetry": 217,
+      "robustness_exclusions": 0,
+      "templates": 12,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 3,
+      "side_counts": [
+        389,
+        176
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 45400,
+      "private_choice_exclusions_before_symmetry": 23064,
+      "robustness_exclusions": 0,
+      "templates": 131,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 7,
+      "side_counts": [
+        187,
+        94
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 16884,
+      "private_choice_exclusions_before_symmetry": 694,
+      "robustness_exclusions": 0,
+      "templates": 30,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 11,
+      "side_counts": [
+        62,
+        13
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 481,
+      "private_choice_exclusions_before_symmetry": 325,
+      "robustness_exclusions": 0,
+      "templates": 15,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 12,
+      "side_counts": [
+        909,
+        404
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 245296,
+      "private_choice_exclusions_before_symmetry": 58680,
+      "robustness_exclusions": 0,
+      "templates": 84,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 13,
+      "side_counts": [
+        414,
+        127
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 46265,
+      "private_choice_exclusions_before_symmetry": 6313,
+      "robustness_exclusions": 0,
+      "templates": 141,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 15,
+      "side_counts": [
+        39,
+        25
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 962,
+      "private_choice_exclusions_before_symmetry": 4,
+      "robustness_exclusions": 0,
+      "templates": 31,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 30,
+      "side_counts": [
+        256,
+        243
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 62208,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 36,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        9,
+        10
+      ],
+      "core": 31,
+      "side_counts": [
+        19,
+        35
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 665,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 10,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        10,
+        10
+      ],
+      "core": 0,
+      "side_counts": [
+        3,
+        3
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 6,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 2,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        10,
+        10
+      ],
+      "core": 1,
+      "side_counts": [
+        7,
+        7
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 28,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 7,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        10,
+        10
+      ],
+      "core": 3,
+      "side_counts": [
+        176,
+        176
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 10898,
+      "private_choice_exclusions_before_symmetry": 9306,
+      "robustness_exclusions": 0,
+      "templates": 74,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        10,
+        10
+      ],
+      "core": 7,
+      "side_counts": [
+        94,
+        94
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 4465,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 23,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        10,
+        10
+      ],
+      "core": 11,
+      "side_counts": [
+        13,
+        13
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 64,
+      "private_choice_exclusions_before_symmetry": 51,
+      "robustness_exclusions": 0,
+      "templates": 10,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        10,
+        10
+      ],
+      "core": 12,
+      "side_counts": [
+        404,
+        404
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 47715,
+      "private_choice_exclusions_before_symmetry": 36248,
+      "robustness_exclusions": 0,
+      "templates": 28,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        10,
+        10
+      ],
+      "core": 13,
+      "side_counts": [
+        127,
+        127
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 6872,
+      "private_choice_exclusions_before_symmetry": 2504,
+      "robustness_exclusions": 0,
+      "templates": 72,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        10,
+        10
+      ],
+      "core": 15,
+      "side_counts": [
+        25,
+        25
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 297,
+      "private_choice_exclusions_before_symmetry": 44,
+      "robustness_exclusions": 0,
+      "templates": 21,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        10,
+        10
+      ],
+      "core": 30,
+      "side_counts": [
+        243,
+        243
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 29646,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 18,
+      "covered": true,
+      "first_uncovered": []
+    },
+    {
+      "degrees": [
+        10,
+        10
+      ],
+      "core": 31,
+      "side_counts": [
+        35,
+        35
+      ],
+      "source_complete": true,
+      "admitted_after_all_choices": 630,
+      "private_choice_exclusions_before_symmetry": 0,
+      "robustness_exclusions": 0,
+      "templates": 12,
+      "covered": true,
+      "first_uncovered": []
+    }
+  ],
+  "seconds": 24.413436667004135,
+  "scope": "All ordinary intervals and domains audited. Declared human residuals require the separate final replay.",
+  "source_file": "work/tuza_degree10_c4_lex_intervals.json"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "All staged text files and recursively nested archive text before publication",
+  "counts": {
+    "text_files": 2075,
+    "archives": 8
+  },
+  "matches": [],
+  "values_not_recorded": true,
+  "incremental_scan": {
+    "status": "PASS",
+    "scope": "Fresh reports, logs, input derivative and deterministic generator added after initial staged scan",
+    "files_scanned": 65,
+    "matches": [],
+    "values_not_recorded": true
+  },
+  "companion_archive_scan": {
+    "status": "PASS",
+    "text_files_scanned": 3485,
+    "archives_scanned": 17,
+    "credential_pattern_matches": [],
+    "values_not_recorded": true,
+    "research_paths_and_author_information_in_scope": true
+  }
+}

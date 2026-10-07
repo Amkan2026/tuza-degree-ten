@@ -1,0 +1,906 @@
+{
+  "result": "PASS_COMPLETE_MAXIMUM_DEGREE_TEN_SCOPE_AND_BINDINGS",
+  "theorem": "Every finite simple graph G with maximum degree at most10 satisfies tau(G)<=2nu(G).",
+  "computer_assisted": true,
+  "external_peer_review": false,
+  "priority_claim": false,
+  "required_endpoint_lanes": 40,
+  "completed_endpoint_lanes": 40,
+  "all_maximum_codegrees_covered": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "codegree_at_most_three": "human coloring/leaf/diamond/Petersen proof with complete702-type positive premise",
+  "human_proofs_required": true,
+  "human_review": "Root reviewed the global partition, ambient degree scope and recorded human lemmas. The source-bound peer audit supplies the same independent review.",
+  "endpoint_lane_table": [
+    {
+      "maximum_codegree": 4,
+      "endpoint_degrees": [
+        7,
+        7
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c4_old_transfer_verified.json"
+    },
+    {
+      "maximum_codegree": 4,
+      "endpoint_degrees": [
+        7,
+        8
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c4_old_transfer_verified.json"
+    },
+    {
+      "maximum_codegree": 4,
+      "endpoint_degrees": [
+        7,
+        9
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c4_final_verified.json"
+    },
+    {
+      "maximum_codegree": 4,
+      "endpoint_degrees": [
+        7,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c4_final_verified.json"
+    },
+    {
+      "maximum_codegree": 4,
+      "endpoint_degrees": [
+        8,
+        8
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c4_old_transfer_verified.json"
+    },
+    {
+      "maximum_codegree": 4,
+      "endpoint_degrees": [
+        8,
+        9
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c4_final_verified.json"
+    },
+    {
+      "maximum_codegree": 4,
+      "endpoint_degrees": [
+        8,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c4_final_verified.json"
+    },
+    {
+      "maximum_codegree": 4,
+      "endpoint_degrees": [
+        9,
+        9
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c4_final_verified.json"
+    },
+    {
+      "maximum_codegree": 4,
+      "endpoint_degrees": [
+        9,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c4_final_verified.json"
+    },
+    {
+      "maximum_codegree": 4,
+      "endpoint_degrees": [
+        10,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c4_final_verified.json"
+    },
+    {
+      "maximum_codegree": 5,
+      "endpoint_degrees": [
+        7,
+        7
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c5_verification_manifest.json"
+    },
+    {
+      "maximum_codegree": 5,
+      "endpoint_degrees": [
+        7,
+        8
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c5_verification_manifest.json"
+    },
+    {
+      "maximum_codegree": 5,
+      "endpoint_degrees": [
+        7,
+        9
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c5_verification_manifest.json"
+    },
+    {
+      "maximum_codegree": 5,
+      "endpoint_degrees": [
+        7,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c5_verification_manifest.json"
+    },
+    {
+      "maximum_codegree": 5,
+      "endpoint_degrees": [
+        8,
+        8
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c5_verification_manifest.json"
+    },
+    {
+      "maximum_codegree": 5,
+      "endpoint_degrees": [
+        8,
+        9
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c5_verification_manifest.json"
+    },
+    {
+      "maximum_codegree": 5,
+      "endpoint_degrees": [
+        8,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c5_verification_manifest.json"
+    },
+    {
+      "maximum_codegree": 5,
+      "endpoint_degrees": [
+        9,
+        9
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c5_verification_manifest.json"
+    },
+    {
+      "maximum_codegree": 5,
+      "endpoint_degrees": [
+        9,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c5_verification_manifest.json"
+    },
+    {
+      "maximum_codegree": 5,
+      "endpoint_degrees": [
+        10,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c5_verification_manifest.json"
+    },
+    {
+      "maximum_codegree": 6,
+      "endpoint_degrees": [
+        7,
+        7
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c6_lower_endpoint_transfer_audit.json"
+    },
+    {
+      "maximum_codegree": 6,
+      "endpoint_degrees": [
+        7,
+        8
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c6_lower_endpoint_transfer_audit.json"
+    },
+    {
+      "maximum_codegree": 6,
+      "endpoint_degrees": [
+        7,
+        9
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c6_lower_endpoint_transfer_audit.json"
+    },
+    {
+      "maximum_codegree": 6,
+      "endpoint_degrees": [
+        7,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c6_complete_coverage_verified.json"
+    },
+    {
+      "maximum_codegree": 6,
+      "endpoint_degrees": [
+        8,
+        8
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c6_lower_endpoint_transfer_audit.json"
+    },
+    {
+      "maximum_codegree": 6,
+      "endpoint_degrees": [
+        8,
+        9
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c6_lower_endpoint_transfer_audit.json"
+    },
+    {
+      "maximum_codegree": 6,
+      "endpoint_degrees": [
+        8,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c6_complete_coverage_verified.json"
+    },
+    {
+      "maximum_codegree": 6,
+      "endpoint_degrees": [
+        9,
+        9
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c6_complete_coverage_verified.json"
+    },
+    {
+      "maximum_codegree": 6,
+      "endpoint_degrees": [
+        9,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c6_complete_coverage_verified.json"
+    },
+    {
+      "maximum_codegree": 6,
+      "endpoint_degrees": [
+        10,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c6_complete_coverage_verified.json"
+    },
+    {
+      "maximum_codegree": 7,
+      "endpoint_degrees": [
+        8,
+        8
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c7_old_lane_transfer_audit.json"
+    },
+    {
+      "maximum_codegree": 7,
+      "endpoint_degrees": [
+        8,
+        9
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c7_old_lane_transfer_audit.json"
+    },
+    {
+      "maximum_codegree": 7,
+      "endpoint_degrees": [
+        8,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c7_compressed_verified.json"
+    },
+    {
+      "maximum_codegree": 7,
+      "endpoint_degrees": [
+        9,
+        9
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree10_c7_old_lane_transfer_audit.json"
+    },
+    {
+      "maximum_codegree": 7,
+      "endpoint_degrees": [
+        9,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c7_compressed_verified.json"
+    },
+    {
+      "maximum_codegree": 7,
+      "endpoint_degrees": [
+        10,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c7_compressed_verified.json"
+    },
+    {
+      "maximum_codegree": 8,
+      "endpoint_degrees": [
+        9,
+        9
+      ],
+      "status": "PASS ambient-ten scope transfer",
+      "binding_source": "work/tuza_degree9_common8_pair_verified.json plus work/tuza_degree10_high_sparse_verified.json"
+    },
+    {
+      "maximum_codegree": 8,
+      "endpoint_degrees": [
+        9,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c8_verified.json"
+    },
+    {
+      "maximum_codegree": 8,
+      "endpoint_degrees": [
+        10,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c8_verified.json"
+    },
+    {
+      "maximum_codegree": 9,
+      "endpoint_degrees": [
+        10,
+        10
+      ],
+      "status": "PASS complete ambient-ten graph scope",
+      "binding_source": "work/tuza_degree10_c9_verified.json"
+    }
+  ],
+  "c6_complete_lanes": 780,
+  "c6_candidate_pairs": 51030970708,
+  "c6_payload_sha256": "30f2601b0c34013a605e518d3e24581f518e4275c83ca6f044f6f0293c702a29",
+  "c6_payload_file": "tuza_degree10_c6_merged_certificates.json",
+  "c6_complete_report_sha256": "0e24782b99c409c3866ce35d6d9dea1306562f5c17664a1a340f9ab5097d8f32",
+  "peer_scope_report_sha256": "5193869383b2944da25b3f36427f231f9fdcbdc42ba6ab754eac29f6cc6db7f8",
+  "subcubic_report_sha256": "a254c8a7fe62b8d849a2c5f018f01eaa8a41fa010a6d8f9c89ac38cd2d299e5d",
+  "full_common9_children_report_sha256": "a6c87b95bd6551cb7a835c627d92c2bffb464d57f198129660b81a67f9876516",
+  "source_bindings": {
+    "work/tuza_degree10_c4_proof_notes.txt": {
+      "bytes": 7889,
+      "sha256": "9ea44906ad99bb4119406a53e74b02350d37df6de7aa1c77e975315cff66c5ac"
+    },
+    "work/tuza_degree10_c4_lex_intervals.json": {
+      "bytes": 4624125,
+      "sha256": "12f84d521883e8fce0e39250a00bcb0ab8e857bbe5188d729f005d4bd0d9c296"
+    },
+    "work/tuza_degree10_c4_core_variable_compressed.json": {
+      "bytes": 816548,
+      "sha256": "ef04054171a371bc402d57e520bd043288199c53a23b21df527b8af15e167915"
+    },
+    "work/tuza_degree10_c4_final_independent.py": {
+      "bytes": 3460,
+      "sha256": "334b62bf2465cfe6e05da90754b6488c4e0b2e88407622c3bf36cd8fcf7a19e3"
+    },
+    "work/tuza_degree10_c4_core_variable_check.py": {
+      "bytes": 5208,
+      "sha256": "597011f37ca5f6c3ca595c580c81a82b244ff81e126a99ff9511a13c03f00aa4"
+    },
+    "work/tuza_degree10_c8_verified.json": {
+      "bytes": 529,
+      "sha256": "099cada7a658f579d0d280d3761464f14f964d0854fa25e0481c70fc1b2170e4"
+    },
+    "work/tuza_degree10_common8_slack2_probe.json": {
+      "bytes": 4710780,
+      "sha256": "d0d37606040292541c990a7a76281d87f71ed9c259abf98e7689ae86e11520d7"
+    },
+    "work/tuza_degree10_c8_residual_certificates.json": {
+      "bytes": 14017206,
+      "sha256": "08d32216454945b8c2d1afac3b0421b92f00e9cca19dda6339d1cb81dd5ba59e"
+    },
+    "work/tuza_degree10_c8_core_check.py": {
+      "bytes": 1917,
+      "sha256": "7eaaa68f7c23a05d5d7bb5084861c25e7d4e486b3a69374b457dad99d58ca679"
+    },
+    "work/tuza_degree10_c8_residual_check.py": {
+      "bytes": 6033,
+      "sha256": "72303bad1da77914d7b9b18801798f68fb5bf547157e502b725788f447d2e6a1"
+    },
+    "work/tuza_degree10_c8_intervals237_verified.json": {
+      "bytes": 261,
+      "sha256": "1fb6ea2dbac35ab2505e866e25c622b3c65d7606204ca2d300e9ec56fcc8617f"
+    },
+    "work/tuza_degree9_common8_pair_probe.json": {
+      "bytes": 4131620,
+      "sha256": "ab0667fbc30104918c5509bd69eefffaa67862b9ade6093bedac4dab91bb5a06"
+    },
+    "work/tuza_degree9_common8_pair_check.py": {
+      "bytes": 2304,
+      "sha256": "df2f891967098a1a77cf04e0c97ab6aa19eeccd07bd02591a8e06e08ff9998b9"
+    },
+    "work/tuza_degree10_c9_verified.json": {
+      "bytes": 663,
+      "sha256": "108a2e307d0d202b282d7482bba6a41fafc2f1aa04656602b21e1410a9f7a71b"
+    },
+    "work/tuza_degree10_c9_residual_certificates.json": {
+      "bytes": 81171,
+      "sha256": "6a0b97acf1efd349cd830553d1544a4ad22aefa788fda184ae319bd65fecbc68"
+    },
+    "work/tuza_degree10_c9_dense_human_certificates.json": {
+      "bytes": 108763,
+      "sha256": "295a4af340f9f86882a99ed87927e4cca66b8add76c2435ec5b30ac693c30c86"
+    },
+    "work/tuza_degree10_c9_check.py": {
+      "bytes": 5795,
+      "sha256": "a4eacc47598f7a5ab50c5d86a4b6c81767af50737c82b99a86658cb28d4c3f44"
+    },
+    "work/tuza_degree10_c9_dense_human_check.py": {
+      "bytes": 3095,
+      "sha256": "0b03269bcbaefcd107007a4caf25240553ca493d885d16114b50b0ed72ab89a0"
+    },
+    "work/tuza_degree10_c9_five_hole_proof.txt": {
+      "bytes": 4801,
+      "sha256": "8308c3261af45584fd018beac29c97d6dd3c9f0418a96927807d6cc3560a70a9"
+    },
+    "work/tuza_degree10_c6_lower_endpoint_transfer_audit.json": {
+      "bytes": 2029,
+      "sha256": "481e35c0d3d192b34091340dbb9f2df5704b7f6aa25403b8036d75a580807812"
+    },
+    "work/tuza_degree10_c7_old_lane_transfer_audit.json": {
+      "bytes": 1336,
+      "sha256": "3cf60ebf4e6c752e85f139c028df20ed397319045b20d6bf0a40dc8fb1b78206"
+    },
+    "work/tuza_degree10_c7_compressed_verified.json": {
+      "bytes": 690,
+      "sha256": "33695129f45f7bd97afe465959f54ea274a83d30574d90a0b94b474256a8ae5f"
+    },
+    "work/tuza_degree10_global_foundation_scope_verified.json": {
+      "bytes": 11015,
+      "sha256": "29edbc595f06c16adbacf3d377b4c8d19821a94758de9260968c1aba73b96c87"
+    },
+    "work/tuza_degree10_global_foundation_scope_audit.txt": {
+      "bytes": 8645,
+      "sha256": "05107ac278edb1953be39739e6f7cdcb10a298e224b8d824c491e90fbae074f1"
+    },
+    "work/tuza_degree10_c5_global_scope_binding.txt": {
+      "bytes": 4617,
+      "sha256": "8f21237294149848690debd0f49e3ad54eb1cd9f9847495cf699e77429a1288b"
+    },
+    "work/tuza_degree10_c5_verification_manifest.json": {
+      "bytes": 49129,
+      "sha256": "1e0c695b77db2db5ecc051584ee90104cf045d97433e8133bab9f8035e68c79c"
+    },
+    "work/tuza_degree10_c4_final_verified.json": {
+      "bytes": 2958,
+      "sha256": "45b7058dcf0cf05b4a19001a6666bd4e2a771f75198d0d44406f0aa63e7f4b1f"
+    },
+    "work/tuza_degree10_c4_foundation_verified.json": {
+      "bytes": 717,
+      "sha256": "f2f5c5cfdeafd4fc0016593385e5319176805158608564a9a1763f525a77fc5a"
+    },
+    "work/tuza_degree10_c4_side_independent_verified.json": {
+      "bytes": 481,
+      "sha256": "8ca88cd504a279cef22f4589c0a139ea4240f2075a3561e8705cc8f5078c6de5"
+    },
+    "work/tuza_degree10_c4_selection_independent_verified.json": {
+      "bytes": 384,
+      "sha256": "0684c77b07a5b511a2398252600b99ef3bf79245a0859d172bf25378dc2d4d3a"
+    },
+    "work/tuza_degree10_c4_h12_human_verified.json": {
+      "bytes": 2794,
+      "sha256": "f4a43fbea282c426dc94b514d11fc2ef8237aa0e02b609d0f7b854e553101c7d"
+    },
+    "work/tuza_degree10_c4_core_variable_verified.json": {
+      "bytes": 723,
+      "sha256": "a63c4bfd450d8d22de57e74020ee3257a9e6a33e013d805f0475fe216a758220"
+    },
+    "work/tuza_degree10_c4_old_transfer_verified.json": {
+      "bytes": 694,
+      "sha256": "a3672506c300164057beca7e96502b9c75249660d947763e08cd3bc7f9658127"
+    },
+    "work/tuza_degree9_common8_pair_verified.json": {
+      "bytes": 268,
+      "sha256": "d82286dfc930ece3d6a154140842b891845226b2f428dc96de948bd0f62ab26e"
+    },
+    "work/tuza_degree10_high_sparse_human_proof.txt": {
+      "bytes": 3479,
+      "sha256": "638dcaab9464f83e36b650844f76c37c91353db1dd68b7c84da78b23433ccde7"
+    },
+    "work/tuza_degree10_high_sparse_check.py": {
+      "bytes": 5155,
+      "sha256": "22eb8b66173ca45e85a97e0e46deacbd0aaab704358c719be60b10e0d8ecd0ab"
+    },
+    "work/tuza_degree10_high_sparse_verified.json": {
+      "bytes": 520,
+      "sha256": "d2db824e05561dfd26ff5601afea932cc70973037e6d76f037bd8d5a5744d13d"
+    },
+    "work/tuza_degree9_high_lane_proof.txt": {
+      "bytes": 3877,
+      "sha256": "50734026f8938a7abe8971195c5b80e9a377b2a127b7541ff54659932cc6b1ae"
+    },
+    "work/tuza_degree10_c7_check.py": {
+      "bytes": 10760,
+      "sha256": "ecf1f3012440c5e439ff4e93b228c631ae48eb97aaf80e2df3cfb45cc12598af"
+    },
+    "work/tuza_degree10_c7_core_verified.json": {
+      "bytes": 230,
+      "sha256": "4b82146751720544a02450501e82bcf2dd8f828da76cd88729c61a21749f3cb1"
+    },
+    "work/tuza_degree10_c7_side_verified.json": {
+      "bytes": 470,
+      "sha256": "b6c3a67c2b1700fefa64a01d43c4e27ef75064d7e0bb0c2cb20d8205336cc346"
+    },
+    "work/tuza_degree10_c7_proof_notes.txt": {
+      "bytes": 9792,
+      "sha256": "aeb5eb0a23ec5f1e930d83d81ff220255411347d27c5815204a6ee1f60f4ad94"
+    },
+    "work/tuza_degree10_subcubic_branch_proof.txt": {
+      "bytes": 5459,
+      "sha256": "ee954ce37fe92bf14344e5bf169ef3e68c352c981c6f639fa2945f7c33e4cfcc"
+    },
+    "work/tuza_degree10_subcubic_link_basis_verified.json": {
+      "bytes": 1945,
+      "sha256": "a254c8a7fe62b8d849a2c5f018f01eaa8a41fa010a6d8f9c89ac38cd2d299e5d"
+    },
+    "work/tuza_degree10_c7_compressed_certificates.json.gz": {
+      "bytes": 934755,
+      "sha256": "08b44540f2c13fef008589103fe93e62b295a44cbeee2166c7023f9d1137826a"
+    },
+    "work/tuza_degree10_c7_compressed_certificates.json": {
+      "bytes": 9858896,
+      "sha256": "1b53b1ae4eb7d17b20d812758f2ffa0e3776fc928f78f44d6ee81147139b19e5"
+    },
+    "work/tuza_degree10_c7_resume_cache.zip": {
+      "bytes": 15292915,
+      "sha256": "17ce3147673089f7a074ee56e665ea180fce82d4fde8f1698cb24c029d5c1287"
+    },
+    "work/tuza_degree10_c7_core_certificates.json": {
+      "bytes": 534687,
+      "sha256": "1f06cb4c7654343289ae3a2cece3e73caa9b4ad5cd58dd04d353daf120023b4c"
+    },
+    "work/tuza_degree10_c7_side_domain.json": {
+      "bytes": 29930849,
+      "sha256": "cc9d6f8ea63ca678d5e17d0fa22742aa250b719e8e7113cacbb7e747c7213c55"
+    },
+    "work/tuza_book3_condensed_root_check.py": {
+      "bytes": 6925,
+      "sha256": "69d34a99fd41535d62b9bb8f8b212c191bca33e991bfaaffb29524ba69046102"
+    },
+    "work/tuza_degree10_subcubic_link_basis.json.gz": {
+      "bytes": 8804,
+      "sha256": "9c04fdd140837e965ea86507bc49952b0107fb0f83e8e16424e2ac65d5f15fdc"
+    },
+    "work/tuza_degree10_subcubic_link_basis_check.py": {
+      "bytes": 6150,
+      "sha256": "d21f99b49a8dbe3499f2c096d753a051119b96d31cfc96e48e67f7e419b69357"
+    },
+    "work/tuza_degree10_c8_core_check.json": {
+      "bytes": 243,
+      "sha256": "8967fbb2db5648e5033960ebd0b82b74b4fb3666d51fd500d5ccd27379aadf52"
+    },
+    "work/tuza_degree10_c9_all_graph6.txt": {
+      "bytes": 2197344,
+      "sha256": "ce9c5d4d27c8e55de5f0c6348ec781a650382e16bdff26b6c3418fa00a9cfcf9"
+    },
+    "work/tuza_degree10_c9_deleted_canonical_graph6.txt": {
+      "bytes": 17304084,
+      "sha256": "c58075f4c28efe3e8f698c7aa50a3e4a99e55b26fbaf15483ad36d8ed881d394"
+    },
+    "work/tuza_degree10_c9_deleted_graphs.c": {
+      "bytes": 743,
+      "sha256": "9b34b855435d334c03db73907dff49228e55435e73abd5fe2b6a2652b7991fac"
+    },
+    "work/tuza_degree10_c6_human_scope_root_verified.json": {
+      "bytes": 2879,
+      "sha256": "c56c03c5e8e9c4e84d19fd3771cbe9f8b3aba96e8509bf052e07cd4a4819fc12"
+    },
+    "work/tuza_degree10_c6_fresh_source_verified.json": {
+      "bytes": 452602,
+      "sha256": "6b0b657cb6ac2c26eaa550814b45d9b1b34c011f07aef1a7f353a0fb938c6baf"
+    },
+    "work/tuza_degree10_c6_source_scope_verified.json": {
+      "bytes": 673,
+      "sha256": "df10e73161b39fc7245fd329f4a957b9b218bd8b51c6bad1c17b3220fdd347d6"
+    },
+    "work/tuza_degree10_c6_source_mathematical_review.txt": {
+      "bytes": 7192,
+      "sha256": "95747598d372f38bff0885e20163b647410f676f226c9f708ca014c364586403"
+    },
+    "work/tuza_degree10_c6_fast_wrapper_peer_verified.json": {
+      "bytes": 1476,
+      "sha256": "0f03ea113df8e7fadf332487e20e382d8f7856bba774fca03816da4629880a65"
+    },
+    "work/tuza_degree10_c6_fast_wrapper_peer_audit.txt": {
+      "bytes": 2643,
+      "sha256": "5b08c11b628055c31383fbd6547c7d4c84927073cb9c0bde0ed3e89d9cf1cba6"
+    },
+    "work/tuza_degree10_c6_dense_uncovered.py": {
+      "bytes": 4647,
+      "sha256": "e0299799be96c2a121ab767328dfa71edce635534c3550be1c139920e6632a3b"
+    },
+    "work/tuza_degree10_c6_complete_fast_check.py": {
+      "bytes": 3576,
+      "sha256": "9293d6b8c2ab638ca8deb92628c1f760100eaab480fced75d91dc7625a0acc24"
+    },
+    "work/tuza_degree10_c9_full_children_check.py": {
+      "bytes": 3936,
+      "sha256": "e148ec269b2bece83c5ef8cba1e25854213145848b2bcd79de67db5d67eb719c"
+    },
+    "work/tuza_degree10_c9_full_children_verified.json": {
+      "bytes": 559,
+      "sha256": "a6c87b95bd6551cb7a835c627d92c2bffb464d57f198129660b81a67f9876516"
+    },
+    "work/tuza_degree10_inherited_archive_check.py": {
+      "bytes": 3707,
+      "sha256": "37fb99abf9ec2f8ea6afc6417260d808973b04cdc5bb524270099a8b53a66e74"
+    },
+    "work/tuza_degree10_inherited_archive_bindings_verified.json": {
+      "bytes": 6920,
+      "sha256": "84187ce1bfe50c6578fa18ee2e814d4d68f786b6dd18b2cdbb3b2fe747824f33"
+    },
+    "work/tuza_degree10_old_transfer_supplement.zip": {
+      "bytes": 1496,
+      "sha256": "febd93be96be94dde8e52f4221447e93e897ad8cf44376f6c303944ecc829c5e"
+    },
+    "work/tuza_degree10_c5_final_scope_gate.json": {
+      "bytes": 6551,
+      "sha256": "4e0684fe0c3511ab5c175894b2e9d0c0dc0133934b0069b29242e7515a3bfe49"
+    },
+    "work/tuza_degree10_c5_selective_file_inventory.json": {
+      "bytes": 26725,
+      "sha256": "0ecc5ca4410cf07190c3b0c4bfa6b4b010f419eab990ffaab41d56604b954acd"
+    },
+    "work/tuza_degree10_c6_dense_uncovered_verified.json": {
+      "bytes": 339,
+      "sha256": "8902e545fde9d064a9d087b6498a64a753dd79278ff822c9ffd6b91bdb5e5a21"
+    },
+    "work/tuza_degree10_c6_coverage_prefix_check.py": {
+      "bytes": 10694,
+      "sha256": "2d894a4801e60dc6644278167705aeba9314e70c88b63d1716e75d6463360091"
+    },
+    "work/tuza_degree10_c6_dense_uncovered_peer_review.txt": {
+      "bytes": 4402,
+      "sha256": "1a6facfcb75ae9f625a64a1365a3c02cac5ff565f91872396a712d42ce13c3d4"
+    },
+    "work/tuza_degree10_c6_dense_uncovered_peer_verified.json": {
+      "bytes": 1019,
+      "sha256": "0f77b84628ffea0e6006f750b1337d4b7d91a32dfccffa6a4280c9f3565f6235"
+    },
+    "work/tuza_degree10_c6_merge_parallel.py": {
+      "bytes": 4510,
+      "sha256": "62c6d6c6399677cc425ed03983a3f7862c4aecf75dfc2571c9bc4d14ffd777f2"
+    },
+    "work/tuza_degree10_global_completion_peer_audit.txt": {
+      "bytes": 16971,
+      "sha256": "40343d2666d5c70e6039bb5706898cbc8b4d3ca9d7d43aceba7c6798d5261604"
+    },
+    "work/tuza_degree10_subcubic_branch_peer_audit.txt": {
+      "bytes": 4207,
+      "sha256": "53f34abfc282bf50e5894e3c7b4a7fcee045b0b4dcdbd5c1dff952ae9c4eb021"
+    },
+    "work/tuza_degree10_c6_merged_certificates.json": {
+      "bytes": 4901728,
+      "sha256": "30f2601b0c34013a605e518d3e24581f518e4275c83ca6f044f6f0293c702a29"
+    },
+    "work/tuza_degree10_c6_density_domain.json": {
+      "bytes": 203331,
+      "sha256": "803fc4e48fb519d082ec5bab6a39f9159e83e18696b6f873c4c83aaeeed9accc"
+    },
+    "work/tuza_degree10_c6_core_certificates.json": {
+      "bytes": 60216,
+      "sha256": "f24a431c428815008019376ba9f684c5316738ab77c0a0a7206920593c22b907"
+    },
+    "work/tuza_degree10_c6_complete_coverage_check.py": {
+      "bytes": 12629,
+      "sha256": "33e79cdbaa85bc8f683c615faa7ca5cb87a40f88d5a5818dd62ddb2bb110873d"
+    },
+    "work/tuza_degree10_c6_density_verified.json": {
+      "bytes": 241358,
+      "sha256": "ba027ada6dad2fc106595d5c59cc4cb2a1aab9fcdaf01726ef156fb2df2aa5c3"
+    },
+    "work/tuza_degree10_c6_domain_independent_verified.json": {
+      "bytes": 371379,
+      "sha256": "48434eb29de94cbae37bedd43307e4de5fa5a1e02c3b9ce42bb370561d577793"
+    },
+    "work/tuza_degree10_c6_common_orbit_verified.json": {
+      "bytes": 19112,
+      "sha256": "b3793b130c4d3999b19b9b3b742ce12cce29e8740e13dba6ff23307a1bc1bdf6"
+    },
+    "work/tuza_degree10_c6_literal_prefix_check.py": {
+      "bytes": 6338,
+      "sha256": "4c9907b1d5d9c3d33acec0d06e7cf245a321bc28d10a6c86f8f51ca2ca348c30"
+    },
+    "work/tuza_degree10_c6_domain_independent.c": {
+      "bytes": 5434,
+      "sha256": "4273cb5df06a7fc3edd15ec39523bf67b4d4fd84b008528fb91e21cc4fbb70e1"
+    },
+    "work/tuza_degree10_c6_domain_independent.py": {
+      "bytes": 2751,
+      "sha256": "6ec3de9058719f95dc2f5bea04d62fbecc626783d3418feaf8c080e323b06c0a"
+    },
+    "work/tuza_degree10_c6_density_check.c": {
+      "bytes": 2303,
+      "sha256": "4d086c2de5fd1a6c1c79d3433948df6a8b54f233376dd932b811271ca4188d2c"
+    },
+    "work/tuza_degree10_c6_density_check.py": {
+      "bytes": 3884,
+      "sha256": "57daf2cc3b09b5e3cac4a43e1ae0b4df8ed1cc034ea074c03e4e470f53a08ea8"
+    },
+    "work/tuza_degree10_c6_density.py": {
+      "bytes": 2859,
+      "sha256": "f43a5f57d7188c55afaad9eb8bc7ead0e71ed4ca0eb8d65deff5fca6e864aafe"
+    },
+    "work/tuza_degree10_c6_cached_patterns.py": {
+      "bytes": 686,
+      "sha256": "1bd2c4601ed7045c571aa4d2897c56cbbd5710950f2460b4af8373915b66c9af"
+    },
+    "work/tuza_degree10_c6_full_rectangles.py": {
+      "bytes": 8160,
+      "sha256": "ffb4ce64a8c5526efc89b9508df21957229821f648cf6d6df861c780f1cd4697"
+    },
+    "work/tuza_degree10_c6_domain.c": {
+      "bytes": 1996,
+      "sha256": "1f63bf632694539868e3094807aa529c21e1d74ddd73a23e8d688e0fb83246bd"
+    },
+    "work/tuza_degree10_c6_domain.py": {
+      "bytes": 2881,
+      "sha256": "fe9737966dd0d1d5cb624a9d9a60373057eab122025bcd18c69276da688f9d11"
+    },
+    "work/tuza_degree10_c6_domain.json": {
+      "bytes": 472684,
+      "sha256": "e860d347f6504d25ca77d5b819a073745b56040221095f62ba8243cba900efaa"
+    },
+    "work/tuza_degree10_c6_patterns_cache.zip": {
+      "bytes": 27676340,
+      "sha256": "b447f9bc098c1e7ce088b77bcd32c2709f46c4220a2b7c6aa37ff554c95f1c25"
+    },
+    "work/tuza_degree10_c6_density_patterns_cache.zip": {
+      "bytes": 2809113,
+      "sha256": "8edd991dd046c161066967d9f4913d536c680fb324cc26da8d47285108f33483"
+    },
+    "work/tuza_degree10_c6_fresh_source_replay.py": {
+      "bytes": 9454,
+      "sha256": "7829a35b4f115a5f1cfa1554d135595cb6e4b2940edd638b7fe8a9d1ebfe89bd"
+    },
+    "work/tuza_degree10_c6_four_private_human_proof.txt": {
+      "bytes": 8880,
+      "sha256": "885ecfe156937ae6396523aff7de5d0f34d92e3fc75b3692f68de1dce9432e3e"
+    },
+    "work/tuza_degree10_c6_four_private_human_verified.json": {
+      "bytes": 618,
+      "sha256": "272b7c2e3b51973036cecd4c49174f8ff0f07f181c7e03d1886d4a940890adca"
+    },
+    "work/tuza_degree10_c6_four_private_glue_verified.json": {
+      "bytes": 559,
+      "sha256": "17121d7664820bf6d5b439a199bcc7a232078acd50712b0097a3122432d8e1cf"
+    },
+    "work/tuza_degree10_c6_four_private_human_check.c": {
+      "bytes": 5483,
+      "sha256": "4dce580376ebaa4a04f2f85c8bd0ae0efa72b2d499cd811f47b87798c241b14f"
+    },
+    "work/tuza_degree10_c6_four_private_glue_check.py": {
+      "bytes": 3852,
+      "sha256": "2cbfb849439ef9fd78dfb16bc457198f18212c72a724ac57fe53d5be5074ac4a"
+    },
+    "work/tuza_degree10_c6_empty_core_human_proof.txt": {
+      "bytes": 4927,
+      "sha256": "a8d98c54cd51e80880cc6f2d6add9d480dd226287f94a409fa52208ff54530ed"
+    },
+    "work/tuza_degree10_c6_double_hub_human_proof.txt": {
+      "bytes": 6031,
+      "sha256": "3084e8de92cb7054ac4094b4736003b0e7bec447d5b6c02606721db02d33c36a"
+    },
+    "work/tuza_degree10_c6_three_hub_human_proof.txt": {
+      "bytes": 3271,
+      "sha256": "6d9e0f4d035ae28b490d53d1358a6dcfa2263b42d1d3c4d393f37bd75eca7765"
+    },
+    "work/tuza_degree10_c6_three_hub_human_verified.json": {
+      "bytes": 631,
+      "sha256": "c0ac82e6f6c8c867ecb24a32a05e8a55edb7285e40c5c0a00fdc12072ccbe402"
+    },
+    "work/tuza_degree10_c6_three_hub_human_check.py": {
+      "bytes": 2540,
+      "sha256": "6a0eaf4c1ba34b187b1cd5f72e2d2e8a45c84626ac985c4b9499706a036457b7"
+    },
+    "work/tuza_degree10_c6_K24_human_complete_verified.json": {
+      "bytes": 3158,
+      "sha256": "61846ee6fd090b6a2be50c78db1dac250dee59fd9780a6ec1800f81fba1266a0"
+    },
+    "work/tuza_degree10_c6_K24_residual_pairs.json": {
+      "bytes": 7278,
+      "sha256": "28513dd84364bf229ad5a17f56045f8aeb241d4ca10a7746c892d7111de3a87f"
+    },
+    "work/tuza_degree10_c6_K24_human_partition_verified.json": {
+      "bytes": 72284,
+      "sha256": "953c0c6a544bc65e405ea89e19dab8ae95d54fde55f0e745ff291c4fa927b9e4"
+    },
+    "work/tuza_degree10_c6_K24_private_edges_human_proof.txt": {
+      "bytes": 5596,
+      "sha256": "86acf570c7cd34c9f0f3489e9877ca8321c21d5e362cd59817a896837830edf6"
+    },
+    "work/tuza_degree10_c6_K24_private_edges_human_check.py": {
+      "bytes": 5795,
+      "sha256": "ee6d759af16e8dc719f3e8c38fe804d12edb7784722c76b875249ae62e4c04d9"
+    },
+    "work/tuza_degree10_c6_K24_private_edges_human_verified.json": {
+      "bytes": 1095,
+      "sha256": "829708bd9f001d19aefc4862cc5437c6e8e03224686e71ce2af53afe5444ddef"
+    },
+    "work/tuza_degree10_c6_K24_one_private_edge_human_proof.txt": {
+      "bytes": 4353,
+      "sha256": "6ff07c7f1b4c479a6dabb1f7f5c0ed049eb0fb116a4a255a227b114538647fb2"
+    },
+    "work/tuza_degree10_c6_K24_one_private_edge_human_check.py": {
+      "bytes": 4870,
+      "sha256": "3ad259923847795670179a6b7c75fedef70ab614e7e4175b9e90da2c51a4afce"
+    },
+    "work/tuza_degree10_c6_K24_one_private_edge_human_verified.json": {
+      "bytes": 722,
+      "sha256": "5276bb1a9c13213be95af408bbad0a5ed3f9d3356b60008f5270d0d13b2f1f72"
+    },
+    "work/tuza_degree10_c6_K24_full_leaf_human_proof.txt": {
+      "bytes": 3210,
+      "sha256": "ba7bceef633e04e8fc6f7cd126de0107b260941b0482b5fe478e713dfb72ef09"
+    },
+    "work/tuza_degree10_c6_K24_full_leaf_human_check.py": {
+      "bytes": 4236,
+      "sha256": "585e7c8534ba46f63c8de72060f2622fefdb880be24d41f86f9db388731b918e"
+    },
+    "work/tuza_degree10_c6_K24_full_leaf_human_verified.json": {
+      "bytes": 697,
+      "sha256": "2390faf5e88379060093f8370c84cbf14954f610fc2f5665a1c9b7c92d4c2ca2"
+    },
+    "work/tuza_degree10_c6_K24_two_leaf_human_proof.txt": {
+      "bytes": 2961,
+      "sha256": "3a54ecd4a2be4b37593c7fa82b801e718856f3e63be39332de7de969aa5f6297"
+    },
+    "work/tuza_degree10_c6_K24_two_leaf_human_check.py": {
+      "bytes": 2655,
+      "sha256": "60e767319a2f6675952d4eb78df0b5425ac7f56b6e6452bd8fd7537af1bf16d9"
+    },
+    "work/tuza_degree10_c6_K24_two_leaf_human_verified.json": {
+      "bytes": 635,
+      "sha256": "2119051c62753a83623951e1176792b3e6ced3113f0eed7186f12b5787fb804d"
+    },
+    "work/tuza_degree10_c6_complete_coverage_verified.json": {
+      "bytes": 107465,
+      "sha256": "0e24782b99c409c3866ce35d6d9dea1306562f5c17664a1a340f9ab5097d8f32"
+    },
+    "work/tuza_degree10_global_final_peer_check.py": {
+      "bytes": 12374,
+      "sha256": "c6e00938f09e6a6366216cdcff7907b39d8aa0b54e3a12505331fa7be9ff1785"
+    },
+    "work/tuza_degree10_global_final_peer_audit.txt": {
+      "bytes": 1809,
+      "sha256": "e86d3e09586d46edee007abb591f0774e1fd7bf7b53ac75e4665c43e98e1b38f"
+    }
+  },
+  "root_checker_sha256": "e47cb8bf4ada9df389ab749103dec009dad0fb2f2b5263a2b9320a3a9aa1eedd",
+  "seconds": 0.3723769187927246
+}

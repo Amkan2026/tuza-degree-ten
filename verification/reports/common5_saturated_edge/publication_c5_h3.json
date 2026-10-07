@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "complete_graph_domain": true,
+  "complete_pair_domain": false,
+  "graph_cases_unclosed": 0,
+  "corruption_controls_rejected": 3,
+  "cores": [
+    {
+      "degrees": [
+        10,
+        10
+      ],
+      "core": 3,
+      "admitted_pairs": 461139,
+      "pair_intervals": 14,
+      "initial_pair_residual": 6,
+      "edge_intervals": 3,
+      "graph_cases_unclosed": 0,
+      "status": "PASS"
+    }
+  ],
+  "source": "work/tuza_degree10_c5_h3_edge_intervals.json",
+  "source_sha256": "b60830c0fb3293c38fe4322c0d00e0bd8faf27466fe62204b80ceb40bb7b5833"
+}

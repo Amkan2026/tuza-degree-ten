@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "fresh_graph_types": 89402,
+  "literal_WKE_witnesses": 89140,
+  "nonWKE_types": 262,
+  "degree_four_roots": 1794,
+  "rooted_side_counts": {
+    "0": 745,
+    "1": 741,
+    "3": 517,
+    "7": 106,
+    "11": 97,
+    "12": 740,
+    "13": 169,
+    "15": 28,
+    "30": 253,
+    "31": 35
+  },
+  "rooted_sides": 3431,
+  "negative_controls": 2,
+  "source_sha256": "aaa1cccb5aca6c85e7d54e240a85ea3262a517c885bd026b7753d58091c3299c",
+  "seconds": 2.3267883750377223
+}

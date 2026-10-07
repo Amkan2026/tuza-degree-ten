@@ -1,0 +1,25 @@
+CORE 40 counts {'pairs': 24574, 'mixed': 378, 'excluded_cores': 38, 'certificate_cores': 191} seconds 96.3
+CORE 60 counts {'pairs': 184871, 'mixed': 2617, 'excluded_cores': 38, 'certificate_cores': 191} seconds 166.3
+CORE 80 counts {'pairs': 443514, 'mixed': 5537, 'excluded_cores': 38, 'certificate_cores': 191} seconds 220.0
+CORE 100 counts {'pairs': 860726, 'mixed': 9517, 'excluded_cores': 38, 'certificate_cores': 191} seconds 282.3
+CORE 120 counts {'pairs': 1177276, 'mixed': 12935, 'excluded_cores': 38, 'certificate_cores': 191} seconds 333.2
+CORE 140 counts {'pairs': 1506264, 'mixed': 16178, 'excluded_cores': 38, 'certificate_cores': 191} seconds 375.1
+CORE 160 counts {'pairs': 1925425, 'mixed': 20210, 'excluded_cores': 38, 'certificate_cores': 191} seconds 440.7
+CORE 180 counts {'pairs': 2125038, 'mixed': 22807, 'excluded_cores': 38, 'certificate_cores': 191} seconds 493.0
+CORE 200 counts {'pairs': 2488234, 'mixed': 26244, 'excluded_cores': 38, 'certificate_cores': 191} seconds 563.4
+CORE 220 counts {'pairs': 2773839, 'mixed': 29352, 'excluded_cores': 38, 'certificate_cores': 191} seconds 617.7
+{
+  "result": "PASS",
+  "core_types": 12346,
+  "unconditional_spare_two": 12116,
+  "residual_core_types": 230,
+  "interval_certificates": 11579,
+  "residual_labelled_unordered_pairs": 2877937,
+  "residual_labelled_mixed_models": 30356,
+  "excluded_no_side_cores": 39,
+  "certificate_cores": 191,
+  "negative_controls": 2,
+  "core_sha256": "d0d37606040292541c990a7a76281d87f71ed9c259abf98e7689ae86e11520d7",
+  "residual_sha256": "08d32216454945b8c2d1afac3b0421b92f00e9cca19dda6339d1cb81dd5ba59e",
+  "seconds": 635.065712928772
+}

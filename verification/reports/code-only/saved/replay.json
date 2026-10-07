@@ -1,0 +1,20 @@
+{
+  "archive_sha256": "1c91ac287d56c46065c432fbc6a98835cfe50240b229ade07adc830f04429a5a",
+  "cases": [
+    "saved"
+  ],
+  "steps": [
+    {
+      "script": "tuza_degree10_global_root_check.py",
+      "result": "PASS",
+      "directory": "01_tuza_degree10_global_root_check",
+      "outputs": [
+        {
+          "path": "work/tuza_degree10_global_root_verified.json",
+          "sha256": "d8f7a24c5d21e2400792cc003179129a9b8f1b686af0ee520a37307c4e20e86f"
+        }
+      ]
+    }
+  ],
+  "result": "PASS"
+}

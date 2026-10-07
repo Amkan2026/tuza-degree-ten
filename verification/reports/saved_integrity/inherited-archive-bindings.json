@@ -1,0 +1,140 @@
+{
+  "result": "PASS",
+  "scope": "Exact immutable-byte binding of inherited common-six and common-seven endpoint-pair premises, plus common-eight literal and human sparse premise",
+  "archive": "outputs/tuza_degree9_verification.zip",
+  "archive_sha256": "45302825e120d3dae355438f9ec4ee536bf1c3ea89b25ec7c0d8030ec540c435",
+  "archive_bytes": 7251738,
+  "nested_degree8_archive_sha256": "3f0f7b14c34ed296ce7a0e63c9a8dd0a0e23008b165b502853fe86368e9d05bc",
+  "literal_source_members_bound": 19,
+  "transfer_note_sha256": {
+    "work/tuza_degree10_c6_lower_endpoint_transfer_audit.json": "481e35c0d3d192b34091340dbb9f2df5704b7f6aa25403b8036d75a580807812",
+    "work/tuza_degree10_c7_old_lane_transfer_audit.json": "3cf60ebf4e6c752e85f139c028df20ed397319045b20d6bf0a40dc8fb1b78206"
+  },
+  "members": {
+    "work/tuza_degree8_codegree6_template_certificates.json": {
+      "sha256": "20dc35c5d9dcb5220ac4ce88760716cb8e22a79fa7fa2b6f1c0cc4b64bff8fd1",
+      "bytes": 7006975,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "nested_member": "outputs/tuza_degree8_verification.zip",
+      "member": "work/tuza_degree8_codegree6_template_certificates.json"
+    },
+    "work/tuza_degree8_mixed_codegree6_certificates.json": {
+      "sha256": "7a22533c4da02b70affbbd4572a10e97cceda09e92056c713afed0c2b1947e01",
+      "bytes": 190808,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "nested_member": "outputs/tuza_degree8_verification.zip",
+      "member": "work/tuza_degree8_mixed_codegree6_certificates.json"
+    },
+    "work/tuza_c6_compressed_contact_templates.json": {
+      "sha256": "dd8a605e17ca50c113513c65623b3ce7c6dbcd38a876a64b693756abb8149cc7",
+      "bytes": 76672,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "nested_member": "outputs/tuza_degree8_verification.zip",
+      "member": "work/tuza_c6_compressed_contact_templates.json"
+    },
+    "work/tuza_c6_mixed_interval_templates.json": {
+      "sha256": "87f9cc7c457c0bd5dbda8053b1c8fb3cdf9d177264392d9cbbcb87f07a912b73",
+      "bytes": 30694,
+      "archive": "work/tuza_degree10_old_transfer_supplement.zip",
+      "member": "work/tuza_c6_mixed_interval_templates.json",
+      "not_in_prior_archive": true
+    },
+    "work/tuza_degree9_c6_core_spare_certificates.json": {
+      "sha256": "844947971bc1afa2fc8959656242bb7a00a609411f5cc977c763fcca7465d4e6",
+      "bytes": 64016,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_c6_core_spare_certificates.json"
+    },
+    "work/tuza_degree9_c6_monotone_certificates.json": {
+      "sha256": "e2dad9ba61c9b2d51fc8cffd1964603fae8dbb2800261d4edbefe595be0c94fc",
+      "bytes": 465982,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_c6_monotone_certificates.json"
+    },
+    "work/tuza_degree9_c6_full_combined_certificates.json": {
+      "sha256": "8846a2c6db3322584eeeee08f096cd8cdd03a13eca48364aa684fc7b82b4b679",
+      "bytes": 238698,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_c6_full_combined_certificates.json"
+    },
+    "work/tuza_c6_compressed_contact_check.py": {
+      "sha256": "eca58da989b1db03332f62aaef9ec20426968027fd0c412d6c51cf6167b3231a",
+      "bytes": 7224,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "nested_member": "outputs/tuza_degree8_verification.zip",
+      "member": "work/tuza_c6_compressed_contact_check.py"
+    },
+    "work/tuza_c6_mixed_reuse_check.py": {
+      "sha256": "24bb44f54c27939297e2f6a26305cfa81257b1e479445bb266ea62e1ed8ba506",
+      "bytes": 8107,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "nested_member": "outputs/tuza_degree8_verification.zip",
+      "member": "work/tuza_c6_mixed_reuse_check.py"
+    },
+    "work/tuza_degree9_c6_check.py": {
+      "sha256": "9ae7ada2bf763189c86a85c31ccb4483d7fb5a83d76f3bf15955ff1f8d98e13f",
+      "bytes": 10691,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_c6_check.py"
+    },
+    "work/tuza_degree8_codegree6_k5_core_analytic.txt": {
+      "sha256": "7c4fb777d6c42fa96acc9da1d183e225d50bdf4185b98832d459f784a7cb0807",
+      "bytes": 5548,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "nested_member": "outputs/tuza_degree8_verification.zip",
+      "member": "work/tuza_degree8_codegree6_k5_core_analytic.txt"
+    },
+    "work/tuza_degree9_c7_no_side_certificates.json": {
+      "sha256": "42926db9835d646c35f7390413c2e49cc3063f8656103f960fb4c4fdc21f2971",
+      "bytes": 255202,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_c7_no_side_certificates.json"
+    },
+    "work/tuza_degree9_common7_slack2_probe.json": {
+      "sha256": "afd74e9934d91bdb7e5f12ca290fb22390105e6763b4143c5c38882ab66e278a",
+      "bytes": 335858,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_common7_slack2_probe.json"
+    },
+    "work/tuza_degree9_c7_residual_certificates.json": {
+      "sha256": "1393ec805c962da7f880ee2c222b964fddaa5caf3c8907664796da4c0760b9b9",
+      "bytes": 508556,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_c7_residual_certificates.json"
+    },
+    "work/tuza_degree9_c7_no_side_check.py": {
+      "sha256": "01bc6b3f7edbe64b1d34b3bbd2991a8a41a082d4453edca613cfb61004e84f06",
+      "bytes": 2810,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_c7_no_side_check.py"
+    },
+    "work/tuza_degree9_c7_check.py": {
+      "sha256": "941f368ca5deb2c388dc4c997afff8840bef3f764546f28c6b73762447d65eb3",
+      "bytes": 4777,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_c7_check.py"
+    },
+    "work/tuza_degree9_common8_pair_probe.json": {
+      "sha256": "ab0667fbc30104918c5509bd69eefffaa67862b9ade6093bedac4dab91bb5a06",
+      "bytes": 4131620,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_common8_pair_probe.json"
+    },
+    "work/tuza_degree9_common8_pair_check.py": {
+      "sha256": "df2f891967098a1a77cf04e0c97ab6aa19eeccd07bd02591a8e06e08ff9998b9",
+      "bytes": 2304,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_common8_pair_check.py"
+    },
+    "work/tuza_degree9_high_lane_proof.txt": {
+      "sha256": "50734026f8938a7abe8971195c5b80e9a377b2a127b7541ff54659932cc6b1ae",
+      "bytes": 3877,
+      "archive": "outputs/tuza_degree9_verification.zip",
+      "member": "work/tuza_degree9_high_lane_proof.txt"
+    }
+  },
+  "checker_sha256": "37fb99abf9ec2f8ea6afc6417260d808973b04cdc5bb524270099a8b53a66e74",
+  "new_whole_domain_replay_claimed": false,
+  "supplement_archive_sha256": "febd93be96be94dde8e52f4221447e93e897ad8cf44376f6c303944ecc829c5e",
+  "supplement_archive_bytes": 1496
+}

@@ -1,0 +1,32 @@
+PASS 8 10 3 941 2
+PASS 8 10 54 122948 4
+PASS 8 10 55 1299 3
+PASS 8 10 58 85995 6
+PASS 8 10 59 28890 8
+PASS 8 10 62 385242 15
+PASS 8 10 63 17040 4
+PASS 8 10 126 530985 27
+PASS 8 10 127 4540 2
+PASS 8 10 183 438 3
+PASS 8 10 185 17280 2
+PASS 8 10 187 26199 16
+PASS 8 10 191 2629 7
+PASS 8 10 220 769220 12
+PASS 8 10 221 136218 19
+PASS 8 10 223 1508 2
+PASS 8 10 254 28737 23
+PASS 8 10 255 110 6
+{
+  "complete_lane": true,
+  "verified_complete_cores": 18,
+  "admitted_pairs_verified": 2160219,
+  "intervals_verified": 161,
+  "negative_controls_rejected": [
+    "duplicate triangle",
+    "empty cover",
+    "missing required mask"
+  ],
+  "source_sha256": "4f5e7edb4166c23d193aedc700a3b1a1e4b797c303d08cc51715ba71c7eca93d",
+  "elapsed_seconds": 2.8881827499717474,
+  "result": "PASS"
+}

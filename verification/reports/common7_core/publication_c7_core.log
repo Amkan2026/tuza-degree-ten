@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "full_core_types": 1044,
+  "spare_counts": {
+    "4": 419,
+    "3": 897,
+    "2": 1027
+  },
+  "negative_controls": 1,
+  "payload_sha256": "1f06cb4c7654343289ae3a2cece3e73caa9b4ad5cd58dd04d353daf120023b4c"
+}

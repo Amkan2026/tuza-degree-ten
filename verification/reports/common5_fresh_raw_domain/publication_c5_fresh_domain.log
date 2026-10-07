@@ -1,0 +1,7 @@
+graphs 938181 nonWKE 5000 ports 15880 cpu 2.7
+graphs 967562 nonWKE 10000 ports 37041 cpu 5.8
+graphs 1107687 nonWKE 15000 ports 60829 cpu 9.2
+graphs 1136554 nonWKE 20000 ports 83373 cpu 12.3
+graphs 1146246 nonWKE 25000 ports 112167 cpu 15.6
+graphs 1156323 nonWKE 30000 ports 140824 cpu 18.9
+FINISHED graphs 1156842 nonWKE 30403 ports 143536 sides 405914 density 143538 cpu 19.4

@@ -1,0 +1,4760 @@
+{
+  "result": "PASS",
+  "scope": "all 780 complete endpoint lanes, with named human arguments bound separately",
+  "complete_domain": true,
+  "closed_lanes_replayed": 780,
+  "candidate_pairs": 51030970708,
+  "ordinary_pair_certificates": 10150,
+  "subset_cut_certificates": 28,
+  "core_spare_certificates": 115,
+  "human_arguments": [
+    {
+      "g6": "E?Bo",
+      "lane": "10/10",
+      "candidate_pairs": 400,
+      "proofs_checkers_and_positive_replays": {
+        "tuza_degree10_c6_four_private_human_proof.txt": "885ecfe156937ae6396523aff7de5d0f34d92e3fc75b3692f68de1dce9432e3e",
+        "tuza_degree10_c6_four_private_human_verified.json": "272b7c2e3b51973036cecd4c49174f8ff0f07f181c7e03d1886d4a940890adca",
+        "tuza_degree10_c6_four_private_glue_verified.json": "17121d7664820bf6d5b439a199bcc7a232078acd50712b0097a3122432d8e1cf",
+        "tuza_degree10_c6_four_private_human_check.c": "4dce580376ebaa4a04f2f85c8bd0ae0efa72b2d499cd811f47b87798c241b14f",
+        "tuza_degree10_c6_four_private_glue_check.py": "2cbfb849439ef9fd78dfb16bc457198f18212c72a724ac57fe53d5be5074ac4a"
+      },
+      "human_root_review_sha256": "c56c03c5e8e9c4e84d19fd3771cbe9f8b3aba96e8509bf052e07cd4a4819fc12",
+      "human_argument_required": true
+    },
+    {
+      "g6": "E?Bw",
+      "lane": "10/10",
+      "candidate_pairs": 400,
+      "proofs_checkers_and_positive_replays": {
+        "tuza_degree10_c6_empty_core_human_proof.txt": "a8d98c54cd51e80880cc6f2d6add9d480dd226287f94a409fa52208ff54530ed",
+        "tuza_degree10_c6_double_hub_human_proof.txt": "3084e8de92cb7054ac4094b4736003b0e7bec447d5b6c02606721db02d33c36a",
+        "tuza_degree10_c6_three_hub_human_proof.txt": "6d9e0f4d035ae28b490d53d1358a6dcfa2263b42d1d3c4d393f37bd75eca7765",
+        "tuza_degree10_c6_three_hub_human_verified.json": "c0ac82e6f6c8c867ecb24a32a05e8a55edb7285e40c5c0a00fdc12072ccbe402",
+        "tuza_degree10_c6_three_hub_human_check.py": "6a0eaf4c1ba34b187b1cd5f72e2d2e8a45c84626ac985c4b9499706a036457b7"
+      },
+      "human_root_review_sha256": "c56c03c5e8e9c4e84d19fd3771cbe9f8b3aba96e8509bf052e07cd4a4819fc12",
+      "human_argument_required": true
+    },
+    {
+      "g6": "E?~o",
+      "lane": "9/9",
+      "candidate_pairs": 946729,
+      "binding_report": "tuza_degree10_c6_K24_human_complete_verified.json",
+      "binding_report_sha256": "61846ee6fd090b6a2be50c78db1dac250dee59fd9780a6ec1800f81fba1266a0",
+      "ordinary_intervals": 41,
+      "fresh_independent_complement_pairs": 193,
+      "human_proof_partition": {
+        "full_leaf": 9,
+        "one_private_edge": 60,
+        "two_leaf": 24,
+        "two_private_edges": 100
+      }
+    }
+  ],
+  "records": [
+    {
+      "g6": "E???",
+      "lane": "10/10",
+      "candidate_pairs": 900,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E???",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E???",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E???",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E???",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?A?",
+      "lane": "10/10",
+      "candidate_pairs": 49,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?A?",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?A?",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?A?",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?A?",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?B?",
+      "lane": "10/10",
+      "candidate_pairs": 220900,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?B?",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?B?",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?B?",
+      "lane": "9/10",
+      "candidate_pairs": 1410,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?B?",
+      "lane": "9/9",
+      "candidate_pairs": 9,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?B_",
+      "lane": "10/10",
+      "candidate_pairs": 24336,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?B_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?B_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?B_",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?B_",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?Bo",
+      "lane": "10/10",
+      "candidate_pairs": 400,
+      "proof_mode": "bound_universal_human_star_argument"
+    },
+    {
+      "g6": "E?Bo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?Bo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?Bo",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?Bo",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?Bw",
+      "lane": "10/10",
+      "candidate_pairs": 400,
+      "proof_mode": "bound_universal_human_star_argument"
+    },
+    {
+      "g6": "E?Bw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?Bw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?Bw",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?Bw",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`?",
+      "lane": "10/10",
+      "candidate_pairs": 121,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?`?",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`?",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`?",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`?",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`_",
+      "lane": "10/10",
+      "candidate_pairs": 5476,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?`_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`_",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`_",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`o",
+      "lane": "10/10",
+      "candidate_pairs": 6889,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?`o",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`o",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`o",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?`o",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?aG",
+      "lane": "10/10",
+      "candidate_pairs": 141376,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?aG",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?aG",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?aG",
+      "lane": "9/10",
+      "candidate_pairs": 3008,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?aG",
+      "lane": "9/9",
+      "candidate_pairs": 64,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?b?",
+      "lane": "10/10",
+      "candidate_pairs": 27225,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?b?",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?b?",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?b?",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?b?",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bG",
+      "lane": "10/10",
+      "candidate_pairs": 11449,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?bG",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bG",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bG",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bG",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?b_",
+      "lane": "10/10",
+      "candidate_pairs": 576,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?b_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?b_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?b_",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?b_",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bg",
+      "lane": "10/10",
+      "candidate_pairs": 49,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?bg",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bg",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bg",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bg",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bo",
+      "lane": "10/10",
+      "candidate_pairs": 1156,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?bo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bo",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bo",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bw",
+      "lane": "10/10",
+      "candidate_pairs": 625,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?bw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bw",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?bw",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?oo",
+      "lane": "10/10",
+      "candidate_pairs": 68211081,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?oo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?oo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?oo",
+      "lane": "9/10",
+      "candidate_pairs": 6185991,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?oo",
+      "lane": "9/9",
+      "candidate_pairs": 561001,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?ow",
+      "lane": "10/10",
+      "candidate_pairs": 17363889,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?ow",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?ow",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?ow",
+      "lane": "9/10",
+      "candidate_pairs": 1833480,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?ow",
+      "lane": "9/9",
+      "candidate_pairs": 193600,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?qg",
+      "lane": "10/10",
+      "candidate_pairs": 3794704,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?qg",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?qg",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?qg",
+      "lane": "9/10",
+      "candidate_pairs": 650632,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?qg",
+      "lane": "9/9",
+      "candidate_pairs": 111556,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "E?qo",
+      "lane": "10/10",
+      "candidate_pairs": 71470116,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?qo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?qo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?qo",
+      "lane": "9/10",
+      "candidate_pairs": 6577212,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?qo",
+      "lane": "9/9",
+      "candidate_pairs": 605284,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "E?qw",
+      "lane": "10/10",
+      "candidate_pairs": 6350400,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?qw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?qw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?qw",
+      "lane": "9/10",
+      "candidate_pairs": 599760,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?qw",
+      "lane": "9/9",
+      "candidate_pairs": 56644,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?r?",
+      "lane": "10/10",
+      "candidate_pairs": 16475481,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?r?",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?r?",
+      "lane": "8/10",
+      "candidate_pairs": 4059,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "E?r?",
+      "lane": "9/10",
+      "candidate_pairs": 2240568,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "E?r?",
+      "lane": "9/9",
+      "candidate_pairs": 304704,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "E?rG",
+      "lane": "10/10",
+      "candidate_pairs": 4376464,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?rG",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?rG",
+      "lane": "8/10",
+      "candidate_pairs": 6276,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "E?rG",
+      "lane": "9/10",
+      "candidate_pairs": 610864,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?rG",
+      "lane": "9/9",
+      "candidate_pairs": 85264,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "E?r_",
+      "lane": "10/10",
+      "candidate_pairs": 28355625,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?r_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?r_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?r_",
+      "lane": "9/10",
+      "candidate_pairs": 3328125,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?r_",
+      "lane": "9/9",
+      "candidate_pairs": 390625,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "E?rg",
+      "lane": "10/10",
+      "candidate_pairs": 2190400,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?rg",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?rg",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?rg",
+      "lane": "9/10",
+      "candidate_pairs": 273800,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?rg",
+      "lane": "9/9",
+      "candidate_pairs": 34225,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?ro",
+      "lane": "10/10",
+      "candidate_pairs": 52446564,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?ro",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?ro",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?ro",
+      "lane": "9/10",
+      "candidate_pairs": 3903438,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?ro",
+      "lane": "9/9",
+      "candidate_pairs": 290521,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?rw",
+      "lane": "10/10",
+      "candidate_pairs": 6959044,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?rw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?rw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?rw",
+      "lane": "9/10",
+      "candidate_pairs": 593550,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?rw",
+      "lane": "9/9",
+      "candidate_pairs": 50625,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zO",
+      "lane": "10/10",
+      "candidate_pairs": 193571569,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?zO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?zO",
+      "lane": "9/10",
+      "candidate_pairs": 13078220,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zO",
+      "lane": "9/9",
+      "candidate_pairs": 883600,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zW",
+      "lane": "10/10",
+      "candidate_pairs": 6330256,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?zW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?zW",
+      "lane": "9/10",
+      "candidate_pairs": 533392,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zW",
+      "lane": "9/9",
+      "candidate_pairs": 44944,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "E?z_",
+      "lane": "10/10",
+      "candidate_pairs": 193515921,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?z_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?z_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?z_",
+      "lane": "9/10",
+      "candidate_pairs": 13646691,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?z_",
+      "lane": "9/9",
+      "candidate_pairs": 962361,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zg",
+      "lane": "10/10",
+      "candidate_pairs": 459684,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zg",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?zg",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?zg",
+      "lane": "9/10",
+      "candidate_pairs": 59664,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zg",
+      "lane": "9/9",
+      "candidate_pairs": 7744,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "E?zo",
+      "lane": "10/10",
+      "candidate_pairs": 381381841,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?zo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?zo",
+      "lane": "9/10",
+      "candidate_pairs": 20271102,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zo",
+      "lane": "9/9",
+      "candidate_pairs": 1077444,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zw",
+      "lane": "10/10",
+      "candidate_pairs": 3884841,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?zw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?zw",
+      "lane": "9/10",
+      "candidate_pairs": 325215,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?zw",
+      "lane": "9/9",
+      "candidate_pairs": 27225,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?~o",
+      "lane": "10/10",
+      "candidate_pairs": 321987136,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?~o",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?~o",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?~o",
+      "lane": "9/10",
+      "candidate_pairs": 17459512,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?~o",
+      "lane": "9/9",
+      "candidate_pairs": 946729,
+      "proof_mode": "ordinary_intervals_plus_bound_human_complement"
+    },
+    {
+      "g6": "E?~w",
+      "lane": "10/10",
+      "candidate_pairs": 1909924,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?~w",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?~w",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E?~w",
+      "lane": "9/10",
+      "candidate_pairs": 165840,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E?~w",
+      "lane": "9/9",
+      "candidate_pairs": 14400,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECO_",
+      "lane": "10/10",
+      "candidate_pairs": 3560769,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECO_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECO_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECO_",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECO_",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECQO",
+      "lane": "10/10",
+      "candidate_pairs": 538756,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECQO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECQO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECQO",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECQO",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECQ_",
+      "lane": "10/10",
+      "candidate_pairs": 1713481,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECQ_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECQ_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECQ_",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECQ_",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECQo",
+      "lane": "10/10",
+      "candidate_pairs": 1827904,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECQo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECQo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECQo",
+      "lane": "9/10",
+      "candidate_pairs": 8112,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECQo",
+      "lane": "9/9",
+      "candidate_pairs": 36,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECR?",
+      "lane": "10/10",
+      "candidate_pairs": 708964,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECR?",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECR?",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECR?",
+      "lane": "9/10",
+      "candidate_pairs": 842,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ECR?",
+      "lane": "9/9",
+      "candidate_pairs": 1,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ECRO",
+      "lane": "10/10",
+      "candidate_pairs": 277729,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECRO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECRO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECRO",
+      "lane": "9/10",
+      "candidate_pairs": 1054,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECRO",
+      "lane": "9/9",
+      "candidate_pairs": 4,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ECRW",
+      "lane": "10/10",
+      "candidate_pairs": 151321,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECRW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECRW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECRW",
+      "lane": "9/10",
+      "candidate_pairs": 4279,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECRW",
+      "lane": "9/9",
+      "candidate_pairs": 121,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECR_",
+      "lane": "10/10",
+      "candidate_pairs": 1495729,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECR_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECR_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECR_",
+      "lane": "9/10",
+      "candidate_pairs": 7338,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECR_",
+      "lane": "9/9",
+      "candidate_pairs": 36,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ECRo",
+      "lane": "10/10",
+      "candidate_pairs": 407044,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECRo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECRo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECRo",
+      "lane": "9/10",
+      "candidate_pairs": 6380,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECRo",
+      "lane": "9/9",
+      "candidate_pairs": 100,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECRw",
+      "lane": "10/10",
+      "candidate_pairs": 811801,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECRw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECRw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECRw",
+      "lane": "9/10",
+      "candidate_pairs": 13515,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECRw",
+      "lane": "9/9",
+      "candidate_pairs": 225,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECX_",
+      "lane": "10/10",
+      "candidate_pairs": 493550656,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECX_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECX_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECX_",
+      "lane": "9/10",
+      "candidate_pairs": 35567816,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECX_",
+      "lane": "9/9",
+      "candidate_pairs": 2563201,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ECXg",
+      "lane": "10/10",
+      "candidate_pairs": 140422500,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECXg",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECXg",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECXg",
+      "lane": "9/10",
+      "candidate_pairs": 13035000,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECXg",
+      "lane": "9/9",
+      "candidate_pairs": 1210000,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECYO",
+      "lane": "10/10",
+      "candidate_pairs": 149084100,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECYO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECYO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECYO",
+      "lane": "9/10",
+      "candidate_pairs": 14859570,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECYO",
+      "lane": "9/9",
+      "candidate_pairs": 1481089,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECYW",
+      "lane": "10/10",
+      "candidate_pairs": 49350625,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECYW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECYW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECYW",
+      "lane": "9/10",
+      "candidate_pairs": 5135275,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECYW",
+      "lane": "9/9",
+      "candidate_pairs": 534361,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZ?",
+      "lane": "10/10",
+      "candidate_pairs": 143448529,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZ?",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZ?",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZ?",
+      "lane": "9/10",
+      "candidate_pairs": 13593895,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZ?",
+      "lane": "9/9",
+      "candidate_pairs": 1288225,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ECZG",
+      "lane": "10/10",
+      "candidate_pairs": 78960996,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZG",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZG",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZG",
+      "lane": "9/10",
+      "candidate_pairs": 7561986,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZG",
+      "lane": "9/9",
+      "candidate_pairs": 724201,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZO",
+      "lane": "10/10",
+      "candidate_pairs": 247086961,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZO",
+      "lane": "9/10",
+      "candidate_pairs": 20953427,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZO",
+      "lane": "9/9",
+      "candidate_pairs": 1776889,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZW",
+      "lane": "10/10",
+      "candidate_pairs": 80156209,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZW",
+      "lane": "9/10",
+      "candidate_pairs": 5998510,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZW",
+      "lane": "9/9",
+      "candidate_pairs": 448900,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZ_",
+      "lane": "10/10",
+      "candidate_pairs": 726572025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZ_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZ_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZ_",
+      "lane": "9/10",
+      "candidate_pairs": 44044470,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZ_",
+      "lane": "9/9",
+      "candidate_pairs": 2669956,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZg",
+      "lane": "10/10",
+      "candidate_pairs": 61434244,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZg",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZg",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZg",
+      "lane": "9/10",
+      "candidate_pairs": 4914426,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZg",
+      "lane": "9/9",
+      "candidate_pairs": 393129,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ECZo",
+      "lane": "10/10",
+      "candidate_pairs": 445758769,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZo",
+      "lane": "9/10",
+      "candidate_pairs": 24828888,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZo",
+      "lane": "9/9",
+      "candidate_pairs": 1382976,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ECZw",
+      "lane": "10/10",
+      "candidate_pairs": 48608784,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECZw",
+      "lane": "9/10",
+      "candidate_pairs": 3855516,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECZw",
+      "lane": "9/9",
+      "candidate_pairs": 305809,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECeW",
+      "lane": "10/10",
+      "candidate_pairs": 688900,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECeW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECeW",
+      "lane": "8/10",
+      "candidate_pairs": 4150,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECeW",
+      "lane": "9/10",
+      "candidate_pairs": 113710,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECeW",
+      "lane": "9/9",
+      "candidate_pairs": 18769,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECfW",
+      "lane": "10/10",
+      "candidate_pairs": 218089,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECfW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECfW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECfW",
+      "lane": "9/10",
+      "candidate_pairs": 38294,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECfW",
+      "lane": "9/9",
+      "candidate_pairs": 6724,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECfo",
+      "lane": "10/10",
+      "candidate_pairs": 16638241,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECfo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECfo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECfo",
+      "lane": "9/10",
+      "candidate_pairs": 1513309,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECfo",
+      "lane": "9/9",
+      "candidate_pairs": 137641,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECfw",
+      "lane": "10/10",
+      "candidate_pairs": 2298256,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECfw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECfw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECfw",
+      "lane": "9/10",
+      "candidate_pairs": 283492,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECfw",
+      "lane": "9/9",
+      "candidate_pairs": 34969,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECpO",
+      "lane": "10/10",
+      "candidate_pairs": 19114384,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECpO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECpO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECpO",
+      "lane": "9/10",
+      "candidate_pairs": 3445136,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECpO",
+      "lane": "9/9",
+      "candidate_pairs": 620944,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ECpo",
+      "lane": "10/10",
+      "candidate_pairs": 250810569,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECpo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECpo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECpo",
+      "lane": "9/10",
+      "candidate_pairs": 18782682,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECpo",
+      "lane": "9/9",
+      "candidate_pairs": 1406596,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECqg",
+      "lane": "10/10",
+      "candidate_pairs": 25725184,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECqg",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECqg",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECqg",
+      "lane": "9/10",
+      "candidate_pairs": 2718592,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECqg",
+      "lane": "9/9",
+      "candidate_pairs": 287296,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrG",
+      "lane": "10/10",
+      "candidate_pairs": 4322241,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrG",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECrG",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECrG",
+      "lane": "9/10",
+      "candidate_pairs": 644490,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrG",
+      "lane": "9/9",
+      "candidate_pairs": 96100,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrO",
+      "lane": "10/10",
+      "candidate_pairs": 25674489,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECrO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECrO",
+      "lane": "9/10",
+      "candidate_pairs": 3217545,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrO",
+      "lane": "9/9",
+      "candidate_pairs": 403225,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrW",
+      "lane": "10/10",
+      "candidate_pairs": 2788900,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECrW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECrW",
+      "lane": "9/10",
+      "candidate_pairs": 414160,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrW",
+      "lane": "9/9",
+      "candidate_pairs": 61504,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ECr_",
+      "lane": "10/10",
+      "candidate_pairs": 103063104,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECr_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECr_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECr_",
+      "lane": "9/10",
+      "candidate_pairs": 8172360,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECr_",
+      "lane": "9/9",
+      "candidate_pairs": 648025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrg",
+      "lane": "10/10",
+      "candidate_pairs": 15872256,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrg",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECrg",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECrg",
+      "lane": "9/10",
+      "candidate_pairs": 1541808,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrg",
+      "lane": "9/9",
+      "candidate_pairs": 149769,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECro",
+      "lane": "10/10",
+      "candidate_pairs": 131308681,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECro",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECro",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECro",
+      "lane": "9/10",
+      "candidate_pairs": 8525496,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECro",
+      "lane": "9/9",
+      "candidate_pairs": 553536,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ECrw",
+      "lane": "10/10",
+      "candidate_pairs": 14002564,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECrw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECrw",
+      "lane": "9/10",
+      "candidate_pairs": 1410734,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECrw",
+      "lane": "9/9",
+      "candidate_pairs": 142129,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECuw",
+      "lane": "10/10",
+      "candidate_pairs": 5112121,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECuw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECuw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECuw",
+      "lane": "9/10",
+      "candidate_pairs": 626297,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECuw",
+      "lane": "9/9",
+      "candidate_pairs": 76729,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECvW",
+      "lane": "10/10",
+      "candidate_pairs": 238144,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECvW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECvW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECvW",
+      "lane": "9/10",
+      "candidate_pairs": 44408,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECvW",
+      "lane": "9/9",
+      "candidate_pairs": 8281,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECvo",
+      "lane": "10/10",
+      "candidate_pairs": 280127169,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECvo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECvo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECvo",
+      "lane": "9/10",
+      "candidate_pairs": 20084400,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECvo",
+      "lane": "9/9",
+      "candidate_pairs": 1440000,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECvw",
+      "lane": "10/10",
+      "candidate_pairs": 3508129,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECvw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECvw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECvw",
+      "lane": "9/10",
+      "candidate_pairs": 458885,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECvw",
+      "lane": "9/9",
+      "candidate_pairs": 60025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECxo",
+      "lane": "10/10",
+      "candidate_pairs": 1502880289,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECxo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECxo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECxo",
+      "lane": "9/10",
+      "candidate_pairs": 70827309,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECxo",
+      "lane": "9/9",
+      "candidate_pairs": 3337929,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECxw",
+      "lane": "10/10",
+      "candidate_pairs": 203975524,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECxw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECxw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECxw",
+      "lane": "9/10",
+      "candidate_pairs": 12211110,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECxw",
+      "lane": "9/9",
+      "candidate_pairs": 731025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzW",
+      "lane": "10/10",
+      "candidate_pairs": 36917776,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECzW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECzW",
+      "lane": "9/10",
+      "candidate_pairs": 3086608,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzW",
+      "lane": "9/9",
+      "candidate_pairs": 258064,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzg",
+      "lane": "10/10",
+      "candidate_pairs": 11992369,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzg",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECzg",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECzg",
+      "lane": "9/10",
+      "candidate_pairs": 1160105,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzg",
+      "lane": "9/9",
+      "candidate_pairs": 112225,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzo",
+      "lane": "10/10",
+      "candidate_pairs": 783384121,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECzo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECzo",
+      "lane": "9/10",
+      "candidate_pairs": 42767192,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzo",
+      "lane": "9/9",
+      "candidate_pairs": 2334784,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzw",
+      "lane": "10/10",
+      "candidate_pairs": 14516100,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECzw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ECzw",
+      "lane": "9/10",
+      "candidate_pairs": 1512570,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ECzw",
+      "lane": "9/9",
+      "candidate_pairs": 157609,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EC~o",
+      "lane": "10/10",
+      "candidate_pairs": 244672164,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EC~o",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EC~o",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EC~o",
+      "lane": "9/10",
+      "candidate_pairs": 20647440,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EC~o",
+      "lane": "9/9",
+      "candidate_pairs": 1742400,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EC~w",
+      "lane": "10/10",
+      "candidate_pairs": 950625,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EC~w",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EC~w",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EC~w",
+      "lane": "9/10",
+      "candidate_pairs": 156975,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EC~w",
+      "lane": "9/9",
+      "candidate_pairs": 25921,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEhW",
+      "lane": "10/10",
+      "candidate_pairs": 414407449,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEhW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEhW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEhW",
+      "lane": "9/10",
+      "candidate_pairs": 26443743,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEhW",
+      "lane": "9/9",
+      "candidate_pairs": 1687401,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEh_",
+      "lane": "10/10",
+      "candidate_pairs": 1529592100,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEh_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEh_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEh_",
+      "lane": "9/10",
+      "candidate_pairs": 85025140,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EEh_",
+      "lane": "9/9",
+      "candidate_pairs": 4726276,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EEho",
+      "lane": "10/10",
+      "candidate_pairs": 1284792336,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEho",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEho",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEho",
+      "lane": "9/10",
+      "candidate_pairs": 67207500,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEho",
+      "lane": "9/9",
+      "candidate_pairs": 3515625,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EEhw",
+      "lane": "10/10",
+      "candidate_pairs": 894847396,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEhw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEhw",
+      "lane": "8/10",
+      "candidate_pairs": 29914,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEhw",
+      "lane": "9/10",
+      "candidate_pairs": 47114550,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEhw",
+      "lane": "9/9",
+      "candidate_pairs": 2480625,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEiW",
+      "lane": "10/10",
+      "candidate_pairs": 56340036,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEiW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEiW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEiW",
+      "lane": "9/10",
+      "candidate_pairs": 5637006,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEiW",
+      "lane": "9/9",
+      "candidate_pairs": 564001,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEio",
+      "lane": "10/10",
+      "candidate_pairs": 964475136,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEio",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEio",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEio",
+      "lane": "9/10",
+      "candidate_pairs": 56056080,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEio",
+      "lane": "9/9",
+      "candidate_pairs": 3258025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEjW",
+      "lane": "10/10",
+      "candidate_pairs": 151683856,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEjW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEjW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEjW",
+      "lane": "9/10",
+      "candidate_pairs": 11207560,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEjW",
+      "lane": "9/9",
+      "candidate_pairs": 828100,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEj_",
+      "lane": "10/10",
+      "candidate_pairs": 2923348624,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEj_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEj_",
+      "lane": "8/10",
+      "candidate_pairs": 54068,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EEj_",
+      "lane": "9/10",
+      "candidate_pairs": 128195228,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEj_",
+      "lane": "9/9",
+      "candidate_pairs": 5621641,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EEjo",
+      "lane": "10/10",
+      "candidate_pairs": 717596944,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEjo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEjo",
+      "lane": "8/10",
+      "candidate_pairs": 26788,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEjo",
+      "lane": "9/10",
+      "candidate_pairs": 39539088,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEjo",
+      "lane": "9/9",
+      "candidate_pairs": 2178576,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEjw",
+      "lane": "10/10",
+      "candidate_pairs": 68145025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEjw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEjw",
+      "lane": "8/10",
+      "candidate_pairs": 8255,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEjw",
+      "lane": "9/10",
+      "candidate_pairs": 6298565,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEjw",
+      "lane": "9/9",
+      "candidate_pairs": 582169,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EElw",
+      "lane": "10/10",
+      "candidate_pairs": 133448704,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EElw",
+      "lane": "7/10",
+      "candidate_pairs": 11552,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EElw",
+      "lane": "8/10",
+      "candidate_pairs": 80864,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EElw",
+      "lane": "9/10",
+      "candidate_pairs": 11182336,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EElw",
+      "lane": "9/9",
+      "candidate_pairs": 937024,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EEno",
+      "lane": "10/10",
+      "candidate_pairs": 428324416,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEno",
+      "lane": "7/10",
+      "candidate_pairs": 20696,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEno",
+      "lane": "8/10",
+      "candidate_pairs": 186264,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEno",
+      "lane": "9/10",
+      "candidate_pairs": 30381728,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEno",
+      "lane": "9/9",
+      "candidate_pairs": 2155024,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEnw",
+      "lane": "10/10",
+      "candidate_pairs": 8444836,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEnw",
+      "lane": "7/10",
+      "candidate_pairs": 2906,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EEnw",
+      "lane": "8/10",
+      "candidate_pairs": 17436,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEnw",
+      "lane": "9/10",
+      "candidate_pairs": 1214708,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEnw",
+      "lane": "9/9",
+      "candidate_pairs": 174724,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EErO",
+      "lane": "10/10",
+      "candidate_pairs": 81739681,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EErO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EErO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EErO",
+      "lane": "9/10",
+      "candidate_pairs": 7350333,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EErO",
+      "lane": "9/9",
+      "candidate_pairs": 660969,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EErW",
+      "lane": "10/10",
+      "candidate_pairs": 40908816,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EErW",
+      "lane": "7/10",
+      "candidate_pairs": 6396,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EErW",
+      "lane": "8/10",
+      "candidate_pairs": 12792,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EErW",
+      "lane": "9/10",
+      "candidate_pairs": 4112628,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EErW",
+      "lane": "9/9",
+      "candidate_pairs": 413449,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEr_",
+      "lane": "10/10",
+      "candidate_pairs": 1056055009,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEr_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEr_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEr_",
+      "lane": "9/10",
+      "candidate_pairs": 54659954,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEr_",
+      "lane": "9/9",
+      "candidate_pairs": 2829124,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEro",
+      "lane": "10/10",
+      "candidate_pairs": 647753401,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEro",
+      "lane": "7/10",
+      "candidate_pairs": 25451,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EEro",
+      "lane": "8/10",
+      "candidate_pairs": 127255,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEro",
+      "lane": "9/10",
+      "candidate_pairs": 39219991,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEro",
+      "lane": "9/9",
+      "candidate_pairs": 2374681,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EErw",
+      "lane": "10/10",
+      "candidate_pairs": 63776196,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EErw",
+      "lane": "7/10",
+      "candidate_pairs": 7986,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EErw",
+      "lane": "8/10",
+      "candidate_pairs": 47916,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EErw",
+      "lane": "9/10",
+      "candidate_pairs": 6245052,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EErw",
+      "lane": "9/9",
+      "candidate_pairs": 611524,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEuw",
+      "lane": "10/10",
+      "candidate_pairs": 17556100,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEuw",
+      "lane": "7/10",
+      "candidate_pairs": 4190,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEuw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEuw",
+      "lane": "9/10",
+      "candidate_pairs": 2103380,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEuw",
+      "lane": "9/9",
+      "candidate_pairs": 252004,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvW",
+      "lane": "10/10",
+      "candidate_pairs": 277729,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvW",
+      "lane": "7/10",
+      "candidate_pairs": 527,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvW",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEvW",
+      "lane": "9/10",
+      "candidate_pairs": 50592,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvW",
+      "lane": "9/9",
+      "candidate_pairs": 9216,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvo",
+      "lane": "10/10",
+      "candidate_pairs": 124121881,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvo",
+      "lane": "7/10",
+      "candidate_pairs": 11141,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvo",
+      "lane": "8/10",
+      "candidate_pairs": 33423,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvo",
+      "lane": "9/10",
+      "candidate_pairs": 10595091,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvo",
+      "lane": "9/9",
+      "candidate_pairs": 904401,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvw",
+      "lane": "10/10",
+      "candidate_pairs": 2359296,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvw",
+      "lane": "7/10",
+      "candidate_pairs": 1536,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEvw",
+      "lane": "9/10",
+      "candidate_pairs": 384000,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEvw",
+      "lane": "9/9",
+      "candidate_pairs": 62500,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzO",
+      "lane": "10/10",
+      "candidate_pairs": 1263447025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEzO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EEzO",
+      "lane": "9/10",
+      "candidate_pairs": 74324595,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzO",
+      "lane": "9/9",
+      "candidate_pairs": 4372281,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEz_",
+      "lane": "10/10",
+      "candidate_pairs": 4141437316,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEz_",
+      "lane": "7/10",
+      "candidate_pairs": 64354,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EEz_",
+      "lane": "8/10",
+      "candidate_pairs": 772248,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEz_",
+      "lane": "9/10",
+      "candidate_pairs": 186240476,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEz_",
+      "lane": "9/9",
+      "candidate_pairs": 8375236,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzg",
+      "lane": "10/10",
+      "candidate_pairs": 305340676,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzg",
+      "lane": "7/10",
+      "candidate_pairs": 17474,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzg",
+      "lane": "8/10",
+      "candidate_pairs": 122318,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzg",
+      "lane": "9/10",
+      "candidate_pairs": 22978310,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzg",
+      "lane": "9/9",
+      "candidate_pairs": 1729225,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzo",
+      "lane": "10/10",
+      "candidate_pairs": 1333126144,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzo",
+      "lane": "7/10",
+      "candidate_pairs": 36512,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzo",
+      "lane": "8/10",
+      "candidate_pairs": 620704,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzo",
+      "lane": "9/10",
+      "candidate_pairs": 83795040,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzo",
+      "lane": "9/9",
+      "candidate_pairs": 5267025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzw",
+      "lane": "10/10",
+      "candidate_pairs": 26378496,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzw",
+      "lane": "7/10",
+      "candidate_pairs": 5136,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzw",
+      "lane": "8/10",
+      "candidate_pairs": 51360,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzw",
+      "lane": "9/10",
+      "candidate_pairs": 3307584,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EEzw",
+      "lane": "9/9",
+      "candidate_pairs": 414736,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EE~w",
+      "lane": "10/10",
+      "candidate_pairs": 667489,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EE~w",
+      "lane": "7/10",
+      "candidate_pairs": 817,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EE~w",
+      "lane": "8/10",
+      "candidate_pairs": 4902,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EE~w",
+      "lane": "9/10",
+      "candidate_pairs": 132354,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EE~w",
+      "lane": "9/9",
+      "candidate_pairs": 26244,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzW",
+      "lane": "10/10",
+      "candidate_pairs": 152497801,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzW",
+      "lane": "7/10",
+      "candidate_pairs": 12349,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EFzW",
+      "lane": "8/10",
+      "candidate_pairs": 197584,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzW",
+      "lane": "9/10",
+      "candidate_pairs": 15288062,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzW",
+      "lane": "9/9",
+      "candidate_pairs": 1532644,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFz_",
+      "lane": "10/10",
+      "candidate_pairs": 2976684481,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFz_",
+      "lane": "7/10",
+      "candidate_pairs": 54559,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFz_",
+      "lane": "8/10",
+      "candidate_pairs": 872944,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFz_",
+      "lane": "9/10",
+      "candidate_pairs": 174425123,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFz_",
+      "lane": "9/9",
+      "candidate_pairs": 10220809,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzo",
+      "lane": "10/10",
+      "candidate_pairs": 321556624,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzo",
+      "lane": "7/10",
+      "candidate_pairs": 17932,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzo",
+      "lane": "8/10",
+      "candidate_pairs": 466232,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzo",
+      "lane": "9/10",
+      "candidate_pairs": 33443180,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzo",
+      "lane": "9/9",
+      "candidate_pairs": 3478225,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzw",
+      "lane": "10/10",
+      "candidate_pairs": 8874441,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzw",
+      "lane": "7/10",
+      "candidate_pairs": 2979,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzw",
+      "lane": "8/10",
+      "candidate_pairs": 47664,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzw",
+      "lane": "9/10",
+      "candidate_pairs": 1501416,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EFzw",
+      "lane": "9/9",
+      "candidate_pairs": 254016,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EF~w",
+      "lane": "10/10",
+      "candidate_pairs": 47961,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EF~w",
+      "lane": "7/10",
+      "candidate_pairs": 219,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EF~w",
+      "lane": "8/10",
+      "candidate_pairs": 876,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EF~w",
+      "lane": "9/10",
+      "candidate_pairs": 13140,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EF~w",
+      "lane": "9/9",
+      "candidate_pairs": 3600,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQhO",
+      "lane": "10/10",
+      "candidate_pairs": 647091844,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQhO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQhO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQhO",
+      "lane": "9/10",
+      "candidate_pairs": 49069902,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQhO",
+      "lane": "9/9",
+      "candidate_pairs": 3721041,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQig",
+      "lane": "10/10",
+      "candidate_pairs": 15163236,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQig",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQig",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQig",
+      "lane": "9/10",
+      "candidate_pairs": 2523312,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQig",
+      "lane": "9/9",
+      "candidate_pairs": 419904,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjO",
+      "lane": "10/10",
+      "candidate_pairs": 802985569,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQjO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQjO",
+      "lane": "9/10",
+      "candidate_pairs": 47266116,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjO",
+      "lane": "9/9",
+      "candidate_pairs": 2782224,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQj_",
+      "lane": "10/10",
+      "candidate_pairs": 295083684,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQj_",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQj_",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQj_",
+      "lane": "9/10",
+      "candidate_pairs": 22726494,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQj_",
+      "lane": "9/9",
+      "candidate_pairs": 1750329,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjg",
+      "lane": "10/10",
+      "candidate_pairs": 34857216,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjg",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQjg",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQjg",
+      "lane": "9/10",
+      "candidate_pairs": 3636864,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjg",
+      "lane": "9/9",
+      "candidate_pairs": 379456,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjo",
+      "lane": "10/10",
+      "candidate_pairs": 513611569,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQjo",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQjo",
+      "lane": "9/10",
+      "candidate_pairs": 29756519,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjo",
+      "lane": "9/9",
+      "candidate_pairs": 1723969,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjw",
+      "lane": "10/10",
+      "candidate_pairs": 46212804,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQjw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQjw",
+      "lane": "9/10",
+      "candidate_pairs": 4581852,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQjw",
+      "lane": "9/9",
+      "candidate_pairs": 454276,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQyw",
+      "lane": "10/10",
+      "candidate_pairs": 236636689,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQyw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQyw",
+      "lane": "8/10",
+      "candidate_pairs": 46149,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQyw",
+      "lane": "9/10",
+      "candidate_pairs": 17875046,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQyw",
+      "lane": "9/9",
+      "candidate_pairs": 1350244,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzO",
+      "lane": "10/10",
+      "candidate_pairs": 2427434361,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQzO",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQzO",
+      "lane": "9/10",
+      "candidate_pairs": 113663583,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzO",
+      "lane": "9/9",
+      "candidate_pairs": 5322249,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzW",
+      "lane": "10/10",
+      "candidate_pairs": 284192164,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzW",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQzW",
+      "lane": "8/10",
+      "candidate_pairs": 16858,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzW",
+      "lane": "9/10",
+      "candidate_pairs": 20516186,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzW",
+      "lane": "9/9",
+      "candidate_pairs": 1481089,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzg",
+      "lane": "10/10",
+      "candidate_pairs": 30184036,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzg",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQzg",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQzg",
+      "lane": "9/10",
+      "candidate_pairs": 2928302,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzg",
+      "lane": "9/9",
+      "candidate_pairs": 284089,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzo",
+      "lane": "10/10",
+      "candidate_pairs": 1249905316,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzo",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQzo",
+      "lane": "8/10",
+      "candidate_pairs": 70708,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzo",
+      "lane": "9/10",
+      "candidate_pairs": 76788888,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzo",
+      "lane": "9/9",
+      "candidate_pairs": 4717584,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzw",
+      "lane": "10/10",
+      "candidate_pairs": 18292729,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzw",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQzw",
+      "lane": "8/10",
+      "candidate_pairs": 12831,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzw",
+      "lane": "9/10",
+      "candidate_pairs": 2395120,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQzw",
+      "lane": "9/9",
+      "candidate_pairs": 313600,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQ~o",
+      "lane": "10/10",
+      "candidate_pairs": 460574521,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQ~o",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQ~o",
+      "lane": "8/10",
+      "candidate_pairs": 193149,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQ~o",
+      "lane": "9/10",
+      "candidate_pairs": 41441191,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQ~o",
+      "lane": "9/9",
+      "candidate_pairs": 3728761,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQ~w",
+      "lane": "10/10",
+      "candidate_pairs": 1776889,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQ~w",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EQ~w",
+      "lane": "8/10",
+      "candidate_pairs": 11997,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQ~w",
+      "lane": "9/10",
+      "candidate_pairs": 301258,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EQ~w",
+      "lane": "9/9",
+      "candidate_pairs": 51076,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETmw",
+      "lane": "10/10",
+      "candidate_pairs": 68121,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETmw",
+      "lane": "7/10",
+      "candidate_pairs": 261,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ETmw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ETmw",
+      "lane": "9/10",
+      "candidate_pairs": 16443,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETmw",
+      "lane": "9/9",
+      "candidate_pairs": 3969,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETno",
+      "lane": "10/10",
+      "candidate_pairs": 8042896,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETno",
+      "lane": "7/10",
+      "candidate_pairs": 2836,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ETno",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ETno",
+      "lane": "9/10",
+      "candidate_pairs": 1213808,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETno",
+      "lane": "9/9",
+      "candidate_pairs": 183184,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETnw",
+      "lane": "10/10",
+      "candidate_pairs": 394384,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETnw",
+      "lane": "7/10",
+      "candidate_pairs": 628,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETnw",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "ETnw",
+      "lane": "9/10",
+      "candidate_pairs": 117436,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETnw",
+      "lane": "9/9",
+      "candidate_pairs": 34969,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzg",
+      "lane": "10/10",
+      "candidate_pairs": 33814225,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzg",
+      "lane": "7/10",
+      "candidate_pairs": 5815,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ETzg",
+      "lane": "8/10",
+      "candidate_pairs": 23260,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzg",
+      "lane": "9/10",
+      "candidate_pairs": 4779930,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzg",
+      "lane": "9/9",
+      "candidate_pairs": 675684,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzo",
+      "lane": "10/10",
+      "candidate_pairs": 105308644,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzo",
+      "lane": "7/10",
+      "candidate_pairs": 10262,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "ETzo",
+      "lane": "8/10",
+      "candidate_pairs": 102620,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzo",
+      "lane": "9/10",
+      "candidate_pairs": 11934706,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzo",
+      "lane": "9/9",
+      "candidate_pairs": 1352569,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzw",
+      "lane": "10/10",
+      "candidate_pairs": 2427364,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzw",
+      "lane": "7/10",
+      "candidate_pairs": 1558,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzw",
+      "lane": "8/10",
+      "candidate_pairs": 15580,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzw",
+      "lane": "9/10",
+      "candidate_pairs": 542184,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ETzw",
+      "lane": "9/9",
+      "candidate_pairs": 121104,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ET~w",
+      "lane": "10/10",
+      "candidate_pairs": 63504,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ET~w",
+      "lane": "7/10",
+      "candidate_pairs": 252,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ET~w",
+      "lane": "8/10",
+      "candidate_pairs": 2016,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ET~w",
+      "lane": "9/10",
+      "candidate_pairs": 21924,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "ET~w",
+      "lane": "9/9",
+      "candidate_pairs": 7569,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZO",
+      "lane": "10/10",
+      "candidate_pairs": 1801832704,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZO",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "EUZO",
+      "lane": "8/10",
+      "candidate_pairs": 42448,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZO",
+      "lane": "9/10",
+      "candidate_pairs": 92791328,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZO",
+      "lane": "9/9",
+      "candidate_pairs": 4778596,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZ_",
+      "lane": "10/10",
+      "candidate_pairs": 3557526025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZ_",
+      "lane": "7/10",
+      "candidate_pairs": 59645,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EUZ_",
+      "lane": "8/10",
+      "candidate_pairs": 775385,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZ_",
+      "lane": "9/10",
+      "candidate_pairs": 161399370,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZ_",
+      "lane": "9/9",
+      "candidate_pairs": 7322436,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZo",
+      "lane": "10/10",
+      "candidate_pairs": 958397764,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZo",
+      "lane": "7/10",
+      "candidate_pairs": 30958,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZo",
+      "lane": "8/10",
+      "candidate_pairs": 247664,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZo",
+      "lane": "9/10",
+      "candidate_pairs": 58201040,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZo",
+      "lane": "9/9",
+      "candidate_pairs": 3534400,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZw",
+      "lane": "10/10",
+      "candidate_pairs": 60078001,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZw",
+      "lane": "7/10",
+      "candidate_pairs": 7751,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZw",
+      "lane": "8/10",
+      "candidate_pairs": 85261,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZw",
+      "lane": "9/10",
+      "candidate_pairs": 7037908,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUZw",
+      "lane": "9/9",
+      "candidate_pairs": 824464,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUxo",
+      "lane": "10/10",
+      "candidate_pairs": 3869337616,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUxo",
+      "lane": "7/10",
+      "candidate_pairs": 62204,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUxo",
+      "lane": "8/10",
+      "candidate_pairs": 995264,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUxo",
+      "lane": "9/10",
+      "candidate_pairs": 201416552,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUxo",
+      "lane": "9/9",
+      "candidate_pairs": 10484644,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzW",
+      "lane": "10/10",
+      "candidate_pairs": 147501025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzW",
+      "lane": "7/10",
+      "candidate_pairs": 12145,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "EUzW",
+      "lane": "8/10",
+      "candidate_pairs": 145740,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzW",
+      "lane": "9/10",
+      "candidate_pairs": 15144815,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzW",
+      "lane": "9/9",
+      "candidate_pairs": 1555009,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzo",
+      "lane": "10/10",
+      "candidate_pairs": 423701056,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzo",
+      "lane": "7/10",
+      "candidate_pairs": 20584,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzo",
+      "lane": "8/10",
+      "candidate_pairs": 452848,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzo",
+      "lane": "9/10",
+      "candidate_pairs": 39480112,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzo",
+      "lane": "9/9",
+      "candidate_pairs": 3678724,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzw",
+      "lane": "10/10",
+      "candidate_pairs": 7317025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzw",
+      "lane": "7/10",
+      "candidate_pairs": 2705,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzw",
+      "lane": "8/10",
+      "candidate_pairs": 40575,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzw",
+      "lane": "9/10",
+      "candidate_pairs": 1379550,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EUzw",
+      "lane": "9/9",
+      "candidate_pairs": 260100,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EU~w",
+      "lane": "10/10",
+      "candidate_pairs": 200704,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EU~w",
+      "lane": "7/10",
+      "candidate_pairs": 448,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EU~w",
+      "lane": "8/10",
+      "candidate_pairs": 4032,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EU~w",
+      "lane": "9/10",
+      "candidate_pairs": 56896,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EU~w",
+      "lane": "9/9",
+      "candidate_pairs": 16129,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EV~w",
+      "lane": "10/10",
+      "candidate_pairs": 5329,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EV~w",
+      "lane": "7/10",
+      "candidate_pairs": 73,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EV~w",
+      "lane": "8/10",
+      "candidate_pairs": 438,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EV~w",
+      "lane": "9/10",
+      "candidate_pairs": 2117,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "EV~w",
+      "lane": "9/9",
+      "candidate_pairs": 841,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]yw",
+      "lane": "10/10",
+      "candidate_pairs": 30063289,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]yw",
+      "lane": "7/10",
+      "candidate_pairs": 5483,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]yw",
+      "lane": "8/10",
+      "candidate_pairs": 180939,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]yw",
+      "lane": "9/10",
+      "candidate_pairs": 6036783,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]yw",
+      "lane": "9/9",
+      "candidate_pairs": 1212201,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zg",
+      "lane": "10/10",
+      "candidate_pairs": 13512976,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zg",
+      "lane": "7/10",
+      "candidate_pairs": 3676,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zg",
+      "lane": "8/10",
+      "candidate_pairs": 73520,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zg",
+      "lane": "9/10",
+      "candidate_pairs": 2716564,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zg",
+      "lane": "9/9",
+      "candidate_pairs": 546121,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zo",
+      "lane": "10/10",
+      "candidate_pairs": 57002500,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zo",
+      "lane": "7/10",
+      "candidate_pairs": 7550,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zo",
+      "lane": "8/10",
+      "candidate_pairs": 249150,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zo",
+      "lane": "9/10",
+      "candidate_pairs": 8629650,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zo",
+      "lane": "9/9",
+      "candidate_pairs": 1306449,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zw",
+      "lane": "10/10",
+      "candidate_pairs": 902500,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zw",
+      "lane": "7/10",
+      "candidate_pairs": 950,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zw",
+      "lane": "8/10",
+      "candidate_pairs": 22800,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zw",
+      "lane": "9/10",
+      "candidate_pairs": 268850,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]zw",
+      "lane": "9/9",
+      "candidate_pairs": 80089,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]~o",
+      "lane": "10/10",
+      "candidate_pairs": 9603801,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]~o",
+      "lane": "7/10",
+      "candidate_pairs": 3099,
+      "proof_mode": "core_with_selected_private_spokes"
+    },
+    {
+      "g6": "E]~o",
+      "lane": "8/10",
+      "candidate_pairs": 195237,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]~o",
+      "lane": "9/10",
+      "candidate_pairs": 2057736,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]~o",
+      "lane": "9/9",
+      "candidate_pairs": 440896,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]~w",
+      "lane": "10/10",
+      "candidate_pairs": 34225,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]~w",
+      "lane": "7/10",
+      "candidate_pairs": 185,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]~w",
+      "lane": "8/10",
+      "candidate_pairs": 2775,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]~w",
+      "lane": "9/10",
+      "candidate_pairs": 12025,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E]~w",
+      "lane": "9/9",
+      "candidate_pairs": 4225,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E^~w",
+      "lane": "10/10",
+      "candidate_pairs": 169,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E^~w",
+      "lane": "7/10",
+      "candidate_pairs": 13,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E^~w",
+      "lane": "8/10",
+      "candidate_pairs": 39,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E^~w",
+      "lane": "9/10",
+      "candidate_pairs": 65,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E^~w",
+      "lane": "9/9",
+      "candidate_pairs": 25,
+      "proof_mode": "independent_interval_replay"
+    },
+    {
+      "g6": "E~~w",
+      "lane": "10/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E~~w",
+      "lane": "7/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E~~w",
+      "lane": "8/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E~~w",
+      "lane": "9/10",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    },
+    {
+      "g6": "E~~w",
+      "lane": "9/9",
+      "candidate_pairs": 0,
+      "proof_mode": "empty_domain"
+    }
+  ],
+  "historical_unknown_diagnostics": 2,
+  "unresolved_diagnostics": 0,
+  "source_sha256": "30f2601b0c34013a605e518d3e24581f518e4275c83ca6f044f6f0293c702a29",
+  "domain_sha256": "803fc4e48fb519d082ec5bab6a39f9159e83e18696b6f873c4c83aaeeed9accc",
+  "core_sha256": "f24a431c428815008019376ba9f684c5316738ab77c0a0a7206920593c22b907",
+  "density_verification_sha256": "ba027ada6dad2fc106595d5c59cc4cb2a1aab9fcdaf01726ef156fb2df2aa5c3",
+  "checker_sha256": "33e79cdbaa85bc8f683c615faa7ca5cb87a40f88d5a5818dd62ddb2bb110873d",
+  "raw_domain_verification_sha256": "48434eb29de94cbae37bedd43307e4de5fa5a1e02c3b9ce42bb370561d577793",
+  "common_orbit_verification_sha256": "b3793b130c4d3999b19b9b3b742ce12cce29e8740e13dba6ff23307a1bc1bdf6",
+  "helper_source_sha256": {
+    "tuza_degree10_c6_coverage_prefix_check.py": "2d894a4801e60dc6644278167705aeba9314e70c88b63d1716e75d6463360091",
+    "tuza_degree10_c6_literal_prefix_check.py": "4c9907b1d5d9c3d33acec0d06e7cf245a321bc28d10a6c86f8f51ca2ca348c30"
+  },
+  "seconds": 656.8657882213593,
+  "rectangle_representation": "direct bit matrix below5billion pairs, original compressed relation otherwise",
+  "certificate_source_file": "tuza_degree10_c6_merged_certificates.json",
+  "optimized_wrapper_source_sha256": "9293d6b8c2ab638ca8deb92628c1f760100eaab480fced75d91dc7625a0acc24",
+  "optimized_relation_source_sha256": "e0299799be96c2a121ab767328dfa71edce635534c3550be1c139920e6632a3b",
+  "literal_relation_verification_sha256": "8902e545fde9d064a9d087b6498a64a753dd79278ff822c9ffd6b91bdb5e5a21",
+  "fresh_side_source_verification_sha256": "6b0b657cb6ac2c26eaa550814b45d9b1b34c011f07aef1a7f353a0fb938c6baf",
+  "fresh_side_domains_replayed": 624,
+  "fresh_boolean_patterns_replayed": 328443804,
+  "fresh_literal_WKE_intervals_replayed": 175058
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Code and certificates for the finite checks in the degree ten proof."
+title: "Tuza degree ten verification"
+authors:
+  - name: Amkan2024
+type: software
+version: "1.0"
+repository-code: "https://github.com/Amkan2024/tuza-degree-ten"
+url: "https://github.com/Amkan2024/tuza-degree-ten"

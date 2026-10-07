@@ -1,0 +1,48 @@
+{
+  "runner_sha256": "87773db7c14c7af1e7e896d2f0aa7ffc4afd86e81b6c34fd4e01c3a38e0eb734",
+  "replay_readme_sha256": "4e7a44bfda1908e7783be6788a8d916e2564641ab537dbd6c8594431c136830c",
+  "archive_sha256": "1c91ac287d56c46065c432fbc6a98835cfe50240b229ade07adc830f04429a5a",
+  "derived_c4_helper_sha256": "f68d5633d7f385519a14cb8980575abc98bc1c97b16ca6df52489731e4849fa6",
+  "current_package_checks": [
+    {
+      "name": "saved",
+      "result": "PASS",
+      "cases": [
+        "saved"
+      ],
+      "receipt": "verification/reports/code-only/saved/replay.json",
+      "receipt_sha256": "fddf50cb12afab19a25efd2a592a5d0ce70e60ac11796662bb564ac99607cd83"
+    },
+    {
+      "name": "lemma-3.1-and-c4",
+      "result": "PASS",
+      "cases": [
+        "subcubic",
+        "c4"
+      ],
+      "receipt": "verification/reports/code-only/lemma-3.1-and-c4/replay.json",
+      "receipt_sha256": "13bef5b3c04b520e3336720613eb7d286fb08108ca3bdb442053ad50a49057f5"
+    }
+  ],
+  "previous_runner_checks": {
+    "runner_sha256": "4bbb316d2d6dd41e2daf8b7ce6dc1b697367463ef21d39ae734c558264e09629",
+    "replay_readme_sha256": "d83d72e039868aa4621b8bac81e030f215493b67548f0309f622c3d8a2ba4bb1",
+    "archive_sha256": "d19310494ec9ed32385faa0132aa88e3032ee5dc563cfd541a65dfee1275142e",
+    "checks": {
+      "default_no_archive_option": "PASS_COMPLETE_MAXIMUM_DEGREE_TEN_SCOPE_AND_BINDINGS",
+      "c4_fresh": "PASS_WITH_INHERITED_TRANSFER_RESTORED",
+      "subcubic_fresh_with_explicit_geng": "PASS",
+      "optimized_python_rejected": true,
+      "wrong_archive_hash_rejected": true,
+      "unsafe_zip_path_rejected": true,
+      "python_source_compiles": true,
+      "comments": 0,
+      "c4_shared_diagram_source_hash_guard": true,
+      "derived_c4_input_sha256": "a828fc7e90fbc3d0b86f6a0c1d1635db8ab3d536eec10715c7c9c55515ce81c3",
+      "persistent_restoration_receipts": true,
+      "disk_space_preflight": true
+    },
+    "derived_c4_helper_sha256": "f68d5633d7f385519a14cb8980575abc98bc1c97b16ca6df52489731e4849fa6"
+  },
+  "changes_from_previous_runner": "Archive hash and descriptive help only. Replay algorithms, safety checks and input derivation retain their code."
+}

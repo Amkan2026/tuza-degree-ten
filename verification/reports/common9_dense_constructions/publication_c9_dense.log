@@ -1,0 +1,13 @@
+{
+  "types": 45,
+  "core_counts_by_missing_edges": {
+    "0": 1,
+    "1": 1,
+    "2": 2,
+    "3": 5,
+    "4": 11,
+    "5": 25
+  },
+  "min_packing": 15,
+  "result": "PASS"
+}
