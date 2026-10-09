@@ -38,12 +38,14 @@ python3 verification/run.py --case subcubic
 python3 verification/run.py --case c4
 ```
 
-Use `subcubic` for Lemma 3.1, `c4` through `c9` for the corresponding cases, or `all` for every case. The runner saves logs and new reports under `.replay/` and removes successful workspaces. Use `--keep-work` to retain them.
+Use `subcubic` for Lemma 3.1, `c4` through `c9` for Proposition 5.1, or `all` for every case. The runner saves logs and new reports under `.replay/` and removes successful workspaces. Use `--keep-work` to retain them.
 
 ## Data and checks
 
 [archive/verification.zip](archive/verification.zip) contains the frozen sources, inputs, certificates and reports required by the replay. It omits manuscripts and editorial files. [archive-provenance.json](verification/archive-provenance.json) records the removals and retained file hashes.
 
 [validation.json](verification/validation.json) records the independent replays. [runner-validation.json](verification/runner-validation.json) records packaging and runner checks. These records distinguish fresh calculations from checks of saved reports. The code verifies finite steps of the proof and relies on its stated mathematical lemmas.
+
+The [paper alignment check](verification/paper-alignment.json) records the manuscript hash and checks repeated on October 9, 2026.
 
 [CITATION.cff](CITATION.cff) gives the software citation. [THIRD_PARTY.md](THIRD_PARTY.md) records attribution for retained third party material.

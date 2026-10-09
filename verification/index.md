@@ -10,7 +10,7 @@ The [subcubic basis check](lemma-3.1/tuza_degree10_subcubic_link_basis_check.py)
 
 ## Cases
 
-Here the codegree is the number of common neighbors of the selected edge.
+These cases check Proposition 5.1. The codegree is the number of common neighbors of the selected edge.
 
 | Codegree | Checks | Fresh replay evidence |
 | --- | --- | --- |

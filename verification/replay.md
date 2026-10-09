@@ -1,6 +1,6 @@
-# Lemma 3.1
+# Verification
 
-These commands replay the computational supplement to Lemma 3.1. The case index follows the common neighborhood size.
+These commands check Lemma 3.1 and Proposition 5.1. The case index follows the common neighborhood size.
 
 Use Python 3.10 or newer. Install the Python dependency from the repository root:
 
@@ -42,7 +42,7 @@ python3 verification/run.py --case c8
 python3 verification/run.py --case c9
 ```
 
-`subcubic` rechecks the link classification in Lemma 3.1. Cases `c4` through `c9` replay the saved certificate domains and coverage. Case `c6` also recompiles and reruns the raw domain and density checks. Case `c9` regenerates the nine-vertex graph census and checks all canonical vertex deletions. These commands verify the computational premises. The manuscript contains the mathematical reductions.
+`subcubic` rechecks the link classification in Lemma 3.1. Cases `c4` through `c9` check the certificate domains and coverage for Proposition 5.1. Case `c6` also recompiles and reruns the raw domain and density checks. Case `c9` regenerates the nine-vertex graph census and checks all canonical vertex deletions. These commands verify the computational premises. The manuscript contains the mathematical reductions.
 
 You can select several cases or all of them:
 
