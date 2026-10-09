@@ -46,6 +46,12 @@ Use `subcubic` for Lemma 3.1, `c4` through `c9` for Proposition 5.1, or `all` fo
 
 [validation.json](verification/validation.json) records the independent replays. [runner-validation.json](verification/runner-validation.json) records packaging and runner checks. These records distinguish fresh calculations from checks of saved reports. The code verifies finite steps of the proof and relies on its stated mathematical lemmas.
 
-The [paper alignment check](verification/paper-alignment.json) records the manuscript hash and checks repeated on October 9, 2026.
+Repeat the checks in the [verification record](verification/paper-alignment.json):
+
+```sh
+python3 verification/replay_alignment.py
+```
+
+This runs the saved binding check and 23 fresh checks. Use `python3 verification/run.py --case all` for full verification.
 
 [CITATION.cff](CITATION.cff) gives the software citation. [THIRD_PARTY.md](THIRD_PARTY.md) records attribution for retained third party material.

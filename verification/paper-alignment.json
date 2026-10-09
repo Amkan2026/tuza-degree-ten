@@ -1,13 +1,7 @@
 {
-  "date": "2026-10-09",
   "result": "PASS_PAPER_AND_SUPPLEMENT_ALIGNMENT",
   "paper_sha256": "828cfbcb6f749234770ca4d5dba74e735af0f5342dd1d35bf9c19d9abb548075",
-  "repository_baseline": "a1722c527f629f71efefbf0e1dc9dfb2603cbe32",
   "archive_sha256": "1c91ac287d56c46065c432fbc6a98835cfe50240b229ade07adc830f04429a5a",
-  "computational_sources_and_certificates_changed": false,
-  "paper_changed": false,
-  "manuscript_or_pdf_archive_members": 0,
-  "python_source_comments": 0,
   "paper_dependencies": {
     "Lemma 3.1": "verification/lemma-3.1",
     "Proposition 5.1": "verification/cases/codegree-4 through verification/cases/codegree-9"
@@ -34,145 +28,45 @@
   "prior_replay_reports_and_logs_hash_mismatches": 0,
   "prior_replay_source_hashes_checked": 36,
   "prior_replay_source_hash_mismatches": 0,
-  "full_coverage_enumerations_repeated_today": false,
-  "full_coverage_checks_not_repeated_today": [
+  "full_coverage_checks_not_repeated_in_alignment_check": [
     "tuza_degree10_c6_complete_fast_check.py",
     "tuza_degree10_c7_check.py",
     "tuza_degree10_c8_residual_check.py"
   ],
   "scope": "The fresh checks listed here and the saved bindings passed. This record checks the paper and computational supplement for agreement. The mathematical lemmas remain premises of the finite verification.",
-  "checks_repeated_today": [
-    {
-      "cases": [
-        "saved"
-      ],
-      "result": "PASS",
-      "checks": [
-        {
-          "script": "tuza_degree10_global_root_check.py",
-          "result": "PASS"
-        }
-      ],
-      "log": "verification/reports/2026-10-09-alignment/saved.log.gz",
-      "log_sha256": "0d975c2ce98bec0d42c4be4857475cbfb300707690554c1362644ea9ac813e0e",
-      "kind": "saved_report_bindings"
-    },
-    {
-      "cases": [
-        "subcubic",
-        "c4",
-        "c5",
-        "c9"
-      ],
-      "result": "PASS",
-      "checks": [
-        {
-          "script": "tuza_degree10_subcubic_link_basis_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c4_old_transfer_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c4_final_independent.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c4_side_independent_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c5_independent_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c5_independent_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c5_packed_independent_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c5_packed_independent_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c5_h0_human_templates.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c5_h0_nontriangle_human.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c5_saturated_edge_independent.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c5_star_independent.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c9_full_children_check.py",
-          "result": "PASS"
-        }
-      ],
-      "log": "verification/reports/2026-10-09-alignment/selected.log.gz",
-      "log_sha256": "8784698a14bf89752cc67aa8c5b2f96379ae012f4a9a457ae8fd9b612ac3875c",
-      "kind": "fresh_computation"
-    },
-    {
-      "cases": [
-        "alignment-support"
-      ],
-      "result": "PASS",
-      "checks": [
-        {
-          "script": "tuza_degree10_c6_fresh_source_replay.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c6_dense_uncovered.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c6_K24_private_edges_human_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c6_K24_one_private_edge_human_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c6_K24_full_leaf_human_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c6_K24_two_leaf_human_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c7_core_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c7_side_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c8_core_check.py",
-          "result": "PASS"
-        },
-        {
-          "script": "tuza_degree10_c9_check.py",
-          "result": "PASS"
-        }
-      ],
-      "log": "verification/reports/2026-10-09-alignment/support.log.gz",
-      "log_sha256": "5d923a17b0c6916cbb9a9e96601d896b1d816d36a9123cf46b68c54fcf6ed192",
-      "kind": "fresh_computation"
-    }
-  ]
+  "certificate_algorithms_and_inputs_changed": false,
+  "paper_changed": false,
+  "reproduction_command": "python3 verification/replay_alignment.py",
+  "reproduction_command_tested_end_to_end": true,
+  "full_replay_command": "python3 verification/run.py --case all",
+  "saved_binding_check": "tuza_degree10_global_root_check.py",
+  "fresh_checks": [
+    "tuza_degree10_subcubic_link_basis_check.py",
+    "tuza_degree10_c4_old_transfer_check.py",
+    "tuza_degree10_c4_final_independent.py",
+    "tuza_degree10_c4_side_independent_check.py",
+    "tuza_degree10_c5_independent_check.py work/tuza_degree10_c5_seven_ten_complete.json work/replay_c5_7_10.json",
+    "tuza_degree10_c5_independent_check.py work/tuza_degree10_c5_eight_ten_complete.json work/replay_c5_8_10.json",
+    "tuza_degree10_c5_packed_independent_check.py work/tuza_degree10_c5_nine_ten_compressed.json work/replay_c5_9_10.json",
+    "tuza_degree10_c5_packed_independent_check.py work/tuza_degree10_c5_ten_ten_compressed.json work/replay_c5_10_10.json",
+    "tuza_degree10_c5_h0_human_templates.py",
+    "tuza_degree10_c5_h0_nontriangle_human.py",
+    "tuza_degree10_c5_saturated_edge_independent.py work/tuza_degree10_c5_h3_edge_intervals.json work/replay_c5_h3.json",
+    "tuza_degree10_c5_star_independent.py",
+    "tuza_degree10_c9_full_children_check.py",
+    "tuza_degree10_c6_fresh_source_replay.py",
+    "tuza_degree10_c6_dense_uncovered.py",
+    "tuza_degree10_c6_K24_private_edges_human_check.py",
+    "tuza_degree10_c6_K24_one_private_edge_human_check.py",
+    "tuza_degree10_c6_K24_full_leaf_human_check.py",
+    "tuza_degree10_c6_K24_two_leaf_human_check.py",
+    "tuza_degree10_c7_core_check.py",
+    "tuza_degree10_c7_side_check.py",
+    "tuza_degree10_c8_core_check.py",
+    "tuza_degree10_c9_check.py"
+  ],
+  "all_recorded_checks": "PASS",
+  "log": "verification/reports/paper-alignment/replay.log.gz",
+  "log_sha256": "922fc5cf767e52d8d96d97de1197176a82f2ae95b1b5a9404bffed613e0e7453",
+  "entry_point_sha256": "fc46b37b4a513a5cc65841aa55048c9c3959acde5497bcce12bd907bdd3f0408"
 }

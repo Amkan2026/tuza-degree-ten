@@ -67,3 +67,15 @@ The runner restores the three omitted C4 side files from the degree-nine archive
 The shared-diagram source has SHA256 `350ba8ab4d7585a76967eb75f39663a793d6a5fff41c39e91eaec4c6afcf5b80`. The deterministic derived input has SHA256 `a828fc7e90fbc3d0b86f6a0c1d1635db8ab3d536eec10715c7c9c55515ce81c3`. These are derived witnesses rather than a copy of the missing historical file. The [case index](index.md) lists the programs and certificate files for each branch.
 
 Run Python without `-O` or `-OO`. The archived checkers use assertions, and the runner rejects optimized Python.
+
+## Paper alignment
+
+Repeat the recorded alignment checks with:
+
+```sh
+python3 verification/replay_alignment.py
+```
+
+This uses the same archive and runner. It checks saved bindings, subcubic links, the C4 and C5 branches, selected C6, C7 and C8 constructions, and C9 coverage and child deletions. It omits the three long C6, C7 and C8 coverage enumerations listed in [paper-alignment.json](paper-alignment.json). Use `python3 verification/run.py --case all` for every full enumeration.
+
+Use `--list` to print the selected programs and arguments. The archive, executable path and workspace options of `run.py` also apply.
