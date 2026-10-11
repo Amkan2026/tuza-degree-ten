@@ -15,7 +15,7 @@ from derive_c4_input import derive
 
 
 ARCHIVE_SHA256 = "1c91ac287d56c46065c432fbc6a98835cfe50240b229ade07adc830f04429a5a"
-ARCHIVE_URL = "https://raw.githubusercontent.com/Amkan2024/tuza-degree-ten/main/archive/verification.zip"
+ARCHIVE_URL = "https://raw.githubusercontent.com/Amkan2026/tuza-degree-ten/main/archive/verification.zip"
 REPLAY = Path(__file__).resolve().parents[1] / ".replay"
 CASES = {
     "subcubic": [("tuza_degree10_subcubic_link_basis_check.py",)],
